@@ -1,0 +1,150 @@
+{
+  "version": "v2.0-en",
+  "scope": "task-title taxonomy and coverage website only; vendor QA intentionally excluded",
+  "counts": {
+    "task_title_records": 302,
+    "normalized_semantic_keys": 297,
+    "core_l1_scenes": 7,
+    "legacy_l1_buckets": 2,
+    "l2_families": 12
+  },
+  "l1": [
+    {
+      "name": "Laboratory",
+      "source_name": "实验室",
+      "count": 155,
+      "type": "core",
+      "description": "Wet-bio and bench-top manipulation: vessels, pipetting, transfer, mixing, filtration, rinsing, and lab organization."
+    },
+    {
+      "name": "Medical / First Aid",
+      "source_name": "医疗/急救",
+      "count": 18,
+      "type": "core",
+      "description": "Child-resistant bottles, gauze, bandages, dressings, simulated ointment, and first-aid kit handling."
+    },
+    {
+      "name": "Workbench",
+      "source_name": "工具台",
+      "count": 27,
+      "type": "core",
+      "description": "Large fasteners, screwdrivers, wrenches, clamps, measuring tape, cables, assembly, and organization."
+    },
+    {
+      "name": "Office",
+      "source_name": "办公室",
+      "count": 24,
+      "type": "core",
+      "description": "Documents, hole-punching and stapling, computer peripherals, cables, mugs, headphones, and office organization."
+    },
+    {
+      "name": "Kitchen",
+      "source_name": "厨房",
+      "count": 30,
+      "type": "core",
+      "description": "Containers, liquid transfer, utensils, food items, cleaning, wrapping, and storage."
+    },
+    {
+      "name": "Bedroom",
+      "source_name": "卧室",
+      "count": 18,
+      "type": "core",
+      "description": "Clothing folding, zippers and buttons, hangers, pillowcases, blankets, and storage."
+    },
+    {
+      "name": "Packing / Shipping",
+      "source_name": "快递/打包",
+      "count": 22,
+      "type": "core",
+      "description": "Boxes, tape, bubble wrap, labels, mailers, packing, sealing, and unpacking."
+    },
+    {
+      "name": "General / Teleop Alignment",
+      "source_name": "通用交互/Teleop对齐",
+      "count": 4,
+      "type": "legacy",
+      "description": "Legacy tasks retained for semantic alignment with single-arm teleoperation benchmarks."
+    },
+    {
+      "name": "General / Active Tactile",
+      "source_name": "通用交互/主动触觉",
+      "count": 4,
+      "type": "legacy",
+      "description": "Legacy tasks centered on tactile judgement that do not naturally belong to one everyday scene."
+    }
+  ],
+  "l2": [
+    {
+      "name": "Open / Close / Seal",
+      "source_name": "开合/密封",
+      "count": 44,
+      "description": "Caps, lids, latches, zippers, buttons, bag seals, and other state transitions."
+    },
+    {
+      "name": "Pick / Move / Place",
+      "source_name": "抓取/搬运/收纳",
+      "count": 26,
+      "description": "Pick-and-place, transport, pose adjustment, rack placement, tray placement, and storage."
+    },
+    {
+      "name": "Insert / Remove / Align",
+      "source_name": "插入/拔出/对准",
+      "count": 30,
+      "description": "Alignment with holes, ports, rack positions, or vessel openings, followed by insertion or removal."
+    },
+    {
+      "name": "Pour / Container Transfer",
+      "source_name": "液体倾倒/容器转移",
+      "count": 24,
+      "description": "Liquid transfer by tilting vessels, pouring through funnels, or using large utensils."
+    },
+    {
+      "name": "Pipette / Dispense / Inject",
+      "source_name": "移液/滴加/注射",
+      "count": 34,
+      "description": "Small-volume or measured liquid manipulation with pipettes, droppers, or syringes."
+    },
+    {
+      "name": "Mix / Stir / Agitate",
+      "source_name": "混合/搅拌/摇匀",
+      "count": 12,
+      "description": "Stirring, swirling, rolling, inversion mixing, and pipette mixing."
+    },
+    {
+      "name": "Rinse / Wipe / Drain",
+      "source_name": "清洗/擦拭/排液",
+      "count": 24,
+      "description": "Rinsing, brushing, wiping, draining, drying, and waste-liquid handling."
+    },
+    {
+      "name": "Solids / Weighing / Filtration",
+      "source_name": "固体处理/称量/过滤",
+      "count": 19,
+      "description": "Particle or powder transfer, weighing, filter-paper handling, and filtration."
+    },
+    {
+      "name": "Tool Use / Assembly / Fixing",
+      "source_name": "工具操作/装配/固定",
+      "count": 23,
+      "description": "Screwdrivers, wrenches, clamps, hammers, staplers, punches, and assembly actions."
+    },
+    {
+      "name": "Flexible Materials / Wrap / Fold",
+      "source_name": "柔性物/包扎/包装/折叠",
+      "count": 50,
+      "description": "Gauze, bandages, clothing, tape, film, cardboard, bubble wrap, and other deformable materials."
+    },
+    {
+      "name": "Measure / Label / Document",
+      "source_name": "测量/标记/文档操作",
+      "count": 8,
+      "description": "Measurement, labeling, drawing, paper handling, filing, and document-oriented manipulation."
+    },
+    {
+      "name": "Active Tactile / Press / Classify",
+      "source_name": "主动触觉/按压/分类",
+      "count": 8,
+      "description": "Pressing, squeezing, and tasks that explicitly depend on tactile judgement such as softness or weight."
+    }
+  ]
+}
