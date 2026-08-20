@@ -206,12 +206,12 @@ def main() -> None:
     tasks = load_json(ROOT / "data/task_catalog.json")
     taxonomy = load_json(ROOT / "data/taxonomy.json")
     l1_names, l2_names, batches = validate_and_derive(tasks, taxonomy)
-    template = (ROOT / "index.html").read_text(encoding="utf-8")
+    template = (ROOT / "site/index.html").read_text(encoding="utf-8")
     html = render_html(template, tasks, taxonomy, l1_names, l2_names, batches)
 
     taxonomy_text = json.dumps(taxonomy, ensure_ascii=False, indent=2) + "\n"
     outputs = {
-        ROOT / "index.html": html,
+        ROOT / "task-catalog/index.html": html,
         ROOT / "site/index.html": html,
         ROOT / "data/task_catalog.csv": render_csv(tasks),
         ROOT / "data/taxonomy.json": taxonomy_text,

@@ -18,7 +18,7 @@ Suggested layout:
   AGENT_PROMPT.md
 ```
 
-No deployment-time build step is required. Refresh the S3 snapshot before publishing when current recording statistics are needed.
+No deployment-time build step is required. The root route opens collected recordings by default; the historical PDF catalog lives at `task-catalog/`. Refresh the S3 snapshot before publishing when current recording statistics are needed.
 
 ## Alternatives
 

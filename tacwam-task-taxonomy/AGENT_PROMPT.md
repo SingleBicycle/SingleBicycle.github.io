@@ -53,7 +53,7 @@ Preferred repository name: `tacwam-task-taxonomy`
 If repository access is available:
 
 1. Create or use the repository.
-2. Put the deployable `index.html` at the repository root.
+2. Keep the repository-root `index.html` as the default redirect to collected recording statistics; publish the historical catalog under `task-catalog/`.
 3. Commit all handoff files.
 4. Push to GitHub.
 5. Enable GitHub Pages from the default branch/root.

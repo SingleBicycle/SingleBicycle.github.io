@@ -12,7 +12,7 @@ This directory contains two linked static views: the historical **task-title cat
 
 ## Website
 
-Open `index.html` or `site/index.html`.
+Open the directory root to enter the collected-recording view by default. The historical catalog is available at `task-catalog/index.html`; `site/index.html` remains a generated compatibility copy.
 
 The main visualization is an **interactive two-ring hierarchy chart**:
 
@@ -37,8 +37,9 @@ The website UI, taxonomy labels, and primary task display titles are English. Th
 
 ## Key files
 
-- `index.html` — deployable static website
-- `site/index.html` — duplicate deployable entrypoint
+- `index.html` — redirects the default route to collected recording statistics
+- `task-catalog/index.html` — historical PDF task-definition explorer
+- `site/index.html` — generated compatibility copy of the task catalog
 - `data/task_catalog.csv` — enriched master catalog
 - `data/task_catalog.json` — same catalog as JSON
 - `data/taxonomy.json` — English taxonomy metadata
@@ -52,6 +53,7 @@ The website UI, taxonomy labels, and primary task display titles are English. Th
 - `scripts/build_s3_inventory.py` — read-only S3 inventory refresh; writes aggregate metadata only
 - `data/s3_recordings_summary.json` — deployable aggregate snapshot with no object paths or recording IDs
 - `data/s3_task_aliases.json` — reviewed S3-title to catalog-record aliases
+- `data/s3_task_titles_en.json` — English display titles for S3-only task variants
 - `s3-recordings/index.html` — S3 recording taxonomy and duration page
 
 ## Add a future task-list batch
@@ -59,7 +61,7 @@ The website UI, taxonomy labels, and primary task display titles are English. Th
 1. Append enriched records to `data/task_catalog.json`. Keep `task_title` unchanged as the canonical source-language title, add `task_title_en` for display, and assign the existing English L1/L2 labels explicitly.
 2. Run `python3 scripts/build_site.py`. It validates identifiers and taxonomy labels, then refreshes the CSV, title exports, taxonomy counts, and both self-contained HTML entrypoints.
 3. If any assignment is uncertain, add it to `docs/TAXONOMY_REVIEW_NOTES.md`; do not change the taxonomy silently.
-4. Preview with `python3 -m http.server 8000`, review the diff, then commit and push the default branch. GitHub Pages will publish the updated root `index.html`.
+4. Preview with `python3 -m http.server 8000`, review the diff, then commit and push the default branch. GitHub Pages will publish the refreshed `task-catalog/` view.
 
 The build step only keeps the catalog artifacts synchronized. It does not classify tasks or run vendor QA.
 

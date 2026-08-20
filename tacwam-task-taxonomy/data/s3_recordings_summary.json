@@ -199,7 +199,7 @@
   "tasks": [
     {
       "task_name": "清洁混合器皿并分类回位",
-      "task_title_en": "清洁混合器皿并分类回位",
+      "task_title_en": "Clean mixing vessels and sort them back into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -220,7 +220,7 @@
     },
     {
       "task_name": "连续提取多支/全部离心管并排列",
-      "task_title_en": "连续提取多支/全部离心管并排列",
+      "task_title_en": "Continuously extract multiple/all centrifuge tubes and arrange them",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -356,7 +356,7 @@
     },
     {
       "task_name": "用长尖嘴塑料滴管把有色水滴入宽口塑料试管",
-      "task_title_en": "用长尖嘴塑料滴管把有色水滴入宽口塑料试管",
+      "task_title_en": "Use a long-tip plastic dropper to drop colored water into a wide-mouth plastic test tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pipette / Dispense / Inject",
@@ -380,7 +380,7 @@
     },
     {
       "task_name": "镊子将棉花送入试管底部并重新取出",
-      "task_title_en": "镊子将棉花送入试管底部并重新取出",
+      "task_title_en": "Tweezers feed the cotton to the bottom of the test tube and take it out again",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -445,7 +445,7 @@
     },
     {
       "task_name": "用5毫升塑料滴管把有色水滴入标准塑料试管",
-      "task_title_en": "用5毫升塑料滴管把有色水滴入标准塑料试管",
+      "task_title_en": "Use a 5 ml plastic dropper to drop colored water into a standard plastic test tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pipette / Dispense / Inject",
@@ -469,7 +469,7 @@
     },
     {
       "task_name": "试用工具把杆件插入架孔",
-      "task_title_en": "试用工具把杆件插入架孔",
+      "task_title_en": "Try using the tool to insert the rod into the rack hole",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -490,7 +490,7 @@
     },
     {
       "task_name": "用2毫升软塑滴管把有色水滴入窄口塑料试管",
-      "task_title_en": "用2毫升软塑滴管把有色水滴入窄口塑料试管",
+      "task_title_en": "Use a 2 ml soft plastic dropper to drop the colored water into the narrow mouth plastic test tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pipette / Dispense / Inject",
@@ -555,7 +555,7 @@
     },
     {
       "task_name": "清理演示台并复位器皿",
-      "task_title_en": "清理演示台并复位器皿",
+      "task_title_en": "Clean the demonstration table and reset the utensils",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -642,7 +642,7 @@
     },
     {
       "task_name": "剪出工具垫放小片",
-      "task_title_en": "剪出工具垫放小片",
+      "task_title_en": "Cut out small pieces of tool pad",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -664,7 +664,7 @@
     },
     {
       "task_name": "滴管排液并放入烧杯（模拟废液回收/临时搁置）",
-      "task_title_en": "滴管排液并放入烧杯（模拟废液回收/临时搁置）",
+      "task_title_en": "Drain the liquid from the dropper and put it into the beaker (simulating waste liquid recovery/temporary shelving)",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pipette / Dispense / Inject",
@@ -686,7 +686,7 @@
     },
     {
       "task_name": "切混合可夹取果蔬",
-      "task_title_en": "切混合可夹取果蔬",
+      "task_title_en": "Cut and mix fruits and vegetables",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -708,7 +708,7 @@
     },
     {
       "task_name": "药匙扁平端（刮刀端）刮取微量粉末入离心管",
-      "task_title_en": "药匙扁平端（刮刀端）刮取微量粉末入离心管",
+      "task_title_en": "Use the flat end of the medicine spoon (scraper end) to scrape a small amount of powder into the centrifuge tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Solids / Weighing / Filtration",
@@ -771,7 +771,7 @@
     },
     {
       "task_name": "布置空器皿演示台",
-      "task_title_en": "布置空器皿演示台",
+      "task_title_en": "Set up empty vessel demonstration table",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -792,7 +792,7 @@
     },
     {
       "task_name": "整理试管领取组",
-      "task_title_en": "整理试管领取组",
+      "task_title_en": "Organize the test tube collection group",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -813,7 +813,7 @@
     },
     {
       "task_name": "摆好夹持工具优先取用位",
-      "task_title_en": "摆好夹持工具优先取用位",
+      "task_title_en": "Arrange the clamping tool in the priority access position",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -834,7 +834,7 @@
     },
     {
       "task_name": "清洁容器展示区",
-      "task_title_en": "清洁容器展示区",
+      "task_title_en": "Clean container display area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -877,7 +877,7 @@
     },
     {
       "task_name": "配一份瓶装饮料个人茶歇",
-      "task_title_en": "配一份瓶装饮料个人茶歇",
+      "task_title_en": "Personal coffee break with a bottled drink",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -984,7 +984,7 @@
     },
     {
       "task_name": "药匙扁平端辅助开盖（药匙 + 离心管）",
-      "task_title_en": "药匙扁平端辅助开盖（药匙 + 离心管）",
+      "task_title_en": "The flat end of the medicine spoon assists in opening the lid (medicine spoon + centrifuge tube)",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Open / Close / Seal",
@@ -1005,7 +1005,7 @@
     },
     {
       "task_name": "试管竖放进架",
-      "task_title_en": "试管竖放进架",
+      "task_title_en": "Put the test tubes vertically into the rack",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -1026,7 +1026,7 @@
     },
     {
       "task_name": "把黄瓜备成凉菜材料",
-      "task_title_en": "把黄瓜备成凉菜材料",
+      "task_title_en": "Prepare cucumbers as cold dish ingredients",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1047,7 +1047,7 @@
     },
     {
       "task_name": "把黄瓜、苹果和面包分成现在和稍后两份",
-      "task_title_en": "把黄瓜、苹果和面包分成现在和稍后两份",
+      "task_title_en": "Divide cucumbers, apples and bread into two portions now and later",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1068,7 +1068,7 @@
     },
     {
       "task_name": "整理一组可直接用的手动工具",
-      "task_title_en": "整理一组可直接用的手动工具",
+      "task_title_en": "Organize a set of ready-to-use hand tools",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -1110,7 +1110,7 @@
     },
     {
       "task_name": "用塑料试管夹把宽口塑料试管放入深孔试管架",
-      "task_title_en": "用塑料试管夹把宽口塑料试管放入深孔试管架",
+      "task_title_en": "Use plastic test tube clamps to place wide-mouth plastic test tubes into deep-hole test tube racks",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -1133,7 +1133,7 @@
     },
     {
       "task_name": "土豆黄瓜分开备好",
-      "task_title_en": "土豆黄瓜分开备好",
+      "task_title_en": "Prepare potatoes and cucumbers separately",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1154,7 +1154,7 @@
     },
     {
       "task_name": "先黄瓜后土豆连续备菜",
-      "task_title_en": "先黄瓜后土豆连续备菜",
+      "task_title_en": "Prepare cucumbers first, then potatoes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1217,7 +1217,7 @@
     },
     {
       "task_name": "单独装好凉菜黄瓜",
-      "task_title_en": "单独装好凉菜黄瓜",
+      "task_title_en": "Separately pack cucumbers for cold dishes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1238,7 +1238,7 @@
     },
     {
       "task_name": "赶时间备好两类菜料",
-      "task_title_en": "赶时间备好两类菜料",
+      "task_title_en": "In a hurry, prepare two types of dishes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1259,7 +1259,7 @@
     },
     {
       "task_name": "用1毫升软塑滴管把有色水滴入窄口塑料试管",
-      "task_title_en": "用1毫升软塑滴管把有色水滴入窄口塑料试管",
+      "task_title_en": "Use a 1 ml soft plastic dropper to drop the colored water into the narrow mouth plastic test tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pipette / Dispense / Inject",
@@ -1303,7 +1303,7 @@
     },
     {
       "task_name": "整理可移动的团队茶歇托盘",
-      "task_title_en": "整理可移动的团队茶歇托盘",
+      "task_title_en": "Organize removable team coffee break trays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1324,7 +1324,7 @@
     },
     {
       "task_name": "清理并恢复茶歇台",
-      "task_title_en": "清理并恢复茶歇台",
+      "task_title_en": "Clean and restore coffee break station",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1367,7 +1367,7 @@
     },
     {
       "task_name": "给同伴摆一个自助饮水点",
-      "task_title_en": "给同伴摆一个自助饮水点",
+      "task_title_en": "Set up a self-service water point for your companions",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1410,7 +1410,7 @@
     },
     {
       "task_name": "集中团队饮水取用点",
-      "task_title_en": "集中团队饮水取用点",
+      "task_title_en": "Centralized team drinking water points",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1431,7 +1431,7 @@
     },
     {
       "task_name": "复位整张茶歇台",
-      "task_title_en": "复位整张茶歇台",
+      "task_title_en": "Reset the entire coffee break table",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1473,7 +1473,7 @@
     },
     {
       "task_name": "用中号试管刷刷过标准塑料试管内壁",
-      "task_title_en": "用中号试管刷刷过标准塑料试管内壁",
+      "task_title_en": "Use a medium test tube brush to brush the inside of a standard plastic test tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1495,7 +1495,7 @@
     },
     {
       "task_name": "布置迎宾饮品托盘",
-      "task_title_en": "布置迎宾饮品托盘",
+      "task_title_en": "Arrange welcome drink tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1516,7 +1516,7 @@
     },
     {
       "task_name": "黄瓜零食分区放",
-      "task_title_en": "黄瓜零食分区放",
+      "task_title_en": "Cucumber snacks are placed in separate zones",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1537,7 +1537,7 @@
     },
     {
       "task_name": "倒水并整理出续会阅读区",
-      "task_title_en": "倒水并整理出续会阅读区",
+      "task_title_en": "Pour water and organize the reading area for the resumed meeting",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -1558,7 +1558,7 @@
     },
     {
       "task_name": "摆出不遮信息卡的零食区",
-      "task_title_en": "摆出不遮信息卡的零食区",
+      "task_title_en": "Set up a snack area without covering the information card",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Measure / Label / Document",
@@ -1579,7 +1579,7 @@
     },
     {
       "task_name": "用粗塑料搅拌棒沿宽口烧杯内壁搅动",
-      "task_title_en": "用粗塑料搅拌棒沿宽口烧杯内壁搅动",
+      "task_title_en": "Use a thick plastic stirring rod to stir along the inner wall of the wide-mouth beaker",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Mix / Stir / Agitate",
@@ -1601,7 +1601,7 @@
     },
     {
       "task_name": "清理试管取放区域",
-      "task_title_en": "清理试管取放区域",
+      "task_title_en": "Clean the test tube access area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1666,7 +1666,7 @@
     },
     {
       "task_name": "用软毛宽头试管刷刷过宽口塑料试管内壁",
-      "task_title_en": "用软毛宽头试管刷刷过宽口塑料试管内壁",
+      "task_title_en": "Use a soft-bristled wide-head test tube brush to brush the inner wall of the wide-mouth plastic test tube.",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1688,7 +1688,7 @@
     },
     {
       "task_name": "清洁两个透明烧杯",
-      "task_title_en": "清洁两个透明烧杯",
+      "task_title_en": "Clean two clear beakers",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1709,7 +1709,7 @@
     },
     {
       "task_name": "用长塑料搅拌棒沿高型烧杯内壁搅动",
-      "task_title_en": "用长塑料搅拌棒沿高型烧杯内壁搅动",
+      "task_title_en": "Use a long plastic stirring rod to stir along the inner wall of the tall beaker",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Mix / Stir / Agitate",
@@ -1731,7 +1731,7 @@
     },
     {
       "task_name": "用陶瓷杯摆出共用饮水点",
-      "task_title_en": "用陶瓷杯摆出共用饮水点",
+      "task_title_en": "Set up shared drinking spots with ceramic cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1752,7 +1752,7 @@
     },
     {
       "task_name": "用细塑料搅拌棒沿小烧杯内壁搅动",
-      "task_title_en": "用细塑料搅拌棒沿小烧杯内壁搅动",
+      "task_title_en": "Use a thin plastic stirring rod to stir along the inner wall of the small beaker",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Mix / Stir / Agitate",
@@ -1774,7 +1774,7 @@
     },
     {
       "task_name": "给自己配清水加小食茶歇",
-      "task_title_en": "给自己配清水加小食茶歇",
+      "task_title_en": "Give yourself some water and snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1795,7 +1795,7 @@
     },
     {
       "task_name": "用小茶匙舀取红豆倒入窄口纸杯",
-      "task_title_en": "用小茶匙舀取红豆倒入窄口纸杯",
+      "task_title_en": "Use a small teaspoon to scoop the red beans into a narrow mouth paper cup",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Solids / Weighing / Filtration",
@@ -1816,7 +1816,7 @@
     },
     {
       "task_name": "把小号低密度海绵块压入窄口硬塑杯再取出",
-      "task_title_en": "把小号低密度海绵块压入窄口硬塑杯再取出",
+      "task_title_en": "Press the small low-density sponge block into the narrow-mouthed hard plastic cup and take it out",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Pick / Move / Place",
@@ -1839,7 +1839,7 @@
     },
     {
       "task_name": "给同伴倒一轮纸杯水",
-      "task_title_en": "给同伴倒一轮纸杯水",
+      "task_title_en": "Pour a paper cup of water for your companion",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1860,7 +1860,7 @@
     },
     {
       "task_name": "做完黄瓜腾出砧板",
-      "task_title_en": "做完黄瓜腾出砧板",
+      "task_title_en": "Clear the chopping board after cooking the cucumbers",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -1881,7 +1881,7 @@
     },
     {
       "task_name": "搭完整支撑结构演示组",
-      "task_title_en": "搭完整支撑结构演示组",
+      "task_title_en": "Build a complete support structure demonstration group",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -1902,7 +1902,7 @@
     },
     {
       "task_name": "用细头尼龙试管刷刷过窄口塑料试管内壁",
-      "task_title_en": "用细头尼龙试管刷刷过窄口塑料试管内壁",
+      "task_title_en": "Use a fine-tipped nylon test tube brush to brush the inner wall of the narrow-mouth plastic test tube.",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -1924,7 +1924,7 @@
     },
     {
       "task_name": "剪出临时标记片",
-      "task_title_en": "剪出临时标记片",
+      "task_title_en": "Cut out temporary marking pieces",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Measure / Label / Document",
@@ -1945,7 +1945,7 @@
     },
     {
       "task_name": "布置试管杆件对照",
-      "task_title_en": "布置试管杆件对照",
+      "task_title_en": "Arrange test tube rods for comparison",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -1966,7 +1966,7 @@
     },
     {
       "task_name": "完整恢复杆件试用工作台",
-      "task_title_en": "完整恢复杆件试用工作台",
+      "task_title_en": "Complete Restoration Rod Trial Workbench",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2008,7 +2008,7 @@
     },
     {
       "task_name": "清理用过的削皮器",
-      "task_title_en": "清理用过的削皮器",
+      "task_title_en": "Clean a used peeler",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -2030,7 +2030,7 @@
     },
     {
       "task_name": "试出更稳的杆件夹持工具",
-      "task_title_en": "试出更稳的杆件夹持工具",
+      "task_title_en": "Try out a more stable rod clamping tool",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2051,7 +2051,7 @@
     },
     {
       "task_name": "给双头记号笔盖好笔帽再拔下",
-      "task_title_en": "给双头记号笔盖好笔帽再拔下",
+      "task_title_en": "Cap the double-ended marker and then remove it",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -2072,7 +2072,7 @@
     },
     {
       "task_name": "壶水加清水调杯水",
-      "task_title_en": "壶水加清水调杯水",
+      "task_title_en": "Add water to a pot to make a cup of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2094,7 +2094,7 @@
     },
     {
       "task_name": "黄瓜切片装盘",
-      "task_title_en": "黄瓜切片装盘",
+      "task_title_en": "Cucumber slices on plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2115,7 +2115,7 @@
     },
     {
       "task_name": "黄瓜切条装碗",
-      "task_title_en": "黄瓜切条装碗",
+      "task_title_en": "Cut cucumbers into bowls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2136,7 +2136,7 @@
     },
     {
       "task_name": "用中头记号笔沿线描完一条缓弯曲线",
-      "task_title_en": "用中头记号笔沿线描完一条缓弯曲线",
+      "task_title_en": "Use a medium tip marker to trace a gently curved line along the line.",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -2157,7 +2157,7 @@
     },
     {
       "task_name": "分清试管架托盘和烧杯区",
-      "task_title_en": "分清试管架托盘和烧杯区",
+      "task_title_en": "Distinguish test tube rack tray and beaker area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2179,7 +2179,7 @@
     },
     {
       "task_name": "用细头记号笔沿线描完一条直线",
-      "task_title_en": "用细头记号笔沿线描完一条直线",
+      "task_title_en": "Use a fine-tipped marker to trace a straight line along the line",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -2200,7 +2200,7 @@
     },
     {
       "task_name": "空器皿收成盘点区",
-      "task_title_en": "空器皿收成盘点区",
+      "task_title_en": "Empty vessel harvest inventory area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2221,7 +2221,7 @@
     },
     {
       "task_name": "剪出工具隔离片",
-      "task_title_en": "剪出工具隔离片",
+      "task_title_en": "Cut out tool spacers",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2242,7 +2242,7 @@
     },
     {
       "task_name": "用收纳篮暂存小件茶歇物",
-      "task_title_en": "用收纳篮暂存小件茶歇物",
+      "task_title_en": "Use storage basket to temporarily store small tea break items",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2263,7 +2263,7 @@
     },
     {
       "task_name": "整理稳定器皿区",
-      "task_title_en": "整理稳定器皿区",
+      "task_title_en": "Organize the stable utensil area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2305,7 +2305,7 @@
     },
     {
       "task_name": "给细头记号笔盖好笔帽再拔下",
-      "task_title_en": "给细头记号笔盖好笔帽再拔下",
+      "task_title_en": "Cap the fine-tipped marker and then remove it",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -2326,7 +2326,7 @@
     },
     {
       "task_name": "整理试管架位",
-      "task_title_en": "整理试管架位",
+      "task_title_en": "Organize test tube racks",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2347,7 +2347,7 @@
     },
     {
       "task_name": "用陶瓷杯准备一杯水",
-      "task_title_en": "用陶瓷杯准备一杯水",
+      "task_title_en": "Prepare a glass of water in a ceramic cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2368,7 +2368,7 @@
     },
     {
       "task_name": "装碗面包薯片并收好零食袋",
-      "task_title_en": "装碗面包薯片并收好零食袋",
+      "task_title_en": "Pack a bowl of bread and crisps and put away the snack bag",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2389,7 +2389,7 @@
     },
     {
       "task_name": "整理杆件取用包和待用区",
-      "task_title_en": "整理杆件取用包和待用区",
+      "task_title_en": "Organize pole access bags and waiting areas",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2410,7 +2410,7 @@
     },
     {
       "task_name": "试管单独归架",
-      "task_title_en": "试管单独归架",
+      "task_title_en": "Test tubes are racked individually",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -2431,7 +2431,7 @@
     },
     {
       "task_name": "用中号方形自带墨印章压出方框图案",
-      "task_title_en": "用中号方形自带墨印章压出方框图案",
+      "task_title_en": "Use a medium square ink stamp to stamp out the square pattern",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -2453,7 +2453,7 @@
     },
     {
       "task_name": "用硅胶头食品夹把高密度长方形海绵块放进宽口塑料杯",
-      "task_title_en": "用硅胶头食品夹把高密度长方形海绵块放进宽口塑料杯",
+      "task_title_en": "Use silicone-tipped food clips to place high-density rectangular sponge pieces into wide-mouth plastic cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2475,7 +2475,7 @@
     },
     {
       "task_name": "把小号锥形橡胶塞压入窄口塑料试管再拔出",
-      "task_title_en": "把小号锥形橡胶塞压入窄口塑料试管再拔出",
+      "task_title_en": "Press the small tapered rubber stopper into the narrow-mouth plastic test tube and pull it out",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Insert / Remove / Align",
@@ -2538,7 +2538,7 @@
     },
     {
       "task_name": "分开放试管可用组和待处理组",
-      "task_title_en": "分开放试管可用组和待处理组",
+      "task_title_en": "Separate test tube available group and pending group",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2580,7 +2580,7 @@
     },
     {
       "task_name": "倒一杯马上喝的水",
-      "task_title_en": "倒一杯马上喝的水",
+      "task_title_en": "Pour a glass of water to drink immediately",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2602,7 +2602,7 @@
     },
     {
       "task_name": "把训练杆件装进密封袋",
-      "task_title_en": "把训练杆件装进密封袋",
+      "task_title_en": "Put the training pole pieces into a ziplock bag",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -2623,7 +2623,7 @@
     },
     {
       "task_name": "三根杆件考核插放练习",
-      "task_title_en": "三根杆件考核插放练习",
+      "task_title_en": "Three pole assessment insertion and placement exercises",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -2644,7 +2644,7 @@
     },
     {
       "task_name": "陶瓷杯饮水并阅读信息卡",
-      "task_title_en": "陶瓷杯饮水并阅读信息卡",
+      "task_title_en": "Drinking water from ceramic cup and reading information card",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Measure / Label / Document",
@@ -2665,7 +2665,7 @@
     },
     {
       "task_name": "清走接口处置残留",
-      "task_title_en": "清走接口处置残留",
+      "task_title_en": "Clean away interface disposal residues",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -2686,7 +2686,7 @@
     },
     {
       "task_name": "两工具分杆件练习",
-      "task_title_en": "两工具分杆件练习",
+      "task_title_en": "Two-tool pole-dividing exercise",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2707,7 +2707,7 @@
     },
     {
       "task_name": "把瓶装饮料摆成可取用",
-      "task_title_en": "把瓶装饮料摆成可取用",
+      "task_title_en": "Make bottled drinks accessible",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2728,7 +2728,7 @@
     },
     {
       "task_name": "镊子夹取试纸蘸取液体（模拟 pH 试纸测试）",
-      "task_title_en": "镊子夹取试纸蘸取液体（模拟 pH 试纸测试）",
+      "task_title_en": "Use tweezers to pick up the test paper and dip it into the liquid (simulating pH test paper test)",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -2749,7 +2749,7 @@
     },
     {
       "task_name": "移开零食擦砧板",
-      "task_title_en": "移开零食擦砧板",
+      "task_title_en": "Remove snacks and wipe the cutting board",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -2770,7 +2770,7 @@
     },
     {
       "task_name": "用金属弹簧试管夹把标准塑料试管放入交错孔试管架",
-      "task_title_en": "用金属弹簧试管夹把标准塑料试管放入交错孔试管架",
+      "task_title_en": "Use metal spring test tube clamps to place standard plastic test tubes into the staggered hole test tube rack",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -2792,7 +2792,7 @@
     },
     {
       "task_name": "用托盘安置个人饮水",
-      "task_title_en": "用托盘安置个人饮水",
+      "task_title_en": "Tray for personal drinking water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2813,7 +2813,7 @@
     },
     {
       "task_name": "给粗头记号笔盖好笔帽再拔下",
-      "task_title_en": "给粗头记号笔盖好笔帽再拔下",
+      "task_title_en": "Cap the thick-tipped marker and then remove it",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -2834,7 +2834,7 @@
     },
     {
       "task_name": "把大号软橡胶塞压入宽口塑料试管再拔出",
-      "task_title_en": "把大号软橡胶塞压入宽口塑料试管再拔出",
+      "task_title_en": "Press the large soft rubber stopper into the wide-mouth plastic test tube and pull it out",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Insert / Remove / Align",
@@ -2855,7 +2855,7 @@
     },
     {
       "task_name": "清理模块缝隙灰尘",
-      "task_title_en": "清理模块缝隙灰尘",
+      "task_title_en": "Clean dust in module gaps",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -2876,7 +2876,7 @@
     },
     {
       "task_name": "补上备用纸杯",
-      "task_title_en": "补上备用纸杯",
+      "task_title_en": "Replenish spare paper cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2898,7 +2898,7 @@
     },
     {
       "task_name": "用纸杯倒一杯水",
-      "task_title_en": "用纸杯倒一杯水",
+      "task_title_en": "Pour a glass of water from a paper cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2919,7 +2919,7 @@
     },
     {
       "task_name": "筛查按键回弹手感",
-      "task_title_en": "筛查按键回弹手感",
+      "task_title_en": "Screening button rebound feel",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -2940,7 +2940,7 @@
     },
     {
       "task_name": "给孩子分一份小食",
-      "task_title_en": "给孩子分一份小食",
+      "task_title_en": "Give your child a snack",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -2961,7 +2961,7 @@
     },
     {
       "task_name": "预检USB插拔手感",
-      "task_title_en": "预检USB插拔手感",
+      "task_title_en": "Pre-check USB plugging and unplugging feel",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -2982,7 +2982,7 @@
     },
     {
       "task_name": "清洁茶歇承载面",
-      "task_title_en": "清洁茶歇承载面",
+      "task_title_en": "Clean the coffee break carrying surface",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3003,7 +3003,7 @@
     },
     {
       "task_name": "把黄瓜分成当餐和稍后两份",
-      "task_title_en": "把黄瓜分成当餐和稍后两份",
+      "task_title_en": "Divide the cucumber into two portions for dinner and later",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -3024,7 +3024,7 @@
     },
     {
       "task_name": "先放试管再插杆件",
-      "task_title_en": "先放试管再插杆件",
+      "task_title_en": "Put the test tube first and then insert the rod",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3045,7 +3045,7 @@
     },
     {
       "task_name": "摆好器皿再收好清洁工具",
-      "task_title_en": "摆好器皿再收好清洁工具",
+      "task_title_en": "Arrange the utensils and put away the cleaning tools",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3066,7 +3066,7 @@
     },
     {
       "task_name": "清缝后复按按键模块",
-      "task_title_en": "清缝后复按按键模块",
+      "task_title_en": "Press the button module again after seam cleaning",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -3087,7 +3087,7 @@
     },
     {
       "task_name": "多根杆件连续插孔排列",
-      "task_title_en": "多根杆件连续插孔排列",
+      "task_title_en": "Multiple poles are arranged in a continuous socket",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3108,7 +3108,7 @@
     },
     {
       "task_name": "恢复抽屉前方开合区域",
-      "task_title_en": "恢复抽屉前方开合区域",
+      "task_title_en": "Restore the drawer front opening and closing area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -3129,7 +3129,7 @@
     },
     {
       "task_name": "清洁抽屉把手附近",
-      "task_title_en": "清洁抽屉把手附近",
+      "task_title_en": "Clean around drawer handles",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3150,7 +3150,7 @@
     },
     {
       "task_name": "钳镊同流程对比",
-      "task_title_en": "钳镊同流程对比",
+      "task_title_en": "Comparison of tweezers with the same process",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3171,7 +3171,7 @@
     },
     {
       "task_name": "把中号橡胶塞压入标准塑料试管再拔出",
-      "task_title_en": "把中号橡胶塞压入标准塑料试管再拔出",
+      "task_title_en": "Press the medium rubber stopper into the standard plastic test tube and pull it out",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Insert / Remove / Align",
@@ -3192,7 +3192,7 @@
     },
     {
       "task_name": "双工具插放回收练习",
-      "task_title_en": "双工具插放回收练习",
+      "task_title_en": "Double tool insertion and recovery practice",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3213,7 +3213,7 @@
     },
     {
       "task_name": "整理台边接触区",
-      "task_title_en": "整理台边接触区",
+      "task_title_en": "Organize tableside contact areas",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3234,7 +3234,7 @@
     },
     {
       "task_name": "杆件多终点转移练习",
-      "task_title_en": "杆件多终点转移练习",
+      "task_title_en": "Rod multi-end transfer exercise",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3255,7 +3255,7 @@
     },
     {
       "task_name": "固定路径插放归位",
-      "task_title_en": "固定路径插放归位",
+      "task_title_en": "Fixed path insertion and return",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3276,7 +3276,7 @@
     },
     {
       "task_name": "处理后复测USB插拔",
-      "task_title_en": "处理后复测USB插拔",
+      "task_title_en": "Retest USB plugging and unplugging after treatment",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3297,7 +3297,7 @@
     },
     {
       "task_name": "控晃复测USB接口",
-      "task_title_en": "控晃复测USB接口",
+      "task_title_en": "Controlling and retesting the USB interface",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3340,7 +3340,7 @@
     },
     {
       "task_name": "区分已开和未开的瓶装饮料",
-      "task_title_en": "区分已开和未开的瓶装饮料",
+      "task_title_en": "Distinguish between opened and unopened bottled beverages",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -3361,7 +3361,7 @@
     },
     {
       "task_name": "试管架排出数量",
-      "task_title_en": "试管架排出数量",
+      "task_title_en": "Test tube rack discharge quantity",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3382,7 +3382,7 @@
     },
     {
       "task_name": "用不锈钢弹簧食品夹把低密度方形海绵块放进纸杯",
-      "task_title_en": "用不锈钢弹簧食品夹把低密度方形海绵块放进纸杯",
+      "task_title_en": "Use stainless steel spring food clips to place low-density square sponge pieces into paper cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -3403,7 +3403,7 @@
     },
     {
       "task_name": "完整撤收电子模块",
-      "task_title_en": "完整撤收电子模块",
+      "task_title_en": "Complete withdrawal of electronic modules",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3445,7 +3445,7 @@
     },
     {
       "task_name": "搭支撑并试插USB模块",
-      "task_title_en": "搭支撑并试插USB模块",
+      "task_title_en": "Set up a support and try to insert the USB module",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3466,7 +3466,7 @@
     },
     {
       "task_name": "擦USB接口外沿",
-      "task_title_en": "擦USB接口外沿",
+      "task_title_en": "Wipe the outer edge of the USB port",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3487,7 +3487,7 @@
     },
     {
       "task_name": "准备杆件孔位演示",
-      "task_title_en": "准备杆件孔位演示",
+      "task_title_en": "Prepare rod hole location demonstration",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3508,7 +3508,7 @@
     },
     {
       "task_name": "做USB基础插拔排查",
-      "task_title_en": "做USB基础插拔排查",
+      "task_title_en": "Do basic USB plugging and unplugging troubleshooting",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3529,7 +3529,7 @@
     },
     {
       "task_name": "把试管和烧杯归回备课位",
-      "task_title_en": "把试管和烧杯归回备课位",
+      "task_title_en": "Return the test tubes and beakers to the lesson preparation area",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3550,7 +3550,7 @@
     },
     {
       "task_name": "工具插放后收束",
-      "task_title_en": "工具插放后收束",
+      "task_title_en": "Tie up after inserting the tool",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3571,7 +3571,7 @@
     },
     {
       "task_name": "封存异常电子小件",
-      "task_title_en": "封存异常电子小件",
+      "task_title_en": "Seal abnormal electronic items",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3592,7 +3592,7 @@
     },
     {
       "task_name": "擦干台面再放回容器",
-      "task_title_en": "擦干台面再放回容器",
+      "task_title_en": "Wipe the countertop dry and put it back into the container",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3613,7 +3613,7 @@
     },
     {
       "task_name": "盖好果蔬保鲜盒并移到一侧",
-      "task_title_en": "盖好果蔬保鲜盒并移到一侧",
+      "task_title_en": "Cover the fruit and vegetable crisper and move it to one side",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -3634,7 +3634,7 @@
     },
     {
       "task_name": "摆好清洁备菜路径",
-      "task_title_en": "摆好清洁备菜路径",
+      "task_title_en": "Set up cleaning and food preparation paths",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3655,7 +3655,7 @@
     },
     {
       "task_name": "烧杯到孔位上架",
-      "task_title_en": "烧杯到孔位上架",
+      "task_title_en": "Move the beaker to the hole position and put it on the shelf",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -3676,7 +3676,7 @@
     },
     {
       "task_name": "把直吸管插入圆孔平盖再拔出",
-      "task_title_en": "把直吸管插入圆孔平盖再拔出",
+      "task_title_en": "Insert the straight straw into the round hole flat cover and pull it out",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Insert / Remove / Align",
@@ -3697,7 +3697,7 @@
     },
     {
       "task_name": "把弯折吸管插入十字软孔杯盖再拔出",
-      "task_title_en": "把弯折吸管插入十字软孔杯盖再拔出",
+      "task_title_en": "Insert the bent straw into the cross soft hole cup lid and pull it out",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Insert / Remove / Align",
@@ -3718,7 +3718,7 @@
     },
     {
       "task_name": "分清保存区、饮水区和操作区",
-      "task_title_en": "分清保存区、饮水区和操作区",
+      "task_title_en": "Distinguish between storage area, drinking water area and operation area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -3739,7 +3739,7 @@
     },
     {
       "task_name": "擦掉手边碎屑",
-      "task_title_en": "擦掉手边碎屑",
+      "task_title_en": "Wipe off crumbs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3760,7 +3760,7 @@
     },
     {
       "task_name": "把中号高回弹海绵块压入标准塑料杯再取出",
-      "task_title_en": "把中号高回弹海绵块压入标准塑料杯再取出",
+      "task_title_en": "Press the medium-sized high-rebound sponge block into a standard plastic cup and take it out",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -3782,7 +3782,7 @@
     },
     {
       "task_name": "擦干饮水区水迹",
-      "task_title_en": "擦干饮水区水迹",
+      "task_title_en": "Wipe up any traces of water in the drinking area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3803,7 +3803,7 @@
     },
     {
       "task_name": "取回容器里的杆件",
-      "task_title_en": "取回容器里的杆件",
+      "task_title_en": "Retrieve the rod from the container",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3824,7 +3824,7 @@
     },
     {
       "task_name": "擦净砧板旁边台面",
-      "task_title_en": "擦净砧板旁边台面",
+      "task_title_en": "Wipe down the countertop next to the cutting board",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3845,7 +3845,7 @@
     },
     {
       "task_name": "用小号圆形自带墨印章压出圆点图案",
-      "task_title_en": "用小号圆形自带墨印章压出圆点图案",
+      "task_title_en": "Use a small round ink stamp to stamp out the dot pattern",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -3866,7 +3866,7 @@
     },
     {
       "task_name": "准备试管洁净样本",
-      "task_title_en": "准备试管洁净样本",
+      "task_title_en": "Prepare test tube clean samples",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -3887,7 +3887,7 @@
     },
     {
       "task_name": "擦净砧板继续切菜",
-      "task_title_en": "擦净砧板继续切菜",
+      "task_title_en": "Wipe the cutting board and continue chopping.",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3908,7 +3908,7 @@
     },
     {
       "task_name": "收拾削皮器和刀具",
-      "task_title_en": "收拾削皮器和刀具",
+      "task_title_en": "Pack peelers and knives",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -3929,7 +3929,7 @@
     },
     {
       "task_name": "按压筛查按键模块",
-      "task_title_en": "按压筛查按键模块",
+      "task_title_en": "Press screening button module",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -3950,7 +3950,7 @@
     },
     {
       "task_name": "擦净砧板湿痕",
-      "task_title_en": "擦净砧板湿痕",
+      "task_title_en": "Wipe wet marks on cutting board",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -3971,7 +3971,7 @@
     },
     {
       "task_name": "提举并分类小号同形密封罐的轻重样品",
-      "task_title_en": "提举并分类小号同形密封罐的轻重样品",
+      "task_title_en": "Lift and sort light and heavy samples of small, identically sealed cans",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Open / Close / Seal",
@@ -3992,7 +3992,7 @@
     },
     {
       "task_name": "分开保存面包和薯片",
-      "task_title_en": "分开保存面包和薯片",
+      "task_title_en": "Keep bread and chips separate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4013,7 +4013,7 @@
     },
     {
       "task_name": "药匙向烧杯中大量转移粉末（基础舀取与磕碰）",
-      "task_title_en": "药匙向烧杯中大量转移粉末（基础舀取与磕碰）",
+      "task_title_en": "Use the medicine spoon to transfer a large amount of powder into the beaker (basic scooping and bumping)",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Solids / Weighing / Filtration",
@@ -4034,7 +4034,7 @@
     },
     {
       "task_name": "擦干砧板下方再放回砧板",
-      "task_title_en": "擦干砧板下方再放回砧板",
+      "task_title_en": "Wipe the underside of the cutting board dry and put it back on the cutting board",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4055,7 +4055,7 @@
     },
     {
       "task_name": "用餐巾垫稳两杯托盘饮品",
-      "task_title_en": "用餐巾垫稳两杯托盘饮品",
+      "task_title_en": "Use napkins to steady two trays of drinks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -4076,7 +4076,7 @@
     },
     {
       "task_name": "收好个人茶歇残局",
-      "task_title_en": "收好个人茶歇残局",
+      "task_title_en": "Put away the leftovers of your personal tea break",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4097,7 +4097,7 @@
     },
     {
       "task_name": "复位培训器皿样本",
-      "task_title_en": "复位培训器皿样本",
+      "task_title_en": "Sample reset training vessel",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4118,7 +4118,7 @@
     },
     {
       "task_name": "木柜瓶装分区",
-      "task_title_en": "木柜瓶装分区",
+      "task_title_en": "Wooden cabinet bottle partition",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4139,7 +4139,7 @@
     },
     {
       "task_name": "擦干桌面水渍",
-      "task_title_en": "擦干桌面水渍",
+      "task_title_en": "Wipe away water stains on desktop",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4160,7 +4160,7 @@
     },
     {
       "task_name": "用高阻力扳机喷瓶向厚吸水纸喷一次水",
-      "task_title_en": "用高阻力扳机喷瓶向厚吸水纸喷一次水",
+      "task_title_en": "Use a high-resistance trigger spray bottle to squirt water once onto the thick absorbent paper",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -4181,7 +4181,7 @@
     },
     {
       "task_name": "准备一瓶可带走的水",
-      "task_title_en": "准备一瓶可带走的水",
+      "task_title_en": "Prepare a bottle of water to take away",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4202,7 +4202,7 @@
     },
     {
       "task_name": "划分茶水角取用区域",
-      "task_title_en": "划分茶水角取用区域",
+      "task_title_en": "Divide tea corner access areas",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4224,7 +4224,7 @@
     },
     {
       "task_name": "试出支架和低位烧杯关系",
-      "task_title_en": "试出支架和低位烧杯关系",
+      "task_title_en": "Try out the relationship between the bracket and the low beaker",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4245,7 +4245,7 @@
     },
     {
       "task_name": "切一份可夹取苹果",
-      "task_title_en": "切一份可夹取苹果",
+      "task_title_en": "Cut into a pinchable apple",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -4266,7 +4266,7 @@
     },
     {
       "task_name": "打开并重新闭合离心管盒盖",
-      "task_title_en": "打开并重新闭合离心管盒盖",
+      "task_title_en": "Open and reclose the centrifuge tube lid",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Open / Close / Seal",
@@ -4287,7 +4287,7 @@
     },
     {
       "task_name": "压稳模块再试插USB",
-      "task_title_en": "压稳模块再试插USB",
+      "task_title_en": "Pressure stabilizer module and try plugging in USB again",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -4308,7 +4308,7 @@
     },
     {
       "task_name": "整理自助取用动线",
-      "task_title_en": "整理自助取用动线",
+      "task_title_en": "Organize self-service flow lines",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4329,7 +4329,7 @@
     },
     {
       "task_name": "备好外带水并擦干",
-      "task_title_en": "备好外带水并擦干",
+      "task_title_en": "Prepare outside water and wipe it dry",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4371,7 +4371,7 @@
     },
     {
       "task_name": "用长扳机小喷瓶向中号吸水纸喷一次水",
-      "task_title_en": "用长扳机小喷瓶向中号吸水纸喷一次水",
+      "task_title_en": "Use a small spray bottle with a long trigger to spray water on the medium absorbent paper.",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -4392,7 +4392,7 @@
     },
     {
       "task_name": "把薯片夹进密封袋",
-      "task_title_en": "把薯片夹进密封袋",
+      "task_title_en": "Put the potato chips into a sealed bag",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -4413,7 +4413,7 @@
     },
     {
       "task_name": "整理直播试管取用队列",
-      "task_title_en": "整理直播试管取用队列",
+      "task_title_en": "Organize live test tube access queue",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4434,7 +4434,7 @@
     },
     {
       "task_name": "处理并暂放厨房刀",
-      "task_title_en": "处理并暂放厨房刀",
+      "task_title_en": "Handle and hold kitchen knives",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4455,7 +4455,7 @@
     },
     {
       "task_name": "擦干台面后放回容器",
-      "task_title_en": "擦干台面后放回容器",
+      "task_title_en": "Dry the countertop and return it to the container",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4476,7 +4476,7 @@
     },
     {
       "task_name": "擦干净砧板",
-      "task_title_en": "擦干净砧板",
+      "task_title_en": "Wipe the cutting board clean",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4497,7 +4497,7 @@
     },
     {
       "task_name": "准备中途补货包",
-      "task_title_en": "准备中途补货包",
+      "task_title_en": "Prepare midway replenishment package",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4518,7 +4518,7 @@
     },
     {
       "task_name": "把6支试管插成支撑展示",
-      "task_title_en": "把6支试管插成支撑展示",
+      "task_title_en": "Insert 6 test tubes into supporting display",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4539,7 +4539,7 @@
     },
     {
       "task_name": "托盘周转回摆展示物",
-      "task_title_en": "托盘周转回摆展示物",
+      "task_title_en": "Pallet turnover display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4560,7 +4560,7 @@
     },
     {
       "task_name": "替换瓶装展示品",
-      "task_title_en": "替换瓶装展示品",
+      "task_title_en": "Replacement Bottled Display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4581,7 +4581,7 @@
     },
     {
       "task_name": "摆放展示品",
-      "task_title_en": "摆放展示品",
+      "task_title_en": "Place displays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4602,7 +4602,7 @@
     },
     {
       "task_name": "复位边桌迎宾区",
-      "task_title_en": "复位边桌迎宾区",
+      "task_title_en": "Reset side table welcome area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4623,7 +4623,7 @@
     },
     {
       "task_name": "擦干抽屉附近水迹",
-      "task_title_en": "擦干抽屉附近水迹",
+      "task_title_en": "Wipe away water stains near drawers",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4644,7 +4644,7 @@
     },
     {
       "task_name": "调整试管和杆件的可视展示位",
-      "task_title_en": "调整试管和杆件的可视展示位",
+      "task_title_en": "Adjust the visual display position of test tubes and rods",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4665,7 +4665,7 @@
     },
     {
       "task_name": "把切好的土豆黄瓜装盒",
-      "task_title_en": "把切好的土豆黄瓜装盒",
+      "task_title_en": "Pack cut potatoes and cucumbers into boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -4686,7 +4686,7 @@
     },
     {
       "task_name": "单独取出一张纸",
-      "task_title_en": "单独取出一张纸",
+      "task_title_en": "Take out a separate piece of paper",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -4707,7 +4707,7 @@
     },
     {
       "task_name": "调整零食包装朝向",
-      "task_title_en": "调整零食包装朝向",
+      "task_title_en": "Adjust the orientation of snack packaging",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4728,7 +4728,7 @@
     },
     {
       "task_name": "擦干抽屉边再放稳容器",
-      "task_title_en": "擦干抽屉边再放稳容器",
+      "task_title_en": "Dry the sides of the drawer and stabilize the container",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4749,7 +4749,7 @@
     },
     {
       "task_name": "准备正式杯水托盘",
-      "task_title_en": "准备正式杯水托盘",
+      "task_title_en": "Prepare a formal water tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4770,7 +4770,7 @@
     },
     {
       "task_name": "分两步收走大小皮屑",
-      "task_title_en": "分两步收走大小皮屑",
+      "task_title_en": "Remove large and small dandruff in two steps",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4791,7 +4791,7 @@
     },
     {
       "task_name": "清理器皿底部周边碎屑",
-      "task_title_en": "清理器皿底部周边碎屑",
+      "task_title_en": "Clean the debris around the bottom of the vessel",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4812,7 +4812,7 @@
     },
     {
       "task_name": "擦净操作台台面",
-      "task_title_en": "擦净操作台台面",
+      "task_title_en": "Wipe the work surface",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -4833,7 +4833,7 @@
     },
     {
       "task_name": "防压碎分开放干食",
-      "task_title_en": "防压碎分开放干食",
+      "task_title_en": "Anti-crush Separate for dry eating",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4854,7 +4854,7 @@
     },
     {
       "task_name": "把面包分成当餐和稍后两份",
-      "task_title_en": "把面包分成当餐和稍后两份",
+      "task_title_en": "Divide the bread into two portions for dinner and later",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4875,7 +4875,7 @@
     },
     {
       "task_name": "摆饮料零食取用区",
-      "task_title_en": "摆饮料零食取用区",
+      "task_title_en": "Set up an area for drinks and snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4896,7 +4896,7 @@
     },
     {
       "task_name": "整块台面交接复位",
-      "task_title_en": "整块台面交接复位",
+      "task_title_en": "Handover and reset of the entire tabletop",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -4938,7 +4938,7 @@
     },
     {
       "task_name": "封好干零食并避开湿区",
-      "task_title_en": "封好干零食并避开湿区",
+      "task_title_en": "Seal dry snacks and avoid wet areas",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -4959,7 +4959,7 @@
     },
     {
       "task_name": "垫餐巾倒一杯清水",
-      "task_title_en": "垫餐巾倒一杯清水",
+      "task_title_en": "Put a napkin and pour a glass of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -4980,7 +4980,7 @@
     },
     {
       "task_name": "建立饮料零食备用区",
-      "task_title_en": "建立饮料零食备用区",
+      "task_title_en": "Establish a backup area for drinks and snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5001,7 +5001,7 @@
     },
     {
       "task_name": "分清饮品对应杯具",
-      "task_title_en": "分清饮品对应杯具",
+      "task_title_en": "Distinguish the cups corresponding to drinks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5022,7 +5022,7 @@
     },
     {
       "task_name": "倒一碗水先放着",
-      "task_title_en": "倒一碗水先放着",
+      "task_title_en": "Pour a bowl of water and put it aside first",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5043,7 +5043,7 @@
     },
     {
       "task_name": "摆边桌精选组合",
-      "task_title_en": "摆边桌精选组合",
+      "task_title_en": "Side table selection",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5064,7 +5064,7 @@
     },
     {
       "task_name": "工具零食分区摆放",
-      "task_title_en": "工具零食分区摆放",
+      "task_title_en": "Place tools and snacks in zones",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -5085,7 +5085,7 @@
     },
     {
       "task_name": "清掉操作台上的面包薯片碎屑",
-      "task_title_en": "清掉操作台上的面包薯片碎屑",
+      "task_title_en": "Clear bread and potato chip crumbs from the countertop",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -5106,7 +5106,7 @@
     },
     {
       "task_name": "转移空容器并练习旋盖开合",
-      "task_title_en": "转移空容器并练习旋盖开合",
+      "task_title_en": "Transfer empty containers and practice opening and closing caps",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -5127,7 +5127,7 @@
     },
     {
       "task_name": "给外带水瓶补水并拧紧",
-      "task_title_en": "给外带水瓶补水并拧紧",
+      "task_title_en": "Refill and tighten your to-go water bottle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -5148,7 +5148,7 @@
     },
     {
       "task_name": "围绕信息卡摆饮品小食",
-      "task_title_en": "围绕信息卡摆饮品小食",
+      "task_title_en": "Arrange drinks and snacks around the information card",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Measure / Label / Document",
@@ -5169,7 +5169,7 @@
     },
     {
       "task_name": "换角度试插USB接口",
-      "task_title_en": "换角度试插USB接口",
+      "task_title_en": "Change the angle and try plugging in the USB port",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -5190,7 +5190,7 @@
     },
     {
       "task_name": "封好未吃完的薯片袋并移开",
-      "task_title_en": "封好未吃完的薯片袋并移开",
+      "task_title_en": "Seal and remove uneaten potato chip bags",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5211,7 +5211,7 @@
     },
     {
       "task_name": "用木质试管夹把细口塑料试管放入十二孔试管架",
-      "task_title_en": "用木质试管夹把细口塑料试管放入十二孔试管架",
+      "task_title_en": "Use wooden test tube clamps to place the narrow-mouthed plastic test tubes into the twelve-hole test tube rack",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -5233,7 +5233,7 @@
     },
     {
       "task_name": "用短扳机细雾喷瓶向小张吸水纸喷一次水",
-      "task_title_en": "用短扳机细雾喷瓶向小张吸水纸喷一次水",
+      "task_title_en": "Use a short-trigger fine mist spray bottle to spray water onto a small sheet of absorbent paper.",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -5254,7 +5254,7 @@
     },
     {
       "task_name": "给长辈收拾干净茶水角",
-      "task_title_en": "给长辈收拾干净茶水角",
+      "task_title_en": "Clean up the tea corner for the elders",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5275,7 +5275,7 @@
     },
     {
       "task_name": "外摆包装食品展示区",
-      "task_title_en": "外摆包装食品展示区",
+      "task_title_en": "Exterior packaged food display area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5296,7 +5296,7 @@
     },
     {
       "task_name": "分开小食和杯水区",
-      "task_title_en": "分开小食和杯水区",
+      "task_title_en": "Separate areas for snacks and glasses of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5317,7 +5317,7 @@
     },
     {
       "task_name": "布置盘装零食取用区",
-      "task_title_en": "布置盘装零食取用区",
+      "task_title_en": "Arrange the area for plated snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5338,7 +5338,7 @@
     },
     {
       "task_name": "把零食挪出备菜区",
-      "task_title_en": "把零食挪出备菜区",
+      "task_title_en": "Move snacks out of the food preparation area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5359,7 +5359,7 @@
     },
     {
       "task_name": "复位会议取水区",
-      "task_title_en": "复位会议取水区",
+      "task_title_en": "Reset conference water area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5380,7 +5380,7 @@
     },
     {
       "task_name": "把6支试管插回试管架",
-      "task_title_en": "把6支试管插回试管架",
+      "task_title_en": "Insert the 6 test tubes back into the test tube rack",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -5401,7 +5401,7 @@
     },
     {
       "task_name": "重做木柜分区陈列",
-      "task_title_en": "重做木柜分区陈列",
+      "task_title_en": "Redo wooden cabinet partition display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5422,7 +5422,7 @@
     },
     {
       "task_name": "清洁小食摆放区",
-      "task_title_en": "清洁小食摆放区",
+      "task_title_en": "Clean snack area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -5443,7 +5443,7 @@
     },
     {
       "task_name": "轻稳按键避开旁边道具",
-      "task_title_en": "轻稳按键避开旁边道具",
+      "task_title_en": "Press the keys gently and steadily to avoid the props next to you",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -5464,7 +5464,7 @@
     },
     {
       "task_name": "摆好下一位取饮组合",
-      "task_title_en": "摆好下一位取饮组合",
+      "task_title_en": "Set up a drink set for the next person",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5485,7 +5485,7 @@
     },
     {
       "task_name": "单独取出一根细棒",
-      "task_title_en": "单独取出一根细棒",
+      "task_title_en": "Take out a thin stick separately",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -5507,7 +5507,7 @@
     },
     {
       "task_name": "玻璃罐主题焦点陈列",
-      "task_title_en": "玻璃罐主题焦点陈列",
+      "task_title_en": "Glass jar theme focus display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5528,7 +5528,7 @@
     },
     {
       "task_name": "试管和杆件混合定位",
-      "task_title_en": "试管和杆件混合定位",
+      "task_title_en": "Mixed positioning of test tubes and rods",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -5549,7 +5549,7 @@
     },
     {
       "task_name": "放信息卡",
-      "task_title_en": "放信息卡",
+      "task_title_en": "Put information card",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Measure / Label / Document",
@@ -5570,7 +5570,7 @@
     },
     {
       "task_name": "给自己倒一杯纸杯清水",
-      "task_title_en": "给自己倒一杯纸杯清水",
+      "task_title_en": "Pour yourself a paper cup of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5591,7 +5591,7 @@
     },
     {
       "task_name": "擦出台面干净区域",
-      "task_title_en": "擦出台面干净区域",
+      "task_title_en": "Wipe clean area of ​​countertop",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -5612,7 +5612,7 @@
     },
     {
       "task_name": "清掉削皮器残渣",
-      "task_title_en": "清掉削皮器残渣",
+      "task_title_en": "Remove peeler residue",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -5633,7 +5633,7 @@
     },
     {
       "task_name": "把大号柔软海绵块压入宽口塑料杯再取出",
-      "task_title_en": "把大号柔软海绵块压入宽口塑料杯再取出",
+      "task_title_en": "Press the large soft sponge piece into the wide-mouth plastic cup and take it out",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Pick / Move / Place",
@@ -5654,7 +5654,7 @@
     },
     {
       "task_name": "杆件分组回收练习",
-      "task_title_en": "杆件分组回收练习",
+      "task_title_en": "Rod group recovery exercise",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -5675,7 +5675,7 @@
     },
     {
       "task_name": "腾出取水取杯空间",
-      "task_title_en": "腾出取水取杯空间",
+      "task_title_en": "Make room for water and cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5696,7 +5696,7 @@
     },
     {
       "task_name": "单独取出一张书页",
-      "task_title_en": "单独取出一张书页",
+      "task_title_en": "Take out a separate page",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -5718,7 +5718,7 @@
     },
     {
       "task_name": "用电热水壶备好一杯水",
-      "task_title_en": "用电热水壶备好一杯水",
+      "task_title_en": "Prepare a glass of water with an electric kettle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5739,7 +5739,7 @@
     },
     {
       "task_name": "错开木柜展示物",
-      "task_title_en": "错开木柜展示物",
+      "task_title_en": "Staggered wooden cabinet displays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5760,7 +5760,7 @@
     },
     {
       "task_name": "给孩子倒水并放远刀具",
-      "task_title_en": "给孩子倒水并放远刀具",
+      "task_title_en": "Give children water and put away knives",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -5781,7 +5781,7 @@
     },
     {
       "task_name": "准备正式端送杯水",
-      "task_title_en": "准备正式端送杯水",
+      "task_title_en": "Prepare to formally serve a glass of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5802,7 +5802,7 @@
     },
     {
       "task_name": "摆出饮料零食补给区",
-      "task_title_en": "摆出饮料零食补给区",
+      "task_title_en": "Set up a supply area for drinks and snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5823,7 +5823,7 @@
     },
     {
       "task_name": "整理迎宾饮品托盘",
-      "task_title_en": "整理迎宾饮品托盘",
+      "task_title_en": "Organize the welcome drink tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5844,7 +5844,7 @@
     },
     {
       "task_name": "整理饮品杯具取用区",
-      "task_title_en": "整理饮品杯具取用区",
+      "task_title_en": "Organize the drinking area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5865,7 +5865,7 @@
     },
     {
       "task_name": "摆好外带水瓶",
-      "task_title_en": "摆好外带水瓶",
+      "task_title_en": "Set out to-go water bottles",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5886,7 +5886,7 @@
     },
     {
       "task_name": "清洁杯水摆放区",
-      "task_title_en": "清洁杯水摆放区",
+      "task_title_en": "Clean water cup area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -5907,7 +5907,7 @@
     },
     {
       "task_name": "擦出台面中心训练位",
-      "task_title_en": "擦出台面中心训练位",
+      "task_title_en": "Wipe out the center training position on the countertop",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -5928,7 +5928,7 @@
     },
     {
       "task_name": "紧固后复试USB模块稳定性",
-      "task_title_en": "紧固后复试USB模块稳定性",
+      "task_title_en": "Retest USB module stability after tightening",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -5949,7 +5949,7 @@
     },
     {
       "task_name": "练习罐盖暂放与回配",
-      "task_title_en": "练习罐盖暂放与回配",
+      "task_title_en": "Practice temporary placement and reassembly of can lids",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -5970,7 +5970,7 @@
     },
     {
       "task_name": "分出托盘非周转物",
-      "task_title_en": "分出托盘非周转物",
+      "task_title_en": "Separate pallets for non-turnover items",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -5991,7 +5991,7 @@
     },
     {
       "task_name": "用薄片垫稳USB模块",
-      "task_title_en": "用薄片垫稳USB模块",
+      "task_title_en": "Use a thin sheet to stabilize the USB module",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6012,7 +6012,7 @@
     },
     {
       "task_name": "把备菜容器重新放稳",
-      "task_title_en": "把备菜容器重新放稳",
+      "task_title_en": "Reposition the food preparation container",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6033,7 +6033,7 @@
     },
     {
       "task_name": "分出小食区和备菜区",
-      "task_title_en": "分出小食区和备菜区",
+      "task_title_en": "Separate snack area and food preparation area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6054,7 +6054,7 @@
     },
     {
       "task_name": "单根杆件插入试管架孔",
-      "task_title_en": "单根杆件插入试管架孔",
+      "task_title_en": "Insert a single rod into the test tube rack hole",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6075,7 +6075,7 @@
     },
     {
       "task_name": "收好用过的厨房刀",
-      "task_title_en": "收好用过的厨房刀",
+      "task_title_en": "Put away used kitchen knives",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6096,7 +6096,7 @@
     },
     {
       "task_name": "拔开USB连接并摆稳",
-      "task_title_en": "拔开USB连接并摆稳",
+      "task_title_en": "Unplug the USB connection and place it firmly",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6117,7 +6117,7 @@
     },
     {
       "task_name": "杆件回收到试管",
-      "task_title_en": "杆件回收到试管",
+      "task_title_en": "Rod recovered to test tube",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -6138,7 +6138,7 @@
     },
     {
       "task_name": "给同事备一杯托盘纸杯水",
-      "task_title_en": "给同事备一杯托盘纸杯水",
+      "task_title_en": "Prepare a tray and paper cup of water for your colleagues",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6159,7 +6159,7 @@
     },
     {
       "task_name": "按品类分区",
-      "task_title_en": "按品类分区",
+      "task_title_en": "Partition by category",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6180,7 +6180,7 @@
     },
     {
       "task_name": "摆好备用续水壶",
-      "task_title_en": "摆好备用续水壶",
+      "task_title_en": "Have a spare water bottle ready",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -6201,7 +6201,7 @@
     },
     {
       "task_name": "旧样品入抽屉暂存",
-      "task_title_en": "旧样品入抽屉暂存",
+      "task_title_en": "Put old samples into drawers for temporary storage",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -6222,7 +6222,7 @@
     },
     {
       "task_name": "摆饮料和纸杯",
-      "task_title_en": "摆饮料和纸杯",
+      "task_title_en": "Place drinks and paper cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6243,7 +6243,7 @@
     },
     {
       "task_name": "布置玻璃罐中心展示",
-      "task_title_en": "布置玻璃罐中心展示",
+      "task_title_en": "Setting up a glass jar centerpiece display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6264,7 +6264,7 @@
     },
     {
       "task_name": "调好一杯水慢慢喝",
-      "task_title_en": "调好一杯水慢慢喝",
+      "task_title_en": "Make a glass of water and drink it slowly",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6285,7 +6285,7 @@
     },
     {
       "task_name": "木柜玻璃罐小样点",
-      "task_title_en": "木柜玻璃罐小样点",
+      "task_title_en": "Wooden cabinet glass jar sample points",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6306,7 +6306,7 @@
     },
     {
       "task_name": "收拾切果蔬后的砧板残渣",
-      "task_title_en": "收拾切果蔬后的砧板残渣",
+      "task_title_en": "Clean up chopping board residue after cutting fruits and vegetables",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -6327,7 +6327,7 @@
     },
     {
       "task_name": "摆出访客自选饮品区",
-      "task_title_en": "摆出访客自选饮品区",
+      "task_title_en": "Set up an area for visitors to choose their own drinks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6348,7 +6348,7 @@
     },
     {
       "task_name": "把两杯饮品摆成托盘组合",
-      "task_title_en": "把两杯饮品摆成托盘组合",
+      "task_title_en": "Arrange two drinks into a tray combination",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6369,7 +6369,7 @@
     },
     {
       "task_name": "把水杯挪出备菜区",
-      "task_title_en": "把水杯挪出备菜区",
+      "task_title_en": "Move the water glass out of the food preparation area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6390,7 +6390,7 @@
     },
     {
       "task_name": "更新瓶装饮料区",
-      "task_title_en": "更新瓶装饮料区",
+      "task_title_en": "Updated bottled drinks area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6411,7 +6411,7 @@
     },
     {
       "task_name": "插放杆件并触发按键",
-      "task_title_en": "插放杆件并触发按键",
+      "task_title_en": "Insert the lever and trigger the button",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6432,7 +6432,7 @@
     },
     {
       "task_name": "分出小食供应和备货",
-      "task_title_en": "分出小食供应和备货",
+      "task_title_en": "Separate snack supplies and stocking",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6453,7 +6453,7 @@
     },
     {
       "task_name": "布置饮水服务区",
-      "task_title_en": "布置饮水服务区",
+      "task_title_en": "Arrange drinking water service area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6474,7 +6474,7 @@
     },
     {
       "task_name": "用塑料试管夹把标准塑料试管放入交错孔试管架",
-      "task_title_en": "用塑料试管夹把标准塑料试管放入交错孔试管架",
+      "task_title_en": "Use plastic test tube clamps to place standard plastic test tubes into the staggered hole test tube rack",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -6495,7 +6495,7 @@
     },
     {
       "task_name": "原位按键练习",
-      "task_title_en": "原位按键练习",
+      "task_title_en": "In-situ key press practice",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -6516,7 +6516,7 @@
     },
     {
       "task_name": "擦净砧板边缘接触区",
-      "task_title_en": "擦净砧板边缘接触区",
+      "task_title_en": "Wipe the edge contact area of ​​the cutting board",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -6537,7 +6537,7 @@
     },
     {
       "task_name": "把清洁工具放到托盘边缘",
-      "task_title_en": "把清洁工具放到托盘边缘",
+      "task_title_en": "Place the cleaning tool on the edge of the tray",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -6558,7 +6558,7 @@
     },
     {
       "task_name": "杆件集中回收到烧杯",
-      "task_title_en": "杆件集中回收到烧杯",
+      "task_title_en": "The rods are collected centrally into the beaker",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -6579,7 +6579,7 @@
     },
     {
       "task_name": "建立杆件容器转移路径",
-      "task_title_en": "建立杆件容器转移路径",
+      "task_title_en": "Establish rod container transfer path",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -6600,7 +6600,7 @@
     },
     {
       "task_name": "单独取出一张卡片",
-      "task_title_en": "单独取出一张卡片",
+      "task_title_en": "Take out a card alone",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -6622,7 +6622,7 @@
     },
     {
       "task_name": "钳子孔位停放示范",
-      "task_title_en": "钳子孔位停放示范",
+      "task_title_en": "Demonstration of pliers hole parking",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -6643,7 +6643,7 @@
     },
     {
       "task_name": "展示瓶装饮品选择",
-      "task_title_en": "展示瓶装饮品选择",
+      "task_title_en": "Showcase bottled beverage selections",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6664,7 +6664,7 @@
     },
     {
       "task_name": "对齐线端和接口后试插",
-      "task_title_en": "对齐线端和接口后试插",
+      "task_title_en": "Align the wire end and the interface and try to insert it.",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6685,7 +6685,7 @@
     },
     {
       "task_name": "精准提取单支离心管",
-      "task_title_en": "精准提取单支离心管",
+      "task_title_en": "Accurate extraction of a single centrifuge tube",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Pick / Move / Place",
@@ -6706,7 +6706,7 @@
     },
     {
       "task_name": "把胡萝卜削干净",
-      "task_title_en": "把胡萝卜削干净",
+      "task_title_en": "Peel the carrots cleanly",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -6727,7 +6727,7 @@
     },
     {
       "task_name": "设置清水专用区",
-      "task_title_en": "设置清水专用区",
+      "task_title_en": "Set up a dedicated clear water area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6748,7 +6748,7 @@
     },
     {
       "task_name": "靠边限位USB模块",
-      "task_title_en": "靠边限位USB模块",
+      "task_title_en": "Side limit USB module",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6769,7 +6769,7 @@
     },
     {
       "task_name": "钳子夹杆件插放示范",
-      "task_title_en": "钳子夹杆件插放示范",
+      "task_title_en": "Demonstration of pliers clamping rod insertion and placement",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -6790,7 +6790,7 @@
     },
     {
       "task_name": "旋紧并放回饮料瓶",
-      "task_title_en": "旋紧并放回饮料瓶",
+      "task_title_en": "Tighten and put back the drink bottle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -6811,7 +6811,7 @@
     },
     {
       "task_name": "在手中转动小号二阶魔方一周",
-      "task_title_en": "在手中转动小号二阶魔方一周",
+      "task_title_en": "Turn the small second-order Rubik's Cube in your hand for one turn",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -6832,7 +6832,7 @@
     },
     {
       "task_name": "镊子孔位停放示范",
-      "task_title_en": "镊子孔位停放示范",
+      "task_title_en": "Demonstration of parking tweezers holes",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -6853,7 +6853,7 @@
     },
     {
       "task_name": "用扳手拧紧训练螺母",
-      "task_title_en": "用扳手拧紧训练螺母",
+      "task_title_en": "Tighten the training nut with a wrench",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -6874,7 +6874,7 @@
     },
     {
       "task_name": "制作巧克力坚果拼盘",
-      "task_title_en": "制作巧克力坚果拼盘",
+      "task_title_en": "Make the Chocolate Nut Platter",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6895,7 +6895,7 @@
     },
     {
       "task_name": "用深汤匙舀取大米倒入宽口塑料杯",
-      "task_title_en": "用深汤匙舀取大米倒入宽口塑料杯",
+      "task_title_en": "Use a deep spoon to scoop the rice into a wide-mouth plastic cup",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Solids / Weighing / Filtration",
@@ -6916,7 +6916,7 @@
     },
     {
       "task_name": "镊子轻夹回收示范",
-      "task_title_en": "镊子轻夹回收示范",
+      "task_title_en": "Tweezers light clip recycling demonstration",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -6937,7 +6937,7 @@
     },
     {
       "task_name": "拧好旋盖瓶准备带走",
-      "task_title_en": "拧好旋盖瓶准备带走",
+      "task_title_en": "Tighten the screw cap bottle and prepare to take it away",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6958,7 +6958,7 @@
     },
     {
       "task_name": "并排放瓶装饮料",
-      "task_title_en": "并排放瓶装饮料",
+      "task_title_en": "Bottled drinks side by side",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -6979,7 +6979,7 @@
     },
     {
       "task_name": "从卡片叠里分出一张卡片",
-      "task_title_en": "从卡片叠里分出一张卡片",
+      "task_title_en": "Remove a card from the stack",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -7000,7 +7000,7 @@
     },
     {
       "task_name": "分开清水和瓶装饮料",
-      "task_title_en": "分开清水和瓶装饮料",
+      "task_title_en": "Separate water and bottled drinks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7021,7 +7021,7 @@
     },
     {
       "task_name": "从纸张叠里分出一张纸",
-      "task_title_en": "从纸张叠里分出一张纸",
+      "task_title_en": "Remove a piece of paper from the stack",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -7042,7 +7042,7 @@
     },
     {
       "task_name": "把土豆削干净",
-      "task_title_en": "把土豆削干净",
+      "task_title_en": "Peel the potatoes cleanly",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7063,7 +7063,7 @@
     },
     {
       "task_name": "把固定螺钉旋到位",
-      "task_title_en": "把固定螺钉旋到位",
+      "task_title_en": "Turn the set screw into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7084,7 +7084,7 @@
     },
     {
       "task_name": "多容器连续上架练习",
-      "task_title_en": "多容器连续上架练习",
+      "task_title_en": "Multi-container continuous shelf practice",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -7105,7 +7105,7 @@
     },
     {
       "task_name": "把纸套或文件套完整拉出卡槽座",
-      "task_title_en": "把纸套或文件套完整拉出卡槽座",
+      "task_title_en": "Pull the paper cover or document cover completely out of the card slot holder",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -7126,7 +7126,7 @@
     },
     {
       "task_name": "用筷子夹取小饼干",
-      "task_title_en": "用筷子夹取小饼干",
+      "task_title_en": "Pick up biscuits with chopsticks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7169,7 +7169,7 @@
     },
     {
       "task_name": "留空孔摆出试管支撑关系",
-      "task_title_en": "留空孔摆出试管支撑关系",
+      "task_title_en": "Leave empty holes to show the test tube support relationship.",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -7191,7 +7191,7 @@
     },
     {
       "task_name": "配对纸杯和清水",
-      "task_title_en": "配对纸杯和清水",
+      "task_title_en": "Pair paper cups and water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7212,7 +7212,7 @@
     },
     {
       "task_name": "防滑转移玻璃罐",
-      "task_title_en": "防滑转移玻璃罐",
+      "task_title_en": "Anti-slip transfer glass jar",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -7233,7 +7233,7 @@
     },
     {
       "task_name": "从书页叠里分出一张书页",
-      "task_title_en": "从书页叠里分出一张书页",
+      "task_title_en": "Separate a page from the stack of pages",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -7254,7 +7254,7 @@
     },
     {
       "task_name": "用筷子夹取坚果",
-      "task_title_en": "用筷子夹取坚果",
+      "task_title_en": "Use chopsticks to pick up nuts",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7275,7 +7275,7 @@
     },
     {
       "task_name": "旋装宽口罐盖到底",
-      "task_title_en": "旋装宽口罐盖到底",
+      "task_title_en": "Screw on the wide mouth jar lid to the bottom",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -7296,7 +7296,7 @@
     },
     {
       "task_name": "削好一根土豆",
-      "task_title_en": "削好一根土豆",
+      "task_title_en": "Peel a potato",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7317,7 +7317,7 @@
     },
     {
       "task_name": "制作饼干巧克力配对盘",
-      "task_title_en": "制作饼干巧克力配对盘",
+      "task_title_en": "Make Cookie Chocolate Pairing Plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7339,7 +7339,7 @@
     },
     {
       "task_name": "防滑转移厚书",
-      "task_title_en": "防滑转移厚书",
+      "task_title_en": "Anti-slip transfer thick book",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -7360,7 +7360,7 @@
     },
     {
       "task_name": "用无把旋盖瓶倒半杯水",
-      "task_title_en": "用无把旋盖瓶倒半杯水",
+      "task_title_en": "Pour half a cup of water into a screw-top bottle without a handle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -7381,7 +7381,7 @@
     },
     {
       "task_name": "防滑转移光滑塑料盒",
-      "task_title_en": "防滑转移光滑塑料盒",
+      "task_title_en": "Anti-slip transfer smooth plastic box",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -7402,7 +7402,7 @@
     },
     {
       "task_name": "提举并分类中号同形密封盒的轻重样品",
-      "task_title_en": "提举并分类中号同形密封盒的轻重样品",
+      "task_title_en": "Lift and sort light and heavy samples in medium-sized homogeneous sealed boxes",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Open / Close / Seal",
@@ -7423,7 +7423,7 @@
     },
     {
       "task_name": "用透明试管暂存杆件再上架",
-      "task_title_en": "用透明试管暂存杆件再上架",
+      "task_title_en": "Use transparent test tubes to temporarily store the rods before putting them on the shelves",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -7445,7 +7445,7 @@
     },
     {
       "task_name": "插一根杆件做孔位适配",
-      "task_title_en": "插一根杆件做孔位适配",
+      "task_title_en": "Insert a rod to fit the hole position",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -7466,7 +7466,7 @@
     },
     {
       "task_name": "削好一根白萝卜",
-      "task_title_en": "削好一根白萝卜",
+      "task_title_en": "Peel a white radish",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7487,7 +7487,7 @@
     },
     {
       "task_name": "摆出试管和杆件的架孔对比",
-      "task_title_en": "摆出试管和杆件的架孔对比",
+      "task_title_en": "Compare the rack holes of test tubes and rods",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -7508,7 +7508,7 @@
     },
     {
       "task_name": "从细棒束里分出一根细棒",
-      "task_title_en": "从细棒束里分出一根细棒",
+      "task_title_en": "Separate a thin rod from the bundle of thin rods",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -7529,7 +7529,7 @@
     },
     {
       "task_name": "擦干净桌面的目标区域",
-      "task_title_en": "擦干净桌面的目标区域",
+      "task_title_en": "Wipe down targeted areas of your desktop",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -7550,7 +7550,7 @@
     },
     {
       "task_name": "把白板上的一行笔迹擦净",
-      "task_title_en": "把白板上的一行笔迹擦净",
+      "task_title_en": "Erase a line of handwriting on the whiteboard",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -7571,7 +7571,7 @@
     },
     {
       "task_name": "夹摆饼干蔬菜条拼盘",
-      "task_title_en": "夹摆饼干蔬菜条拼盘",
+      "task_title_en": "Platter of mixed biscuits and vegetable sticks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7592,7 +7592,7 @@
     },
     {
       "task_name": "把白萝卜削干净",
-      "task_title_en": "把白萝卜削干净",
+      "task_title_en": "Peel the radish cleanly",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7613,7 +7613,7 @@
     },
     {
       "task_name": "用筷子夹取条状小食",
-      "task_title_en": "用筷子夹取条状小食",
+      "task_title_en": "Use chopsticks to pick up strips of snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7634,7 +7634,7 @@
     },
     {
       "task_name": "把一张卡片完整拉出卡槽",
-      "task_title_en": "把一张卡片完整拉出卡槽",
+      "task_title_en": "Pull a card completely out of the card slot",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -7655,7 +7655,7 @@
     },
     {
       "task_name": "夹制水果饼干夹心小食",
-      "task_title_en": "夹制水果饼干夹心小食",
+      "task_title_en": "Sandwiched fruit biscuits",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7676,7 +7676,7 @@
     },
     {
       "task_name": "旋装普通塑料瓶盖到底",
-      "task_title_en": "旋装普通塑料瓶盖到底",
+      "task_title_en": "Screw on ordinary plastic bottle caps to the bottom",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -7697,7 +7697,7 @@
     },
     {
       "task_name": "制作分格餐盘中的套杯蔬菜条",
-      "task_title_en": "制作分格餐盘中的套杯蔬菜条",
+      "task_title_en": "Make vegetable sticks in cups on a divided plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7718,7 +7718,7 @@
     },
     {
       "task_name": "旋装E14灯泡与灯座到底",
-      "task_title_en": "旋装E14灯泡与灯座到底",
+      "task_title_en": "Screw on the E14 bulb and lamp holder to the bottom",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -7739,7 +7739,7 @@
     },
     {
       "task_name": "用筷子夹取切块水果",
-      "task_title_en": "用筷子夹取切块水果",
+      "task_title_en": "Use chopsticks to pick up diced fruit",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7760,7 +7760,7 @@
     },
     {
       "task_name": "掸掉层板上的碎屑",
-      "task_title_en": "掸掉层板上的碎屑",
+      "task_title_en": "Dust the crumbs off the shelves",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -7781,7 +7781,7 @@
     },
     {
       "task_name": "将布餐巾折成小方块",
-      "task_title_en": "将布餐巾折成小方块",
+      "task_title_en": "Fold cloth napkin into small squares",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -7802,7 +7802,7 @@
     },
     {
       "task_name": "用锤子敲入训练销",
-      "task_title_en": "用锤子敲入训练销",
+      "task_title_en": "Hammer in the training pin",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7823,7 +7823,7 @@
     },
     {
       "task_name": "削好一根胡萝卜",
-      "task_title_en": "削好一根胡萝卜",
+      "task_title_en": "Peel a carrot",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7844,7 +7844,7 @@
     },
     {
       "task_name": "用纸杯盛放切块水果",
-      "task_title_en": "用纸杯盛放切块水果",
+      "task_title_en": "Use paper cups to serve cut fruits",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7865,7 +7865,7 @@
     },
     {
       "task_name": "用扳手旋紧一个连接件",
-      "task_title_en": "用扳手旋紧一个连接件",
+      "task_title_en": "Tighten a connector with a wrench",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -7886,7 +7886,7 @@
     },
     {
       "task_name": "把E14灯泡与灯座旋紧到位",
-      "task_title_en": "把E14灯泡与灯座旋紧到位",
+      "task_title_en": "Tighten the E14 bulb and lamp holder into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -7907,7 +7907,7 @@
     },
     {
       "task_name": "用筷子夹取小食",
-      "task_title_en": "用筷子夹取小食",
+      "task_title_en": "Pick up snacks with chopsticks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -7928,7 +7928,7 @@
     },
     {
       "task_name": "单手转动彩椒调整握姿",
-      "task_title_en": "单手转动彩椒调整握姿",
+      "task_title_en": "Turn the bell pepper with one hand to adjust the grip",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7949,7 +7949,7 @@
     },
     {
       "task_name": "将薯条和薯片交错码入塑料杯",
-      "task_title_en": "将薯条和薯片交错码入塑料杯",
+      "task_title_en": "Staggering French fries and crisps into plastic cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7970,7 +7970,7 @@
     },
     {
       "task_name": "把完整薯片装入成品盘",
-      "task_title_en": "把完整薯片装入成品盘",
+      "task_title_en": "Place whole potato chips into finished plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -7991,7 +7991,7 @@
     },
     {
       "task_name": "轻放仿真蛋到软垫托盘并收纳原容器",
-      "task_title_en": "轻放仿真蛋到软垫托盘并收纳原容器",
+      "task_title_en": "Gently place the eggs onto the padded tray and store in the original container",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8012,7 +8012,7 @@
     },
     {
       "task_name": "把实验瓶盖旋下",
-      "task_title_en": "把实验瓶盖旋下",
+      "task_title_en": "Unscrew the cap of the experimental bottle",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8033,7 +8033,7 @@
     },
     {
       "task_name": "药匙向试管/离心管精准添加粉末（高精度震动下料）",
-      "task_title_en": "药匙向试管/离心管精准添加粉末（高精度震动下料）",
+      "task_title_en": "The medicine spoon accurately adds powder to the test tube/centrifuge tube (high-precision vibration discharge)",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Solids / Weighing / Filtration",
@@ -8054,7 +8054,7 @@
     },
     {
       "task_name": "把粗口吸管插入大圆孔杯盖再拔出",
-      "task_title_en": "把粗口吸管插入大圆孔杯盖再拔出",
+      "task_title_en": "Insert the thick-mouthed straw into the large round hole cup lid and pull it out",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Insert / Remove / Align",
@@ -8075,7 +8075,7 @@
     },
     {
       "task_name": "把托盘里的碎屑刷到一起",
-      "task_title_en": "把托盘里的碎屑刷到一起",
+      "task_title_en": "Brush the scraps from the tray together",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -8096,7 +8096,7 @@
     },
     {
       "task_name": "装好一杯面包条",
-      "task_title_en": "装好一杯面包条",
+      "task_title_en": "Pack a cup of breadsticks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8117,7 +8117,7 @@
     },
     {
       "task_name": "轻锤固定一个装配件",
-      "task_title_en": "轻锤固定一个装配件",
+      "task_title_en": "Lightly hammer an assembly into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -8138,7 +8138,7 @@
     },
     {
       "task_name": "同架展示试管和金属杆件",
-      "task_title_en": "同架展示试管和金属杆件",
+      "task_title_en": "Display test tubes and metal rods on the same shelf",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -8159,7 +8159,7 @@
     },
     {
       "task_name": "轻力制作备菜碗沿干面包环形摆放",
-      "task_title_en": "轻力制作备菜碗沿干面包环形摆放",
+      "task_title_en": "Lightly prepared food preparation bowls arranged in a ring around dry bread",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8180,7 +8180,7 @@
     },
     {
       "task_name": "拧开实验瓶盖",
-      "task_title_en": "拧开实验瓶盖",
+      "task_title_en": "Unscrew the experimental bottle cap",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8201,7 +8201,7 @@
     },
     {
       "task_name": "在手中转动标准三阶魔方一周",
-      "task_title_en": "在手中转动标准三阶魔方一周",
+      "task_title_en": "Turn the standard three-level Rubik's Cube in your hand for one turn",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -8222,7 +8222,7 @@
     },
     {
       "task_name": "连续练多支试管取放",
-      "task_title_en": "连续练多支试管取放",
+      "task_title_en": "Continuously practice picking and placing multiple test tubes",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -8243,7 +8243,7 @@
     },
     {
       "task_name": "削好一根黄瓜",
-      "task_title_en": "削好一根黄瓜",
+      "task_title_en": "Peel a cucumber",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -8264,7 +8264,7 @@
     },
     {
       "task_name": "把饺子皮对折一次",
-      "task_title_en": "把饺子皮对折一次",
+      "task_title_en": "Fold the dumpling wrapper in half once",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -8285,7 +8285,7 @@
     },
     {
       "task_name": "单手转动苹果调整握姿",
-      "task_title_en": "单手转动苹果调整握姿",
+      "task_title_en": "Turn the apple with one hand to adjust your grip",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8306,7 +8306,7 @@
     },
     {
       "task_name": "将坚果与小饼干混合铺入食品周转盒",
-      "task_title_en": "将坚果与小饼干混合铺入食品周转盒",
+      "task_title_en": "Mix the nuts and biscuits and put them into the food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8327,7 +8327,7 @@
     },
     {
       "task_name": "把普通塑料瓶盖旋下",
-      "task_title_en": "把普通塑料瓶盖旋下",
+      "task_title_en": "Unscrew ordinary plastic bottle caps",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8348,7 +8348,7 @@
     },
     {
       "task_name": "把宽口罐盖旋紧到位",
-      "task_title_en": "把宽口罐盖旋紧到位",
+      "task_title_en": "Tighten the wide mouth jar lid into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8369,7 +8369,7 @@
     },
     {
       "task_name": "稳稳搬起厚书",
-      "task_title_en": "稳稳搬起厚书",
+      "task_title_en": "Lift the thick book steadily",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -8390,7 +8390,7 @@
     },
     {
       "task_name": "沿中部掰开脆薯条",
-      "task_title_en": "沿中部掰开脆薯条",
+      "task_title_en": "Break the crispy fries along the middle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8411,7 +8411,7 @@
     },
     {
       "task_name": "把宽口金属罐盖旋下",
-      "task_title_en": "把宽口金属罐盖旋下",
+      "task_title_en": "Unscrew the wide-mouth metal can lid",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8432,7 +8432,7 @@
     },
     {
       "task_name": "将薯条整齐放入小篮",
-      "task_title_en": "将薯条整齐放入小篮",
+      "task_title_en": "Put the fries neatly into the small basket",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8453,7 +8453,7 @@
     },
     {
       "task_name": "拔出USB-C",
-      "task_title_en": "拔出USB-C",
+      "task_title_en": "Unplug USB-C",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -8474,7 +8474,7 @@
     },
     {
       "task_name": "把无把旋盖瓶里的水倒入杯中",
-      "task_title_en": "把无把旋盖瓶里的水倒入杯中",
+      "task_title_en": "Pour the water from the screw-top bottle into the cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -8495,7 +8495,7 @@
     },
     {
       "task_name": "稳稳搬起玻璃罐",
-      "task_title_en": "稳稳搬起玻璃罐",
+      "task_title_en": "Lift the glass jar steadily",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -8516,7 +8516,7 @@
     },
     {
       "task_name": "拧开宽口金属罐盖",
-      "task_title_en": "拧开宽口金属罐盖",
+      "task_title_en": "Unscrew wide mouth metal can lid",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8537,7 +8537,7 @@
     },
     {
       "task_name": "拔出USB-A",
-      "task_title_en": "拔出USB-A",
+      "task_title_en": "Unplug USB-A",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -8558,7 +8558,7 @@
     },
     {
       "task_name": "把E27灯泡与灯座旋紧到位",
-      "task_title_en": "把E27灯泡与灯座旋紧到位",
+      "task_title_en": "Tighten the E27 bulb and lamp holder into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8579,7 +8579,7 @@
     },
     {
       "task_name": "单手转动白萝卜调整握姿",
-      "task_title_en": "单手转动白萝卜调整握姿",
+      "task_title_en": "Turn the radish with one hand to adjust your grip",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8600,7 +8600,7 @@
     },
     {
       "task_name": "把量水壶里的水倒入杯中",
-      "task_title_en": "把量水壶里的水倒入杯中",
+      "task_title_en": "Pour the water from the measuring kettle into the cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -8621,7 +8621,7 @@
     },
     {
       "task_name": "整理可领取的玻璃器皿组",
-      "task_title_en": "整理可领取的玻璃器皿组",
+      "task_title_en": "Organize the collection of glassware sets",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -8642,7 +8642,7 @@
     },
     {
       "task_name": "操作一次拨杆开关",
-      "task_title_en": "操作一次拨杆开关",
+      "task_title_en": "Operate the toggle switch once",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -8664,7 +8664,7 @@
     },
     {
       "task_name": "把儿童防开盖旋下",
-      "task_title_en": "把儿童防开盖旋下",
+      "task_title_en": "Unscrew the child-proof cover",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8685,7 +8685,7 @@
     },
     {
       "task_name": "将薄饼折成小方块",
-      "task_title_en": "将薄饼折成小方块",
+      "task_title_en": "Fold pancake into small cubes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -8706,7 +8706,7 @@
     },
     {
       "task_name": "稳稳搬起光滑塑料盒",
-      "task_title_en": "稳稳搬起光滑塑料盒",
+      "task_title_en": "Lift the smooth plastic box steadily",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -8727,7 +8727,7 @@
     },
     {
       "task_name": "将饺子皮折成小方块",
-      "task_title_en": "将饺子皮折成小方块",
+      "task_title_en": "Fold the dumpling skin into small cubes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -8748,7 +8748,7 @@
     },
     {
       "task_name": "用板擦擦掉一块白板笔迹",
-      "task_title_en": "用板擦擦掉一块白板笔迹",
+      "task_title_en": "Erase a piece of whiteboard writing with an eraser",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -8769,7 +8769,7 @@
     },
     {
       "task_name": "用带把水壶倒半杯水",
-      "task_title_en": "用带把水壶倒半杯水",
+      "task_title_en": "Fill the kettle with half a cup of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -8790,7 +8790,7 @@
     },
     {
       "task_name": "将干面包完整移入成品盘",
-      "task_title_en": "将干面包完整移入成品盘",
+      "task_title_en": "Transfer the dry bread completely to the finished plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8812,7 +8812,7 @@
     },
     {
       "task_name": "插好3.5毫米音频插头",
-      "task_title_en": "插好3.5毫米音频插头",
+      "task_title_en": "Plug in the 3.5mm audio plug",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -8833,7 +8833,7 @@
     },
     {
       "task_name": "把薄饼对折一次",
-      "task_title_en": "把薄饼对折一次",
+      "task_title_en": "Fold the pancake in half once",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -8854,7 +8854,7 @@
     },
     {
       "task_name": "把普通塑料瓶盖旋紧到位",
-      "task_title_en": "把普通塑料瓶盖旋紧到位",
+      "task_title_en": "Tighten ordinary plastic bottle caps into place",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -8875,7 +8875,7 @@
     },
     {
       "task_name": "将蔬菜条整齐放入小篮",
-      "task_title_en": "将蔬菜条整齐放入小篮",
+      "task_title_en": "Put the vegetable strips neatly into the small basket",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8896,7 +8896,7 @@
     },
     {
       "task_name": "沿中部掰开巧克力",
-      "task_title_en": "沿中部掰开巧克力",
+      "task_title_en": "Break the chocolate apart along the middle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -8917,7 +8917,7 @@
     },
     {
       "task_name": "从卡槽座里抽出纸套或文件套",
-      "task_title_en": "从卡槽座里抽出纸套或文件套",
+      "task_title_en": "Pull out the paper sleeve or document sleeve from the card slot holder",
       "catalog_record_id": null,
       "l1_scene": "Office",
       "l2_skill": "Measure / Label / Document",
@@ -8938,7 +8938,7 @@
     },
     {
       "task_name": "插好DC圆口",
-      "task_title_en": "插好DC圆口",
+      "task_title_en": "Plug in the DC round port",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -8959,7 +8959,7 @@
     },
     {
       "task_name": "用电热水壶倒半杯水",
-      "task_title_en": "用电热水壶倒半杯水",
+      "task_title_en": "Pour half a cup of water into the electric kettle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -8980,7 +8980,7 @@
     },
     {
       "task_name": "插多根杆件做并列适配",
-      "task_title_en": "插多根杆件做并列适配",
+      "task_title_en": "Insert multiple rods for parallel adaptation",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -9001,7 +9001,7 @@
     },
     {
       "task_name": "单手转动土豆调整握姿",
-      "task_title_en": "单手转动土豆调整握姿",
+      "task_title_en": "Turn the potato with one hand to adjust your grip",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9022,7 +9022,7 @@
     },
     {
       "task_name": "单手转动黄瓜调整握姿",
-      "task_title_en": "单手转动黄瓜调整握姿",
+      "task_title_en": "Turn the cucumber with one hand to adjust your grip",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9043,7 +9043,7 @@
     },
     {
       "task_name": "拧开儿童防开盖",
-      "task_title_en": "拧开儿童防开盖",
+      "task_title_en": "Unscrew the child-proof lid",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -9064,7 +9064,7 @@
     },
     {
       "task_name": "沿中部掰开饼干",
-      "task_title_en": "沿中部掰开饼干",
+      "task_title_en": "Split the biscuits along the middle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9085,7 +9085,7 @@
     },
     {
       "task_name": "拧开普通塑料瓶盖",
-      "task_title_en": "拧开普通塑料瓶盖",
+      "task_title_en": "Unscrew ordinary plastic bottle caps",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Open / Close / Seal",
@@ -9106,7 +9106,7 @@
     },
     {
       "task_name": "用量杯展示杆件的尺寸参照",
-      "task_title_en": "用量杯展示杆件的尺寸参照",
+      "task_title_en": "Measuring cup showing rod size reference",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -9127,7 +9127,7 @@
     },
     {
       "task_name": "拧开饮料瓶盖",
-      "task_title_en": "拧开饮料瓶盖",
+      "task_title_en": "Unscrew beverage bottle cap",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -9148,7 +9148,7 @@
     },
     {
       "task_name": "用量水壶倒半杯水",
-      "task_title_en": "用量水壶倒半杯水",
+      "task_title_en": "Fill the kettle with half a cup of water",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -9169,7 +9169,7 @@
     },
     {
       "task_name": "用掸子刷净一段层板",
-      "task_title_en": "用掸子刷净一段层板",
+      "task_title_en": "Use a duster to clean a section of the board",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -9190,7 +9190,7 @@
     },
     {
       "task_name": "用干布擦净一块桌面",
-      "task_title_en": "用干布擦净一块桌面",
+      "task_title_en": "Wipe a tabletop with a dry cloth",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -9211,7 +9211,7 @@
     },
     {
       "task_name": "压紧并打开小号长方形盒",
-      "task_title_en": "压紧并打开小号长方形盒",
+      "task_title_en": "Press and open the small rectangular box",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Open / Close / Seal",
@@ -9232,7 +9232,7 @@
     },
     {
       "task_name": "稳稳搬起不锈钢杯",
-      "task_title_en": "稳稳搬起不锈钢杯",
+      "task_title_en": "Lift the stainless steel cup steadily",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9253,7 +9253,7 @@
     },
     {
       "task_name": "铲起并翻转仿真煎蛋",
-      "task_title_en": "铲起并翻转仿真煎蛋",
+      "task_title_en": "Scoop and flip simulated omelette",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9274,7 +9274,7 @@
     },
     {
       "task_name": "把饮料瓶盖旋下",
-      "task_title_en": "把饮料瓶盖旋下",
+      "task_title_en": "Unscrew the drink bottle cap",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Open / Close / Seal",
@@ -9295,7 +9295,7 @@
     },
     {
       "task_name": "在手中转动大号四阶魔方一周",
-      "task_title_en": "在手中转动大号四阶魔方一周",
+      "task_title_en": "Turn the large fourth-order Rubik's Cube in your hand for one turn",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -9316,7 +9316,7 @@
     },
     {
       "task_name": "把分格盒完整拉出浅抽屉",
-      "task_title_en": "把分格盒完整拉出浅抽屉",
+      "task_title_en": "Pull the compartment box completely out of the shallow drawer",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Open / Close / Seal",
@@ -9337,7 +9337,7 @@
     },
     {
       "task_name": "防滑转移装满的瓶",
-      "task_title_en": "防滑转移装满的瓶",
+      "task_title_en": "Non-slip transfer of filled bottles",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9358,7 +9358,7 @@
     },
     {
       "task_name": "将面包条整齐放入小篮",
-      "task_title_en": "将面包条整齐放入小篮",
+      "task_title_en": "Place the bread sticks neatly into the small basket",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9379,7 +9379,7 @@
     },
     {
       "task_name": "把电热水壶里的水倒入杯中",
-      "task_title_en": "把电热水壶里的水倒入杯中",
+      "task_title_en": "Pour the water from the electric kettle into the cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -9400,7 +9400,7 @@
     },
     {
       "task_name": "插好USB-A",
-      "task_title_en": "插好USB-A",
+      "task_title_en": "Plug in USB-A",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -9421,7 +9421,7 @@
     },
     {
       "task_name": "将空塑料杯转移到软质接收垫上",
-      "task_title_en": "将空塑料杯转移到软质接收垫上",
+      "task_title_en": "Transfer empty plastic cup to soft receiving mat",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9442,7 +9442,7 @@
     },
     {
       "task_name": "防滑转移装水壶",
-      "task_title_en": "防滑转移装水壶",
+      "task_title_en": "Anti-slip transfer water bottle",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9463,7 +9463,7 @@
     },
     {
       "task_name": "防滑转移不锈钢杯",
-      "task_title_en": "防滑转移不锈钢杯",
+      "task_title_en": "Anti-slip transfer stainless steel cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9484,7 +9484,7 @@
     },
     {
       "task_name": "用锅铲给仿真肉饼翻面",
-      "task_title_en": "用锅铲给仿真肉饼翻面",
+      "task_title_en": "Use a spatula to turn the simulated meat patties",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -9505,7 +9505,7 @@
     },
     {
       "task_name": "在成品盘中摆放空塑料杯",
-      "task_title_en": "在成品盘中摆放空塑料杯",
+      "task_title_en": "Arrange empty plastic cups on finished product tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9526,7 +9526,7 @@
     },
     {
       "task_name": "主持人茶点托盘",
-      "task_title_en": "主持人茶点托盘",
+      "task_title_en": "Host refreshment tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9547,7 +9547,7 @@
     },
     {
       "task_name": "把带把水壶里的水倒入杯中",
-      "task_title_en": "把带把水壶里的水倒入杯中",
+      "task_title_en": "Pour the water from the kettle into the cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pour / Container Transfer",
@@ -9568,7 +9568,7 @@
     },
     {
       "task_name": "把布餐巾对折一次",
-      "task_title_en": "把布餐巾对折一次",
+      "task_title_en": "Fold the cloth napkin in half once",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Flexible Materials / Wrap / Fold",
@@ -9589,7 +9589,7 @@
     },
     {
       "task_name": "从卡槽里抽出一张卡片",
-      "task_title_en": "从卡槽里抽出一张卡片",
+      "task_title_en": "Pull a card from the card slot",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Measure / Label / Document",
@@ -9610,7 +9610,7 @@
     },
     {
       "task_name": "插好USB-C",
-      "task_title_en": "插好USB-C",
+      "task_title_en": "Plug in USB-C",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -9631,7 +9631,7 @@
     },
     {
       "task_name": "把托盘试管转成架上展示",
-      "task_title_en": "把托盘试管转成架上展示",
+      "task_title_en": "Convert tray test tubes to shelf display",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -9652,7 +9652,7 @@
     },
     {
       "task_name": "擦干备菜台湿痕",
-      "task_title_en": "擦干备菜台湿痕",
+      "task_title_en": "Wipe away wet spots on food preparation table",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -9694,7 +9694,7 @@
     },
     {
       "task_name": "不压坏地转移薯片",
-      "task_title_en": "不压坏地转移薯片",
+      "task_title_en": "Transfer potato chips without crushing them",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9715,7 +9715,7 @@
     },
     {
       "task_name": "练一遍单支试管取放",
-      "task_title_en": "练一遍单支试管取放",
+      "task_title_en": "Practice picking and placing a single test tube once",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -9736,7 +9736,7 @@
     },
     {
       "task_name": "用锅铲给仿真煎蛋翻面",
-      "task_title_en": "用锅铲给仿真煎蛋翻面",
+      "task_title_en": "Use a spatula to flip the simulated omelette",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -9757,7 +9757,7 @@
     },
     {
       "task_name": "将仿真蛋转移到成品盘",
-      "task_title_en": "将仿真蛋转移到成品盘",
+      "task_title_en": "Transfer the simulated eggs to the finished plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9779,7 +9779,7 @@
     },
     {
       "task_name": "稳稳搬起装满的瓶",
-      "task_title_en": "稳稳搬起装满的瓶",
+      "task_title_en": "Lift the filled bottles steadily",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9800,7 +9800,7 @@
     },
     {
       "task_name": "按下瞬时按钮",
-      "task_title_en": "按下瞬时按钮",
+      "task_title_en": "press momentary button",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -9821,7 +9821,7 @@
     },
     {
       "task_name": "用长方形自带墨印章压出文字条图案",
-      "task_title_en": "用长方形自带墨印章压出文字条图案",
+      "task_title_en": "Use a rectangular ink stamp to stamp out the text strip pattern",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Pick / Move / Place",
@@ -9842,7 +9842,7 @@
     },
     {
       "task_name": "不压坏地转移充气小球",
-      "task_title_en": "不压坏地转移充气小球",
+      "task_title_en": "Transfer inflated balls without crushing them",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9863,7 +9863,7 @@
     },
     {
       "task_name": "操作一次滑动开关",
-      "task_title_en": "操作一次滑动开关",
+      "task_title_en": "Operate the slide switch once",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -9884,7 +9884,7 @@
     },
     {
       "task_name": "单手把彩椒转到另一面",
-      "task_title_en": "单手把彩椒转到另一面",
+      "task_title_en": "Turn the bell pepper to the other side with one hand",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -9905,7 +9905,7 @@
     },
     {
       "task_name": "切换滑动开关",
-      "task_title_en": "切换滑动开关",
+      "task_title_en": "Toggle slide switch",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -9926,7 +9926,7 @@
     },
     {
       "task_name": "从浅抽屉里抽出分格盒",
-      "task_title_en": "从浅抽屉里抽出分格盒",
+      "task_title_en": "Pull out the compartment box from the shallow drawer",
       "catalog_record_id": null,
       "l1_scene": "General / Teleop Alignment",
       "l2_skill": "Open / Close / Seal",
@@ -9947,7 +9947,7 @@
     },
     {
       "task_name": "提举并分类大号同形密封桶的轻重样品",
-      "task_title_en": "提举并分类大号同形密封桶的轻重样品",
+      "task_title_en": "Lift and sort light and heavy samples in large, sealed barrels of the same shape",
       "catalog_record_id": null,
       "l1_scene": "General / Active Tactile",
       "l2_skill": "Open / Close / Seal",
@@ -9968,7 +9968,7 @@
     },
     {
       "task_name": "示范试管标准插放",
-      "task_title_en": "示范试管标准插放",
+      "task_title_en": "Demonstration test tube standard placement",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -9989,7 +9989,7 @@
     },
     {
       "task_name": "按下微动开关",
-      "task_title_en": "按下微动开关",
+      "task_title_en": "Press the micro switch",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -10010,7 +10010,7 @@
     },
     {
       "task_name": "使用双手，将培养皿内模拟废液从塑料培养皿底皿缓慢倾倒至废液烧杯，并满足大部分液体完成转移、培养皿重新水平放稳且桌面无明显液体",
-      "task_title_en": "使用双手，将培养皿内模拟废液从塑料培养皿底皿缓慢倾倒至废液烧杯，并满足大部分液体完成转移、培养皿重新水平放稳且桌面无明显液体",
+      "task_title_en": "Use both hands to slowly pour the simulated waste liquid in the Petri dish from the bottom of the plastic Petri dish to the waste liquid beaker, until most of the liquid has been transferred, the Petri dish is level and stable again, and there is no obvious liquid on the table.",
       "catalog_record_id": null,
       "l1_scene": "Laboratory",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -10031,7 +10031,7 @@
     },
     {
       "task_name": "单手把土豆转到另一面",
-      "task_title_en": "单手把土豆转到另一面",
+      "task_title_en": "Turn the potato to the other side with one hand",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10052,7 +10052,7 @@
     },
     {
       "task_name": "旋装E27灯泡与灯座到底",
-      "task_title_en": "旋装E27灯泡与灯座到底",
+      "task_title_en": "Screw on the E27 bulb and lamp holder to the bottom",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -10073,7 +10073,7 @@
     },
     {
       "task_name": "切换拨杆开关",
-      "task_title_en": "切换拨杆开关",
+      "task_title_en": "Toggle switch",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -10094,7 +10094,7 @@
     },
     {
       "task_name": "用镊子把试管放进架孔",
-      "task_title_en": "用镊子把试管放进架孔",
+      "task_title_en": "Use tweezers to put the test tube into the rack hole",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -10115,7 +10115,7 @@
     },
     {
       "task_name": "考核前综合操作闭环",
-      "task_title_en": "考核前综合操作闭环",
+      "task_title_en": "Comprehensive operation closed loop before assessment",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -10136,7 +10136,7 @@
     },
     {
       "task_name": "单手把黄瓜转到另一面",
-      "task_title_en": "单手把黄瓜转到另一面",
+      "task_title_en": "Turn the cucumber to the other side with one hand",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10157,7 +10157,7 @@
     },
     {
       "task_name": "不压坏地转移空纸杯",
-      "task_title_en": "不压坏地转移空纸杯",
+      "task_title_en": "Transfer empty paper cups without crushing them",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10178,7 +10178,7 @@
     },
     {
       "task_name": "轻取小球放入浅盘并整体收进周转盒",
-      "task_title_en": "轻取小球放入浅盘并整体收进周转盒",
+      "task_title_en": "Gently take the small balls and put them into a shallow plate and put them into the turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10199,7 +10199,7 @@
     },
     {
       "task_name": "配制干面包坚果小食碗",
-      "task_title_en": "配制干面包坚果小食碗",
+      "task_title_en": "Preparing Dry Bread Nut Snack Bowls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10220,7 +10220,7 @@
     },
     {
       "task_name": "用坚果为充气小球设置防滚定位圈",
-      "task_title_en": "用坚果为充气小球设置防滚定位圈",
+      "task_title_en": "Use nuts to set anti-roll positioning rings for inflatable balls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10241,7 +10241,7 @@
     },
     {
       "task_name": "将充气小球装入食品周转盒",
-      "task_title_en": "将充气小球装入食品周转盒",
+      "task_title_en": "Put the inflated balls into the food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10262,7 +10262,7 @@
     },
     {
       "task_name": "制作干面包巧克力小饼干叠层",
-      "task_title_en": "制作干面包巧克力小饼干叠层",
+      "task_title_en": "Make Dry Bread Chocolate Chip Cookie Stacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10283,7 +10283,7 @@
     },
     {
       "task_name": "制作干面包直立扇形展示",
-      "task_title_en": "制作干面包直立扇形展示",
+      "task_title_en": "Make dry bread vertical fan display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10304,7 +10304,7 @@
     },
     {
       "task_name": "收纳整套轻抓训练样本",
-      "task_title_en": "收纳整套轻抓训练样本",
+      "task_title_en": "Stores a complete set of light grasping training samples",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10325,7 +10325,7 @@
     },
     {
       "task_name": "稳稳搬起装水壶",
-      "task_title_en": "稳稳搬起装水壶",
+      "task_title_en": "Lift the kettle steadily",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10346,7 +10346,7 @@
     },
     {
       "task_name": "将干面包掰成小块并收集碎屑",
-      "task_title_en": "将干面包掰成小块并收集碎屑",
+      "task_title_en": "Break the dry bread into small pieces and collect the crumbs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -10367,7 +10367,7 @@
     },
     {
       "task_name": "制作干面包和蔬菜条分格拼盘",
-      "task_title_en": "制作干面包和蔬菜条分格拼盘",
+      "task_title_en": "Make a divided platter of dry bread and vegetable strips",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10388,7 +10388,7 @@
     },
     {
       "task_name": "制作干面包放射状坚果盘",
-      "task_title_en": "制作干面包放射状坚果盘",
+      "task_title_en": "Make a Dry Bread Radial Nut Pan",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10409,7 +10409,7 @@
     },
     {
       "task_name": "布置碎屑盘轻力抓取展示位",
-      "task_title_en": "布置碎屑盘轻力抓取展示位",
+      "task_title_en": "Set up a crumb tray light grab display",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -10430,7 +10430,7 @@
     },
     {
       "task_name": "摆成干面包水果放射拼盘",
-      "task_title_en": "摆成干面包水果放射拼盘",
+      "task_title_en": "Arranged as dry bread and fruit radiation platter",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10451,7 +10451,7 @@
     },
     {
       "task_name": "为仿真蛋布置充气小球缓冲圈",
-      "task_title_en": "为仿真蛋布置充气小球缓冲圈",
+      "task_title_en": "Arrange inflatable ball buffer rings for simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10472,7 +10472,7 @@
     },
     {
       "task_name": "制作坚果铺面的干面包小食",
-      "task_title_en": "制作坚果铺面的干面包小食",
+      "task_title_en": "Make nut-topped dry bread snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10493,7 +10493,7 @@
     },
     {
       "task_name": "制作干面包与薯片棋盘拼盘",
-      "task_title_en": "制作干面包与薯片棋盘拼盘",
+      "task_title_en": "Make a Dry Bread and Chips Checkerboard Platter",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10514,7 +10514,7 @@
     },
     {
       "task_name": "将充气小球安放在软垫折成的防滚槽内",
-      "task_title_en": "将充气小球安放在软垫折成的防滚槽内",
+      "task_title_en": "Place the inflated ball in the anti-roll groove formed by folding the cushion",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10535,7 +10535,7 @@
     },
     {
       "task_name": "将充气小球置于四杯围成的中央展示位",
-      "task_title_en": "将充气小球置于四杯围成的中央展示位",
+      "task_title_en": "Place the inflated ball on the central display surrounded by four cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10556,7 +10556,7 @@
     },
     {
       "task_name": "制作小球杯托周转盒",
-      "task_title_en": "制作小球杯托周转盒",
+      "task_title_en": "Making a small ball cup holder turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10577,7 +10577,7 @@
     },
     {
       "task_name": "整理易损样本展示盘",
-      "task_title_en": "整理易损样本展示盘",
+      "task_title_en": "Organize fragile sample display trays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10598,7 +10598,7 @@
     },
     {
       "task_name": "拔出3.5毫米音频插头",
-      "task_title_en": "拔出3.5毫米音频插头",
+      "task_title_en": "Unplug the 3.5mm audio plug",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Insert / Remove / Align",
@@ -10619,7 +10619,7 @@
     },
     {
       "task_name": "装好干面包和小饼干周转盒",
-      "task_title_en": "装好干面包和小饼干周转盒",
+      "task_title_en": "Pack dry bread and biscuit turnover boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10640,7 +10640,7 @@
     },
     {
       "task_name": "制作干面包蔬菜条小食杯",
-      "task_title_en": "制作干面包蔬菜条小食杯",
+      "task_title_en": "Make Dry Bread and Vegetable Stick Snack Cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10661,7 +10661,7 @@
     },
     {
       "task_name": "装好脆食周转盒",
-      "task_title_en": "装好脆食周转盒",
+      "task_title_en": "Pack crisp food turnover boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10682,7 +10682,7 @@
     },
     {
       "task_name": "摆成干面包外框与水果中心盘",
-      "task_title_en": "摆成干面包外框与水果中心盘",
+      "task_title_en": "Arranged as dry bread frame and fruit center plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10703,7 +10703,7 @@
     },
     {
       "task_name": "制备干面包屑",
-      "task_title_en": "制备干面包屑",
+      "task_title_en": "Prepare dry bread crumbs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10724,7 +10724,7 @@
     },
     {
       "task_name": "制作干面包巧克力夹层",
-      "task_title_en": "制作干面包巧克力夹层",
+      "task_title_en": "Make Dry Bread Chocolate Sandwich",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10745,7 +10745,7 @@
     },
     {
       "task_name": "制作巧克力坚果干面包",
-      "task_title_en": "制作巧克力坚果干面包",
+      "task_title_en": "Make Chocolate Nut Dry Bread",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10766,7 +10766,7 @@
     },
     {
       "task_name": "制作干面包与蔬菜条平行双列盘",
-      "task_title_en": "制作干面包与蔬菜条平行双列盘",
+      "task_title_en": "Make dry bread and vegetable sticks in parallel double-row trays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10787,7 +10787,7 @@
     },
     {
       "task_name": "制作蔬菜条干面包小食",
-      "task_title_en": "制作蔬菜条干面包小食",
+      "task_title_en": "Make vegetable bread snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10808,7 +10808,7 @@
     },
     {
       "task_name": "搭建干面包饼干交替叠层",
-      "task_title_en": "搭建干面包饼干交替叠层",
+      "task_title_en": "Building alternating layers of dry bread cookies",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10829,7 +10829,7 @@
     },
     {
       "task_name": "完成仿真蛋与小饼干组合备盘",
-      "task_title_en": "完成仿真蛋与小饼干组合备盘",
+      "task_title_en": "Complete the preparation of the combination of simulated eggs and biscuits",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10850,7 +10850,7 @@
     },
     {
       "task_name": "制作干面包块与切块水果混合碗",
-      "task_title_en": "制作干面包块与切块水果混合碗",
+      "task_title_en": "Make a dry bread cubes and diced fruit mixing bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -10871,7 +10871,7 @@
     },
     {
       "task_name": "制作水果干面包屑覆层",
-      "task_title_en": "制作水果干面包屑覆层",
+      "task_title_en": "Make the Dried Fruit Crumb Coating",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10892,7 +10892,7 @@
     },
     {
       "task_name": "完成软垫上的易损样本陈列",
-      "task_title_en": "完成软垫上的易损样本陈列",
+      "task_title_en": "Complete display of fragile samples on cushions",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10913,7 +10913,7 @@
     },
     {
       "task_name": "制作干面包水果夹层小食",
-      "task_title_en": "制作干面包水果夹层小食",
+      "task_title_en": "Make dry bread and fruit sandwich snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10934,7 +10934,7 @@
     },
     {
       "task_name": "制作干面包直立扇形杯",
-      "task_title_en": "制作干面包直立扇形杯",
+      "task_title_en": "Make Dry Bread Upright Fan Cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10955,7 +10955,7 @@
     },
     {
       "task_name": "将干面包转入备菜碗",
-      "task_title_en": "将干面包转入备菜碗",
+      "task_title_en": "Transfer dry bread to serving bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10976,7 +10976,7 @@
     },
     {
       "task_name": "将充气小球轻放入饼干围成的成品盘中央空位",
-      "task_title_en": "将充气小球轻放入饼干围成的成品盘中央空位",
+      "task_title_en": "Gently place the inflated ball into the empty space in the center of the finished plate surrounded by biscuits.",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -10997,7 +10997,7 @@
     },
     {
       "task_name": "用食品夹完成干面包和小饼干拼盘",
-      "task_title_en": "用食品夹完成干面包和小饼干拼盘",
+      "task_title_en": "Use food tongs to complete the dry bread and biscuits platter",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -11018,7 +11018,7 @@
     },
     {
       "task_name": "制作小饼干夹心干面包",
-      "task_title_en": "制作小饼干夹心干面包",
+      "task_title_en": "Make biscuit sandwich dry bread",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11039,7 +11039,7 @@
     },
     {
       "task_name": "摆好分格小食盘",
-      "task_title_en": "摆好分格小食盘",
+      "task_title_en": "Set up compartmented snack plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11060,7 +11060,7 @@
     },
     {
       "task_name": "把仿真蛋收进食品周转盒",
-      "task_title_en": "把仿真蛋收进食品周转盒",
+      "task_title_en": "Put the simulated eggs into the food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11081,7 +11081,7 @@
     },
     {
       "task_name": "将小球放入餐盘格并以筷子封住格口",
-      "task_title_en": "将小球放入餐盘格并以筷子封住格口",
+      "task_title_en": "Place the balls into the dinner plate grid and seal the grid with chopsticks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -11102,7 +11102,7 @@
     },
     {
       "task_name": "组装仿真蛋双层承托位",
-      "task_title_en": "组装仿真蛋双层承托位",
+      "task_title_en": "Assemble the simulated egg double-layer supporting position",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11123,7 +11123,7 @@
     },
     {
       "task_name": "制作干面包巧克力成品盘",
-      "task_title_en": "制作干面包巧克力成品盘",
+      "task_title_en": "Make dry bread chocolate finished plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11144,7 +11144,7 @@
     },
     {
       "task_name": "将充气小球布置到轻力抓取区",
-      "task_title_en": "将充气小球布置到轻力抓取区",
+      "task_title_en": "Arrange the inflatable balls into the light grab area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11165,7 +11165,7 @@
     },
     {
       "task_name": "用干面包分隔盒内小食",
-      "task_title_en": "用干面包分隔盒内小食",
+      "task_title_en": "Use dry bread to separate snacks in the box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11186,7 +11186,7 @@
     },
     {
       "task_name": "建立易碎样本对照陈列",
-      "task_title_en": "建立易碎样本对照陈列",
+      "task_title_en": "Create a comparative display of fragile samples",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11207,7 +11207,7 @@
     },
     {
       "task_name": "制作干面包坚果水果分格盘",
-      "task_title_en": "制作干面包坚果水果分格盘",
+      "task_title_en": "Make Dry Bread Nut Fruit Plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11228,7 +11228,7 @@
     },
     {
       "task_name": "将仿真蛋归拢到备菜碗中",
-      "task_title_en": "将仿真蛋归拢到备菜碗中",
+      "task_title_en": "Gather the simulated eggs into a serving bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11249,7 +11249,7 @@
     },
     {
       "task_name": "把干面包移到软垫上集中摆放",
-      "task_title_en": "把干面包移到软垫上集中摆放",
+      "task_title_en": "Move the dry bread to the soft mat and place it together",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11270,7 +11270,7 @@
     },
     {
       "task_name": "摆成干面包扇形拼盘",
-      "task_title_en": "摆成干面包扇形拼盘",
+      "task_title_en": "Arrange in a fan-shaped platter of dry bread",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11291,7 +11291,7 @@
     },
     {
       "task_name": "制作干面包薯条槽形小食",
-      "task_title_en": "制作干面包薯条槽形小食",
+      "task_title_en": "Make Dry Bread Chip Grooved Snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11312,7 +11312,7 @@
     },
     {
       "task_name": "在周转盒内设置纸杯罩护位",
-      "task_title_en": "在周转盒内设置纸杯罩护位",
+      "task_title_en": "Set up a paper cup cover in the turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11333,7 +11333,7 @@
     },
     {
       "task_name": "制作干面包与小饼干交错排列的成品盘",
-      "task_title_en": "制作干面包与小饼干交错排列的成品盘",
+      "task_title_en": "Make a finished plate with dry bread and biscuits alternately arranged",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11354,7 +11354,7 @@
     },
     {
       "task_name": "完成仿真蛋与切块水果的餐盘分装",
-      "task_title_en": "完成仿真蛋与切块水果的餐盘分装",
+      "task_title_en": "Completed plate packaging of simulated eggs and diced fruits",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -11375,7 +11375,7 @@
     },
     {
       "task_name": "制作坚果居中、干面包环绕的备菜碗",
-      "task_title_en": "制作坚果居中、干面包环绕的备菜碗",
+      "task_title_en": "Make a serving bowl with nuts in the center and dry bread surrounding it",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11396,7 +11396,7 @@
     },
     {
       "task_name": "制作干面包薯片叠层",
-      "task_title_en": "制作干面包薯片叠层",
+      "task_title_en": "Make Dry Bread Chip Stacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11417,7 +11417,7 @@
     },
     {
       "task_name": "制作装有仿真蛋的双杯保护容器",
-      "task_title_en": "制作装有仿真蛋的双杯保护容器",
+      "task_title_en": "Make a double-cup protective container with simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11438,7 +11438,7 @@
     },
     {
       "task_name": "完成三种完整样本的分格陈列",
-      "task_title_en": "完成三种完整样本的分格陈列",
+      "task_title_en": "Complete the grid display of three complete samples",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11459,7 +11459,7 @@
     },
     {
       "task_name": "给仿真蛋加设碗罩保护",
-      "task_title_en": "给仿真蛋加设碗罩保护",
+      "task_title_en": "Add a bowl cover to protect the simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11480,7 +11480,7 @@
     },
     {
       "task_name": "将干面包装入食品周转盒",
-      "task_title_en": "将干面包装入食品周转盒",
+      "task_title_en": "Put dry bread into food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11501,7 +11501,7 @@
     },
     {
       "task_name": "用烧杯展示杆件的孔位和容纳关系",
-      "task_title_en": "用烧杯展示杆件的孔位和容纳关系",
+      "task_title_en": "Use a beaker to show the hole locations and accommodation relationships of rods",
       "catalog_record_id": null,
       "l1_scene": "Workbench",
       "l2_skill": "Pick / Move / Place",
@@ -11522,7 +11522,7 @@
     },
     {
       "task_name": "用筷子围成托位安放充气小球",
-      "task_title_en": "用筷子围成托位安放充气小球",
+      "task_title_en": "Use chopsticks to form a holder and place the inflatable balls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -11543,7 +11543,7 @@
     },
     {
       "task_name": "摆好仿真蛋与坚果分格餐盘",
-      "task_title_en": "摆好仿真蛋与坚果分格餐盘",
+      "task_title_en": "Set out the simulated egg and nut compartmented plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11564,7 +11564,7 @@
     },
     {
       "task_name": "分装仿真蛋与薯片到餐盘格",
-      "task_title_en": "分装仿真蛋与薯片到餐盘格",
+      "task_title_en": "Dispense simulated eggs and potato chips into plate compartments",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11585,7 +11585,7 @@
     },
     {
       "task_name": "把充气小球置于倒扣备菜碗的顶部展示",
-      "task_title_en": "把充气小球置于倒扣备菜碗的顶部展示",
+      "task_title_en": "Display the inflated balls on top of an inverted serving bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11606,7 +11606,7 @@
     },
     {
       "task_name": "制作充气小球与空纸杯相间的成品盘陈列",
-      "task_title_en": "制作充气小球与空纸杯相间的成品盘陈列",
+      "task_title_en": "Make a finished plate display with inflated balls and empty paper cups alternated",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11627,7 +11627,7 @@
     },
     {
       "task_name": "布置易损样本分格盘",
-      "task_title_en": "布置易损样本分格盘",
+      "task_title_en": "Arrange fragile sample grids",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11648,7 +11648,7 @@
     },
     {
       "task_name": "完成仿真蛋与蔬菜条分隔装盒",
-      "task_title_en": "完成仿真蛋与蔬菜条分隔装盒",
+      "task_title_en": "Completed separate packaging of simulated eggs and vegetable strips",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11669,7 +11669,7 @@
     },
     {
       "task_name": "把干面包掰开后分格盛放",
-      "task_title_en": "把干面包掰开后分格盛放",
+      "task_title_en": "Break the dry bread into pieces and place them in separate compartments",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11690,7 +11690,7 @@
     },
     {
       "task_name": "整理易损样本周转盒",
-      "task_title_en": "整理易损样本周转盒",
+      "task_title_en": "Organize fragile sample turnover boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11711,7 +11711,7 @@
     },
     {
       "task_name": "布置成品盘易损样本展示组",
-      "task_title_en": "布置成品盘易损样本展示组",
+      "task_title_en": "Arrange the display group of vulnerable samples of finished products",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11732,7 +11732,7 @@
     },
     {
       "task_name": "将仿真蛋与脆食分层收纳进周转盒",
-      "task_title_en": "将仿真蛋与脆食分层收纳进周转盒",
+      "task_title_en": "Store simulated eggs and crispy foods in layers in a turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11753,7 +11753,7 @@
     },
     {
       "task_name": "将仿真蛋放到软垫上缓冲摆放",
-      "task_title_en": "将仿真蛋放到软垫上缓冲摆放",
+      "task_title_en": "Place the simulated egg on the cushion for cushioning",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11774,7 +11774,7 @@
     },
     {
       "task_name": "制作坚果夹心干面包开放夹",
-      "task_title_en": "制作坚果夹心干面包开放夹",
+      "task_title_en": "Make nut-filled dry bread open sandwich",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11795,7 +11795,7 @@
     },
     {
       "task_name": "将仿真蛋从周转盒取出放入来源浅盘",
-      "task_title_en": "将仿真蛋从周转盒取出放入来源浅盘",
+      "task_title_en": "Take the simulated egg out of the turnover box and put it into the source shallow plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11816,7 +11816,7 @@
     },
     {
       "task_name": "将仿真蛋安放到纸杯软垫座上",
-      "task_title_en": "将仿真蛋安放到纸杯软垫座上",
+      "task_title_en": "Place the simulated egg on the paper cup cushion seat",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11837,7 +11837,7 @@
     },
     {
       "task_name": "完成充气小球杯盘双层盛放",
-      "task_title_en": "完成充气小球杯盘双层盛放",
+      "task_title_en": "Completed double-layered display of inflatable balls in cups and plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11858,7 +11858,7 @@
     },
     {
       "task_name": "制作干面包与蔬菜条夹层小食",
-      "task_title_en": "制作干面包与蔬菜条夹层小食",
+      "task_title_en": "Make dry bread and vegetable stick sandwich snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11879,7 +11879,7 @@
     },
     {
       "task_name": "制作餐盘格内的纸杯护蛋位",
-      "task_title_en": "制作餐盘格内的纸杯护蛋位",
+      "task_title_en": "Make a paper cup egg protector in the plate compartment",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11900,7 +11900,7 @@
     },
     {
       "task_name": "把仿真蛋分别放入分格餐盘",
-      "task_title_en": "把仿真蛋分别放入分格餐盘",
+      "task_title_en": "Place the simulated eggs separately on the divided plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11921,7 +11921,7 @@
     },
     {
       "task_name": "制作巧克力盖面的干面包小食",
-      "task_title_en": "制作巧克力盖面的干面包小食",
+      "task_title_en": "Making chocolate-covered dry bread snacks",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11942,7 +11942,7 @@
     },
     {
       "task_name": "整理充气小球和仿真蛋易损样本",
-      "task_title_en": "整理充气小球和仿真蛋易损样本",
+      "task_title_en": "Organize fragile samples of inflatable balls and simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11963,7 +11963,7 @@
     },
     {
       "task_name": "用空纸杯保护仿真蛋并装盒",
-      "task_title_en": "用空纸杯保护仿真蛋并装盒",
+      "task_title_en": "Use empty paper cups to protect the simulated eggs and pack them into boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -11984,7 +11984,7 @@
     },
     {
       "task_name": "把干面包和坚果装入食品周转盒",
-      "task_title_en": "把干面包和坚果装入食品周转盒",
+      "task_title_en": "Pack dry bread and nuts into food turnover boxes",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12005,7 +12005,7 @@
     },
     {
       "task_name": "将仿真蛋与空塑料杯分格换位",
-      "task_title_en": "将仿真蛋与空塑料杯分格换位",
+      "task_title_en": "Replace the simulated egg with the empty plastic cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12026,7 +12026,7 @@
     },
     {
       "task_name": "组装干面包水果立夹",
-      "task_title_en": "组装干面包水果立夹",
+      "task_title_en": "Assemble dry bread and fruit stand clips",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12047,7 +12047,7 @@
     },
     {
       "task_name": "完成三类样本的分区陈列",
-      "task_title_en": "完成三类样本的分区陈列",
+      "task_title_en": "Complete the partition display of three types of samples",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12068,7 +12068,7 @@
     },
     {
       "task_name": "将充气小球轻放在倒扣塑料杯杯底上",
-      "task_title_en": "将充气小球轻放在倒扣塑料杯杯底上",
+      "task_title_en": "Place the inflated ball gently on the bottom of the inverted plastic cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12089,7 +12089,7 @@
     },
     {
       "task_name": "整理仿真蛋与食品夹到不同操作区",
-      "task_title_en": "整理仿真蛋与食品夹到不同操作区",
+      "task_title_en": "Organize simulated eggs and food into different operating areas",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -12110,7 +12110,7 @@
     },
     {
       "task_name": "将仿真蛋摆入分格餐盘",
-      "task_title_en": "将仿真蛋摆入分格餐盘",
+      "task_title_en": "Place the simulated eggs on the divided plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12131,7 +12131,7 @@
     },
     {
       "task_name": "制作塑料杯护托小球成品",
-      "task_title_en": "制作塑料杯护托小球成品",
+      "task_title_en": "Making finished plastic cup protective balls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12152,7 +12152,7 @@
     },
     {
       "task_name": "完成软垫碗装小球",
-      "task_title_en": "完成软垫碗装小球",
+      "task_title_en": "Finished cushioned bowl filled with balls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12173,7 +12173,7 @@
     },
     {
       "task_name": "制作干面包承托坚果的分格餐盘",
-      "task_title_en": "制作干面包承托坚果的分格餐盘",
+      "task_title_en": "Make dry bread on a divided plate to support nuts",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12194,7 +12194,7 @@
     },
     {
       "task_name": "建立充气小球独立缓冲格",
-      "task_title_en": "建立充气小球独立缓冲格",
+      "task_title_en": "Create an independent buffer grid for inflatable balls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12215,7 +12215,7 @@
     },
     {
       "task_name": "完成仿真蛋与面包条的分区备料",
-      "task_title_en": "完成仿真蛋与面包条的分区备料",
+      "task_title_en": "Complete the preparation of simulated eggs and bread sticks by partition",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12236,7 +12236,7 @@
     },
     {
       "task_name": "搭建纸杯承托的充气小球展示架",
-      "task_title_en": "搭建纸杯承托的充气小球展示架",
+      "task_title_en": "Build an inflatable ball display stand supported by paper cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12257,7 +12257,7 @@
     },
     {
       "task_name": "组装充气小球双杯保护座",
-      "task_title_en": "组装充气小球双杯保护座",
+      "task_title_en": "Assemble the inflatable ball double cup protective seat",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12278,7 +12278,7 @@
     },
     {
       "task_name": "掰断干面包并收集碎屑",
-      "task_title_en": "掰断干面包并收集碎屑",
+      "task_title_en": "Break dry bread and collect crumbs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -12299,7 +12299,7 @@
     },
     {
       "task_name": "搭建干面包杯间小桥",
-      "task_title_en": "搭建干面包杯间小桥",
+      "task_title_en": "Build a bridge between dry bread cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12320,7 +12320,7 @@
     },
     {
       "task_name": "建立充气小球杯间防碰隔离位",
-      "task_title_en": "建立充气小球杯间防碰隔离位",
+      "task_title_en": "Establish anti-collision isolation points between inflatable ball cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12341,7 +12341,7 @@
     },
     {
       "task_name": "将仿真蛋从备菜碗转放到成品盘",
-      "task_title_en": "将仿真蛋从备菜碗转放到成品盘",
+      "task_title_en": "Transfer the simulated eggs from the preparation bowl to the finished product plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12362,7 +12362,7 @@
     },
     {
       "task_name": "制作倒扣纸杯小球展示座",
-      "task_title_en": "制作倒扣纸杯小球展示座",
+      "task_title_en": "Make an inverted paper cup and ball display stand",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12383,7 +12383,7 @@
     },
     {
       "task_name": "在软质接收垫上摆放充气小球",
-      "task_title_en": "在软质接收垫上摆放充气小球",
+      "task_title_en": "Place inflatable balls on a soft receiving mat",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12404,7 +12404,7 @@
     },
     {
       "task_name": "整理轻力抓取与断裂操作区",
-      "task_title_en": "整理轻力抓取与断裂操作区",
+      "task_title_en": "Organize the light grabbing and breaking operation area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12425,7 +12425,7 @@
     },
     {
       "task_name": "将充气小球分装到备菜碗中",
-      "task_title_en": "将充气小球分装到备菜碗中",
+      "task_title_en": "Divide the inflated balls into serving bowls",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12446,7 +12446,7 @@
     },
     {
       "task_name": "交换餐盘格内的仿真蛋与空纸杯",
-      "task_title_en": "交换餐盘格内的仿真蛋与空纸杯",
+      "task_title_en": "Exchange the simulated eggs and empty paper cups in the plate compartment",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12467,7 +12467,7 @@
     },
     {
       "task_name": "清空轻力抓取区并分类收存",
-      "task_title_en": "清空轻力抓取区并分类收存",
+      "task_title_en": "Clear the light grab area and store it in categories",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -12488,7 +12488,7 @@
     },
     {
       "task_name": "摆好干面包和切块水果餐盘",
-      "task_title_en": "摆好干面包和切块水果餐盘",
+      "task_title_en": "Set out a plate of dry bread and diced fruit",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -12509,7 +12509,7 @@
     },
     {
       "task_name": "组装充气小球杯碗保护件",
-      "task_title_en": "组装充气小球杯碗保护件",
+      "task_title_en": "Assemble the inflatable ball cup and bowl protection parts",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12530,7 +12530,7 @@
     },
     {
       "task_name": "完成仿真蛋与薯条分区备菜",
-      "task_title_en": "完成仿真蛋与薯条分区备菜",
+      "task_title_en": "Complete the preparation of simulated eggs and French fries in different zones",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12551,7 +12551,7 @@
     },
     {
       "task_name": "将充气小球与仿真蛋分别收纳",
-      "task_title_en": "将充气小球与仿真蛋分别收纳",
+      "task_title_en": "Store inflatable balls and simulated eggs separately",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12572,7 +12572,7 @@
     },
     {
       "task_name": "为仿真蛋布置软垫承托",
-      "task_title_en": "为仿真蛋布置软垫承托",
+      "task_title_en": "Arrange cushioned supports for simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12593,7 +12593,7 @@
     },
     {
       "task_name": "将仿真蛋从餐盘格取出装入塑料杯",
-      "task_title_en": "将仿真蛋从餐盘格取出装入塑料杯",
+      "task_title_en": "Take the simulated egg out of the plate and put it into a plastic cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12614,7 +12614,7 @@
     },
     {
       "task_name": "将干面包分装到分格餐盘",
-      "task_title_en": "将干面包分装到分格餐盘",
+      "task_title_en": "Divide dry bread into divided plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12635,7 +12635,7 @@
     },
     {
       "task_name": "把干面包放入备菜碗备用",
-      "task_title_en": "把干面包放入备菜碗备用",
+      "task_title_en": "Place the dry bread into a food preparation bowl and set aside",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12656,7 +12656,7 @@
     },
     {
       "task_name": "撤收分格餐盘中的易损样本",
-      "task_title_en": "撤收分格餐盘中的易损样本",
+      "task_title_en": "Removing fragile samples from compartmented plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12677,7 +12677,7 @@
     },
     {
       "task_name": "将仿真蛋与充气小球交换承放位置",
-      "task_title_en": "将仿真蛋与充气小球交换承放位置",
+      "task_title_en": "Exchange the simulated egg and the inflatable ball.",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12698,7 +12698,7 @@
     },
     {
       "task_name": "在两只仿真蛋之间放置充气小球作为间隔物",
-      "task_title_en": "在两只仿真蛋之间放置充气小球作为间隔物",
+      "task_title_en": "Place inflatable balls as spacers between two simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12719,7 +12719,7 @@
     },
     {
       "task_name": "制作仿真蛋软垫周转盒",
-      "task_title_en": "制作仿真蛋软垫周转盒",
+      "task_title_en": "Making a simulated egg cushion turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12740,7 +12740,7 @@
     },
     {
       "task_name": "制作周转盒内碗式保护套装",
-      "task_title_en": "制作周转盒内碗式保护套装",
+      "task_title_en": "Make a bowl-type protection set in a turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12761,7 +12761,7 @@
     },
     {
       "task_name": "将充气小球归置到备菜碗中",
-      "task_title_en": "将充气小球归置到备菜碗中",
+      "task_title_en": "Place the inflated balls into a serving bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12782,7 +12782,7 @@
     },
     {
       "task_name": "将充气小球分装到分格餐盘",
-      "task_title_en": "将充气小球分装到分格餐盘",
+      "task_title_en": "Divide the inflated balls into divided plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12803,7 +12803,7 @@
     },
     {
       "task_name": "制作备菜碗内的塑料杯护蛋位",
-      "task_title_en": "制作备菜碗内的塑料杯护蛋位",
+      "task_title_en": "Make a plastic cup egg protector in the food preparation bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12824,7 +12824,7 @@
     },
     {
       "task_name": "把干面包转移到软垫上检查完整性",
-      "task_title_en": "把干面包转移到软垫上检查完整性",
+      "task_title_en": "Transfer the dry bread to a soft mat to check for completeness",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12845,7 +12845,7 @@
     },
     {
       "task_name": "制作仿真蛋纸杯成品位",
-      "task_title_en": "制作仿真蛋纸杯成品位",
+      "task_title_en": "Making finished pieces of simulated egg paper cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12866,7 +12866,7 @@
     },
     {
       "task_name": "将充气小球放上倒扣塑料杯杯底",
-      "task_title_en": "将充气小球放上倒扣塑料杯杯底",
+      "task_title_en": "Place the inflated ball on the bottom of the inverted plastic cup",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12887,7 +12887,7 @@
     },
     {
       "task_name": "交换仿真蛋与薯片的陈列位置",
-      "task_title_en": "交换仿真蛋与薯片的陈列位置",
+      "task_title_en": "Exchange the display positions of simulated eggs and potato chips",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12908,7 +12908,7 @@
     },
     {
       "task_name": "将充气小球收进食品周转盒",
-      "task_title_en": "将充气小球收进食品周转盒",
+      "task_title_en": "Put the inflated balls into the food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12929,7 +12929,7 @@
     },
     {
       "task_name": "把仿真蛋装入食品周转盒",
-      "task_title_en": "把仿真蛋装入食品周转盒",
+      "task_title_en": "Put the simulated eggs into the food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12950,7 +12950,7 @@
     },
     {
       "task_name": "完成仿真蛋塑料杯装盒",
-      "task_title_en": "完成仿真蛋塑料杯装盒",
+      "task_title_en": "Completed the packaging of simulated egg plastic cups",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12971,7 +12971,7 @@
     },
     {
       "task_name": "搭建干面包跨杯展示架",
-      "task_title_en": "搭建干面包跨杯展示架",
+      "task_title_en": "Build a dry bread cross-cup display stand",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -12992,7 +12992,7 @@
     },
     {
       "task_name": "将仿真蛋连同纸杯从成品盘归置到备菜碗",
-      "task_title_en": "将仿真蛋连同纸杯从成品盘归置到备菜碗",
+      "task_title_en": "Place the simulated eggs and paper cups from the finished product plate to the food preparation bowl",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13013,7 +13013,7 @@
     },
     {
       "task_name": "将仿真蛋轻放到碎屑接收盘并罩护",
-      "task_title_en": "将仿真蛋轻放到碎屑接收盘并罩护",
+      "task_title_en": "Place the simulated egg gently into the debris collection tray and cover it",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -13034,7 +13034,7 @@
     },
     {
       "task_name": "建立小球与杯具分类台",
-      "task_title_en": "建立小球与杯具分类台",
+      "task_title_en": "Create a ball and cup classification table",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -13055,7 +13055,7 @@
     },
     {
       "task_name": "将充气小球轻放入来源浅盘并移至完整样本区",
-      "task_title_en": "将充气小球轻放入来源浅盘并移至完整样本区",
+      "task_title_en": "Gently place the inflated pellet into the source tray and move to the complete sample area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13076,7 +13076,7 @@
     },
     {
       "task_name": "制作充气小球软垫成品托盘",
-      "task_title_en": "制作充气小球软垫成品托盘",
+      "task_title_en": "Making inflatable ball cushion finished trays",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13097,7 +13097,7 @@
     },
     {
       "task_name": "完成易损样本分类盘",
-      "task_title_en": "完成易损样本分类盘",
+      "task_title_en": "Complete the fragile sample classification tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Active Tactile / Press / Classify",
@@ -13118,7 +13118,7 @@
     },
     {
       "task_name": "整理碎屑盘中的仿真蛋与饼干",
-      "task_title_en": "整理碎屑盘中的仿真蛋与饼干",
+      "task_title_en": "Arrange the simulated eggs and cookies in the crumb tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -13139,7 +13139,7 @@
     },
     {
       "task_name": "完成杯装小球与脆食分区盘",
-      "task_title_en": "完成杯装小球与脆食分区盘",
+      "task_title_en": "Complete the cupped balls and crispy snack partition plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13160,7 +13160,7 @@
     },
     {
       "task_name": "用空塑料杯保护仿真蛋",
-      "task_title_en": "用空塑料杯保护仿真蛋",
+      "task_title_en": "Use empty plastic cups to protect simulated eggs",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13181,7 +13181,7 @@
     },
     {
       "task_name": "把干面包分装到分格餐盘",
-      "task_title_en": "把干面包分装到分格餐盘",
+      "task_title_en": "Divide dry bread into divided plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13202,7 +13202,7 @@
     },
     {
       "task_name": "用空纸杯保护充气小球并装盘",
-      "task_title_en": "用空纸杯保护充气小球并装盘",
+      "task_title_en": "Use empty paper cups to protect the inflated balls and plate them",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13223,7 +13223,7 @@
     },
     {
       "task_name": "将充气小球杯装后固定在餐盘格内",
-      "task_title_en": "将充气小球杯装后固定在餐盘格内",
+      "task_title_en": "Install the inflatable ball cup and fix it in the dinner plate compartment",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -13244,7 +13244,7 @@
     },
     {
       "task_name": "摆成仿真蛋与巧克力完成盘",
-      "task_title_en": "摆成仿真蛋与巧克力完成盘",
+      "task_title_en": "Arrange simulated eggs and chocolate to complete the plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13265,7 +13265,7 @@
     },
     {
       "task_name": "布置仿真蛋与食品夹取样组合",
-      "task_title_en": "布置仿真蛋与食品夹取样组合",
+      "task_title_en": "Arrange simulated eggs and food clip sampling combinations",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Tool Use / Assembly / Fixing",
@@ -13286,7 +13286,7 @@
     },
     {
       "task_name": "将仿真蛋与充气小球对调收纳",
-      "task_title_en": "将仿真蛋与充气小球对调收纳",
+      "task_title_en": "Swap the simulated eggs and inflatable balls for storage",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13307,7 +13307,7 @@
     },
     {
       "task_name": "将仿真蛋轻放入塑料杯并移到软垫上",
-      "task_title_en": "将仿真蛋轻放入塑料杯并移到软垫上",
+      "task_title_en": "Place the simulated egg gently into the plastic cup and move it to the soft mat",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13328,7 +13328,7 @@
     },
     {
       "task_name": "布置软垫上的罩杯保护组件",
-      "task_title_en": "布置软垫上的罩杯保护组件",
+      "task_title_en": "Laying out the cup protectors on the pads",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13349,7 +13349,7 @@
     },
     {
       "task_name": "将干面包收进食品周转盒",
-      "task_title_en": "将干面包收进食品周转盒",
+      "task_title_en": "Put dry bread into food turnover box",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13370,7 +13370,7 @@
     },
     {
       "task_name": "将充气小球轻放进碎屑接收盘",
-      "task_title_en": "将充气小球轻放进碎屑接收盘",
+      "task_title_en": "Gently put the inflated ball into the debris receiving tray",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Rinse / Wipe / Drain",
@@ -13391,7 +13391,7 @@
     },
     {
       "task_name": "将充气小球转移到成品盘",
-      "task_title_en": "将充气小球转移到成品盘",
+      "task_title_en": "Transfer the inflated balls to the finished plate",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13412,7 +13412,7 @@
     },
     {
       "task_name": "将充气小球归入完整样本区",
-      "task_title_en": "将充气小球归入完整样本区",
+      "task_title_en": "Classify the inflated balls into the complete sample area",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13433,7 +13433,7 @@
     },
     {
       "task_name": "完整分装干面包",
-      "task_title_en": "完整分装干面包",
+      "task_title_en": "Whole packaged dry bread",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",
@@ -13454,7 +13454,7 @@
     },
     {
       "task_name": "把充气小球分放到分格餐盘",
-      "task_title_en": "把充气小球分放到分格餐盘",
+      "task_title_en": "Place the inflated balls on divided plates",
       "catalog_record_id": null,
       "l1_scene": "Kitchen",
       "l2_skill": "Pick / Move / Place",

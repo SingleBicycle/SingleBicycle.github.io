@@ -188,7 +188,12 @@ def infer_l2(title: str) -> str:
     return "Pick / Move / Place"
 
 
-def aggregate_recordings(records: list[dict], catalog: list[dict], aliases: dict[str, str]):
+def aggregate_recordings(
+    records: list[dict],
+    catalog: list[dict],
+    aliases: dict[str, str],
+    english_titles: dict[str, str],
+):
     match = catalog_matcher(catalog, aliases)
     task_groups: dict[str, list[dict]] = defaultdict(list)
     for record in records:
@@ -202,15 +207,22 @@ def aggregate_recordings(records: list[dict], catalog: list[dict], aliases: dict
         if mapped:
             l1_scene = mapped["l1_scene_en"]
             l2_skill = mapped["l2_skill_en"]
+            task_title_en = mapped["task_title_en"]
         else:
             l1_scene = infer_l1(" ".join(source_scenes), task_name)
             l2_skill = infer_l2(task_name)
             method = "S3 scene + title rule"
+            task_title_en = english_titles.get(task_name)
+            if not task_title_en:
+                raise ValueError(
+                    f"missing English title for S3 task {task_name!r}; "
+                    "add it to data/s3_task_titles_en.json"
+                )
         prefix_counts = Counter(row["prefix"] for row in rows)
         tasks.append(
             {
                 "task_name": task_name,
-                "task_title_en": mapped["task_title_en"] if mapped else task_name,
+                "task_title_en": task_title_en,
                 "catalog_record_id": mapped["record_id"] if mapped else None,
                 "l1_scene": l1_scene,
                 "l2_skill": l2_skill,
@@ -243,6 +255,7 @@ def main() -> None:
 
     catalog = load_json(ROOT / "data/task_catalog.json")
     aliases = load_json(ROOT / "data/s3_task_aliases.json")
+    english_titles = load_json(ROOT / "data/s3_task_titles_en.json")
     s3 = boto3.client("s3")
     pattern = re.compile(args.prefix_regex)
     prefixes = [p for p in list_top_level_prefixes(s3, args.bucket) if pattern.fullmatch(p)]
@@ -287,7 +300,7 @@ def main() -> None:
             }
         )
 
-    tasks = aggregate_recordings(records, catalog, aliases)
+    tasks = aggregate_recordings(records, catalog, aliases, english_titles)
     per_prefix = []
     for prefix in prefixes:
         prefix_records = [row for row in records if row["prefix"] == prefix]
