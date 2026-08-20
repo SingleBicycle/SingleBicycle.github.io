@@ -88,6 +88,13 @@ nav a:hover{
   color:var(--text);
   border-bottom-color:var(--border-strong);
 }
+.view-switch{background:var(--surface);border-bottom:1px solid var(--border)}
+.view-switch .wrap{display:flex;padding:0 24px}
+.view-switch a{min-width:230px;padding:11px 14px 10px;border-left:1px solid var(--border);color:var(--text-secondary);text-decoration:none}
+.view-switch a:last-child{border-right:1px solid var(--border)}
+.view-switch a.active{background:#262626;color:#fff}
+.view-switch b{display:block;font-size:13px;font-weight:600}
+.view-switch span{display:block;margin-top:1px;font-size:11px;color:inherit;opacity:.8}
 main{padding:24px 24px 64px}
 
 .metrics{
@@ -538,6 +545,7 @@ footer{
   .legend{grid-template-columns:1fr 1fr}
 }
 @media(max-width:440px){.legend{grid-template-columns:1fr}}
+@media(max-width:520px){.view-switch .wrap{padding:0}.view-switch a{min-width:0;flex:1;padding:10px}}
 
 </style>
 </head>
@@ -547,6 +555,7 @@ footer{
 <h1>Task Taxonomy</h1>
 <p class="subtitle">Two-level taxonomy and coverage view for the current tactile manipulation task inventory.</p>
 </div></header>
+<div class="view-switch"><div class="wrap"><a class="active" href="/tacwam-task-taxonomy/"><b>Task catalog</b><span>Planned definitions from source PDFs</span></a><a href="/tacwam-task-taxonomy/s3-recordings/"><b>Collected recordings</b><span>Complete recordings currently in S3</span></a></div></div>
 <nav><div class="wrap"><a href="#overview">Overview</a><a href="#hierarchy">Hierarchy</a><a href="#matrix">Coverage matrix</a><a href="#tasks">Task registry</a><a href="#definitions">Taxonomy</a><a href="#sources">Sources</a></div></nav>
 <main class="wrap">
 <section id="overview">

@@ -1,6 +1,6 @@
 # TacWAM Task Taxonomy Explorer — English Interactive Version
 
-This handoff contains the current **task-title taxonomy and coverage website only**. The vendor QA / automated data-quality pipeline is intentionally deferred.
+This directory contains two linked static views: the historical **task-title catalog** and an aggregate **S3 recording inventory**. The recording page reports coverage and duration; it is not a replacement for the vendor QA pipeline.
 
 ## Current scope
 
@@ -22,6 +22,15 @@ The main visualization is an **interactive two-ring hierarchy chart**:
 - Click a segment to filter the task registry
 - Click the chart center or **Clear selection** to reset
 
+The linked `s3-recordings/index.html` view applies the same taxonomy to complete recordings currently present under the configured S3 date prefixes. It includes:
+
+- complete recording count and excluded incomplete-upload count
+- total recorded duration
+- recording-count and duration-weighted hierarchy views
+- per-task total, median, and P90 duration
+- per-date recording and duration summaries
+- visible mapping provenance for catalog-linked and rule-classified S3 task names
+
 ## Important data convention
 
 The website UI, taxonomy labels, and primary task display titles are English. The original canonical task title is retained as a secondary field so historical PDFs, vendor labels, and source records still match exactly.
@@ -40,6 +49,10 @@ The website UI, taxonomy labels, and primary task display titles are English. Th
 - `docs/DEPLOY_NOTES.md`
 - `AGENT_PROMPT.md`
 - `scripts/build_site.py` — validates catalog inputs and refreshes generated static files
+- `scripts/build_s3_inventory.py` — read-only S3 inventory refresh; writes aggregate metadata only
+- `data/s3_recordings_summary.json` — deployable aggregate snapshot with no object paths or recording IDs
+- `data/s3_task_aliases.json` — reviewed S3-title to catalog-record aliases
+- `s3-recordings/index.html` — S3 recording taxonomy and duration page
 
 ## Add a future task-list batch
 
@@ -49,6 +62,18 @@ The website UI, taxonomy labels, and primary task display titles are English. Th
 4. Preview with `python3 -m http.server 8000`, review the diff, then commit and push the default branch. GitHub Pages will publish the updated root `index.html`.
 
 The build step only keeps the catalog artifacts synchronized. It does not classify tasks or run vendor QA.
+
+## Refresh the S3 recording page
+
+Install `requirements-s3.txt`, provide AWS credentials through the standard environment or AWS profile, then run:
+
+```bash
+python3 scripts/build_s3_inventory.py
+```
+
+By default the snapshot includes top-level prefixes matching `^itw\d{2}-\d{2}$`. A recording is included only when `task_info.json` and the required camera, wrist, and tactile files are present and larger than 100 bytes. The committed snapshot is aggregate-only: it does not contain credentials, recording UUIDs, or S3 object paths.
+
+Catalog titles are matched first. Previously unseen S3 title variants are classified reproducibly from `task_scene` and ordered title rules, and their mapping method remains visible in the registry so it can be reviewed rather than presented as hand-verified taxonomy.
 
 ## Visual direction
 The current UI follows a restrained enterprise/data-dashboard direction: neutral surfaces, minimal decoration, categorical color only where it carries taxonomy meaning, and sequential blue for density/coverage.

@@ -2,7 +2,7 @@
 
 ## Recommended: GitHub Pages
 
-This package is a self-contained static HTML/CSS/JavaScript site. GitHub Pages is the simplest long-term default because the repository itself becomes the source of truth and any future coding agent can update the same project.
+This package is a static HTML/CSS/JavaScript site. GitHub Pages is the simplest long-term default because the repository itself becomes the source of truth and any future coding agent can update the same project. The S3 recordings page fetches its committed aggregate JSON snapshot from `data/`; it never connects to AWS from the browser.
 
 Suggested repository: `tacwam-task-taxonomy`
 
@@ -18,7 +18,7 @@ Suggested layout:
   AGENT_PROMPT.md
 ```
 
-No build step is required.
+No deployment-time build step is required. Refresh the S3 snapshot before publishing when current recording statistics are needed.
 
 ## Alternatives
 
