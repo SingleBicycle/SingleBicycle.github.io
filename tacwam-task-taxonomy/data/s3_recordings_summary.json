@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-16T04:25:09+00:00",
+  "generated_at_utc": "2026-10-18T04:11:02+00:00",
   "scope": {
     "prefix_regex": "^itw\\d{2}-\\d{2}$",
     "prefixes": [
@@ -67,25 +67,27 @@
       "itw10-10",
       "itw10-12",
       "itw10-13",
-      "itw10-14"
+      "itw10-14",
+      "itw10-15",
+      "itw10-16"
     ],
     "recording_definition": "task_info.json plus all required TacWAM sensor streams over 100 bytes",
     "duration_source": "task_info.json duration (validated separately against rgb_head.csv timestamp span)"
   },
   "summary": {
-    "recordings": 75158,
-    "unique_task_names": 1128,
-    "mapped_task_names": 1128,
+    "recordings": 79945,
+    "unique_task_names": 1155,
+    "mapped_task_names": 1155,
     "unmapped_task_names": 0,
     "catalog_linked_task_names": 161,
-    "rule_classified_task_names": 967,
-    "mapped_recordings": 75158,
+    "rule_classified_task_names": 994,
+    "mapped_recordings": 79945,
     "unmapped_recordings": 0,
-    "rule_classified_recordings": 53205,
-    "total_duration_s": 1612015.21,
+    "rule_classified_recordings": 57992,
+    "total_duration_s": 1725157.04,
     "recordings_without_duration": 0,
     "metadata_fetch_errors": 0,
-    "incomplete_excluded": 902
+    "incomplete_excluded": 901
   },
   "prefixes": [
     {
@@ -594,11 +596,27 @@
     },
     {
       "prefix": "itw10-14",
-      "recordings": 1634,
-      "incomplete_excluded": 1,
+      "recordings": 2311,
+      "incomplete_excluded": 0,
       "unique_tasks": 23,
-      "total_duration_s": 37243.65,
-      "median_duration_s": 23.25
+      "total_duration_s": 52718.96,
+      "median_duration_s": 23.33
+    },
+    {
+      "prefix": "itw10-15",
+      "recordings": 1930,
+      "incomplete_excluded": 0,
+      "unique_tasks": 22,
+      "total_duration_s": 45363.74,
+      "median_duration_s": 23.7
+    },
+    {
+      "prefix": "itw10-16",
+      "recordings": 2180,
+      "incomplete_excluded": 0,
+      "unique_tasks": 23,
+      "total_duration_s": 52302.78,
+      "median_duration_s": 24.67
     }
   ],
   "tasks": [
@@ -649,6 +667,29 @@
         "itw08-17": 53,
         "itw08-24": 85,
         "itw08-25": 20
+      }
+    },
+    {
+      "task_name": "将头戴式耳机左右伸缩臂调整到相同刻度",
+      "task_title_en": "Adjust the left and right headband arms of the headphones to the same notch",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 258,
+      "recordings_with_duration": 258,
+      "total_duration_s": 5457.22,
+      "median_duration_s": 22.585,
+      "p90_duration_s": 29.33,
+      "min_duration_s": 8.4,
+      "max_duration_s": 40.13,
+      "prefixes": {
+        "itw10-10": 44,
+        "itw10-12": 114,
+        "itw10-16": 100
       }
     },
     {
@@ -769,6 +810,50 @@
       }
     },
     {
+      "task_name": "将活动扳手螺丝刀和橡胶锤按工具长度从短到长排列",
+      "task_title_en": "Arrange an adjustable wrench, screwdriver, and rubber mallet from shortest to longest",
+      "catalog_record_id": null,
+      "l1_scene": "Workbench",
+      "l2_skill": "Tool Use / Assembly / Fixing",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "工具台"
+      ],
+      "recordings": 176,
+      "recordings_with_duration": 176,
+      "total_duration_s": 4680.93,
+      "median_duration_s": 26.915,
+      "p90_duration_s": 29.35,
+      "min_duration_s": 19.57,
+      "max_duration_s": 31.17,
+      "prefixes": {
+        "itw10-13": 36,
+        "itw10-14": 140
+      }
+    },
+    {
+      "task_name": "使用十字螺丝刀将齐平螺钉退出到头部高出木板约5 mm",
+      "task_title_en": "Use a Phillips screwdriver to back a flush screw out until its head sits about 5 mm above the board",
+      "catalog_record_id": null,
+      "l1_scene": "Workbench",
+      "l2_skill": "Tool Use / Assembly / Fixing",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "工具台"
+      ],
+      "recordings": 174,
+      "recordings_with_duration": 174,
+      "total_duration_s": 4660.64,
+      "median_duration_s": 26.77,
+      "p90_duration_s": 29.391,
+      "min_duration_s": 22.53,
+      "max_duration_s": 30.93,
+      "prefixes": {
+        "itw10-15": 54,
+        "itw10-16": 120
+      }
+    },
+    {
       "task_name": "从收纳篮取出折叠干毛巾并展开到操作区",
       "task_title_en": "Take a folded dry towel from the basket and unfold it on the work area",
       "catalog_record_id": null,
@@ -832,6 +917,29 @@
       "max_duration_s": 254.13,
       "prefixes": {
         "itw07-23": 20
+      }
+    },
+    {
+      "task_name": "使用1 mL移液枪分两次500 μL向同一50 mL离心管加入总计1 mL液体",
+      "task_title_en": "Use a 1 mL pipette to add 1 mL total to one 50 mL centrifuge tube in two 500 µL steps",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Pipette / Dispense / Inject",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 174,
+      "recordings_with_duration": 174,
+      "total_duration_s": 4547.01,
+      "median_duration_s": 26.33,
+      "p90_duration_s": 28.679,
+      "min_duration_s": 19.23,
+      "max_duration_s": 31.1,
+      "prefixes": {
+        "itw10-14": 40,
+        "itw10-15": 35,
+        "itw10-16": 99
       }
     },
     {
@@ -903,6 +1011,28 @@
       }
     },
     {
+      "task_name": "用三角纱布覆盖泡棉圆柱端部并用绷带固定一圈",
+      "task_title_en": "Cover the end of a foam cylinder with a triangular gauze and secure it with one bandage wrap",
+      "catalog_record_id": null,
+      "l1_scene": "Medical / First Aid",
+      "l2_skill": "Tool Use / Assembly / Fixing",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "医疗/急救"
+      ],
+      "recordings": 166,
+      "recordings_with_duration": 166,
+      "total_duration_s": 4487.71,
+      "median_duration_s": 26.95,
+      "p90_duration_s": 30.515,
+      "min_duration_s": 21.63,
+      "max_duration_s": 32.33,
+      "prefixes": {
+        "itw10-13": 86,
+        "itw10-14": 80
+      }
+    },
+    {
       "task_name": "将六块干燥泡棉方块逐个压入硅胶冰格孔",
       "task_title_en": "Press six dry foam cubes one by one into the silicone ice-tray cells",
       "catalog_record_id": null,
@@ -922,6 +1052,28 @@
       "prefixes": {
         "itw10-09": 95,
         "itw10-10": 62
+      }
+    },
+    {
+      "task_name": "将中间页便利贴索引移到另一指定页面",
+      "task_title_en": "Move the middle-page sticky-note index to another specified page",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 162,
+      "recordings_with_duration": 162,
+      "total_duration_s": 4414.43,
+      "median_duration_s": 27.23,
+      "p90_duration_s": 31.127,
+      "min_duration_s": 17.6,
+      "max_duration_s": 34.47,
+      "prefixes": {
+        "itw10-14": 142,
+        "itw10-15": 20
       }
     },
     {
@@ -1078,6 +1230,28 @@
       }
     },
     {
+      "task_name": "将气泡信封封口盖向后翻并用大号封口夹固定",
+      "task_title_en": "Fold the bubble-mailer flap back and secure it with a large bag clip",
+      "catalog_record_id": null,
+      "l1_scene": "Packing / Shipping",
+      "l2_skill": "Open / Close / Seal",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "快递/打包"
+      ],
+      "recordings": 173,
+      "recordings_with_duration": 173,
+      "total_duration_s": 4334.5,
+      "median_duration_s": 25.1,
+      "p90_duration_s": 29.606,
+      "min_duration_s": 16.77,
+      "max_duration_s": 33.57,
+      "prefixes": {
+        "itw10-15": 33,
+        "itw10-16": 140
+      }
+    },
+    {
       "task_name": "将湿微纤维布对折一次并放入湿布托盘",
       "task_title_en": "Fold a damp microfiber cloth once and place it on the damp-cloth tray",
       "catalog_record_id": null,
@@ -1097,6 +1271,28 @@
       "prefixes": {
         "itw09-27": 87,
         "itw09-28": 80
+      }
+    },
+    {
+      "task_name": "用上下两条平行医用胶带形成厚敷垫桥式固定",
+      "task_title_en": "Bridge-secure a thick dressing with two parallel medical-tape strips, top and bottom",
+      "catalog_record_id": null,
+      "l1_scene": "Medical / First Aid",
+      "l2_skill": "Flexible Materials / Wrap / Fold",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "医疗/急救"
+      ],
+      "recordings": 163,
+      "recordings_with_duration": 163,
+      "total_duration_s": 4326.5,
+      "median_duration_s": 26.67,
+      "p90_duration_s": 28.594,
+      "min_duration_s": 22.47,
+      "max_duration_s": 31.1,
+      "prefixes": {
+        "itw10-14": 103,
+        "itw10-15": 60
       }
     },
     {
@@ -1231,6 +1427,28 @@
       }
     },
     {
+      "task_name": "揭下束住压扁纸箱的包装胶带并将两只纸箱分开",
+      "task_title_en": "Peel the packing tape bundling two flattened boxes and separate them",
+      "catalog_record_id": null,
+      "l1_scene": "Packing / Shipping",
+      "l2_skill": "Flexible Materials / Wrap / Fold",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "快递/打包"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 4266.99,
+      "median_duration_s": 26.43,
+      "p90_duration_s": 30.87,
+      "min_duration_s": 18.73,
+      "max_duration_s": 33.97,
+      "prefixes": {
+        "itw10-13": 40,
+        "itw10-14": 120
+      }
+    },
+    {
       "task_name": "从气泡膜圆卷揭下固定胶带并放到废弃托盘",
       "task_title_en": "Peel the securing tape off a bubble-wrap roll and place it on the waste tray",
       "catalog_record_id": null,
@@ -1271,6 +1489,49 @@
       "max_duration_s": 32.6,
       "prefixes": {
         "itw09-29": 160
+      }
+    },
+    {
+      "task_name": "隔着不透明软袋滚动触摸并区分粗砂与干豆",
+      "task_title_en": "Roll and feel through an opaque soft bag to tell coarse sand from dry beans",
+      "catalog_record_id": null,
+      "l1_scene": "General / Active Tactile",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "通用交互/主动触觉"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 4246.84,
+      "median_duration_s": 26.63,
+      "p90_duration_s": 28.57,
+      "min_duration_s": 20.83,
+      "max_duration_s": 30.57,
+      "prefixes": {
+        "itw10-16": 160
+      }
+    },
+    {
+      "task_name": "使用厨房夹夹住湿海绵并沿保鲜盒密封槽拖拭一周",
+      "task_title_en": "Use kitchen tongs to drag a wet sponge once around the seal groove of a food container",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Open / Close / Seal",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 161,
+      "recordings_with_duration": 161,
+      "total_duration_s": 4229.71,
+      "median_duration_s": 26.2,
+      "p90_duration_s": 29.23,
+      "min_duration_s": 20.0,
+      "max_duration_s": 32.3,
+      "prefixes": {
+        "itw10-14": 82,
+        "itw10-15": 79
       }
     },
     {
@@ -1446,6 +1707,29 @@
       "prefixes": {
         "itw10-08": 119,
         "itw10-09": 40
+      }
+    },
+    {
+      "task_name": "在活页夹三张指定页面边缘贴出阶梯式便利贴索引",
+      "task_title_en": "Stick a stepped sticky-note index on the edges of three specified binder pages",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 138,
+      "recordings_with_duration": 138,
+      "total_duration_s": 4185.65,
+      "median_duration_s": 30.67,
+      "p90_duration_s": 33.572,
+      "min_duration_s": 22.1,
+      "max_duration_s": 44.13,
+      "prefixes": {
+        "itw10-12": 3,
+        "itw10-13": 115,
+        "itw10-14": 20
       }
     },
     {
@@ -1691,6 +1975,27 @@
       }
     },
     {
+      "task_name": "将干净纱布插入已松开的绷带层下方并重新压平",
+      "task_title_en": "Insert clean gauze under the loosened bandage layer and press it flat again",
+      "catalog_record_id": null,
+      "l1_scene": "Medical / First Aid",
+      "l2_skill": "Insert / Remove / Align",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "医疗/急救"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 4131.52,
+      "median_duration_s": 26.13,
+      "p90_duration_s": 28.303,
+      "min_duration_s": 20.23,
+      "max_duration_s": 30.8,
+      "prefixes": {
+        "itw10-15": 160
+      }
+    },
+    {
       "task_name": "将大号服用时段标签贴到儿童安全药瓶盖顶",
       "task_title_en": "Apply a large dosage-time label to the top of a child-safety medicine-bottle cap",
       "catalog_record_id": null,
@@ -1929,6 +2234,28 @@
       }
     },
     {
+      "task_name": "将三支15 mL离心管按液面从低到高插入离心管架",
+      "task_title_en": "Insert three 15 mL centrifuge tubes into the rack by liquid level, low to high",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Insert / Remove / Align",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 159,
+      "recordings_with_duration": 159,
+      "total_duration_s": 4052.53,
+      "median_duration_s": 25.53,
+      "p90_duration_s": 28.404,
+      "min_duration_s": 19.3,
+      "max_duration_s": 31.87,
+      "prefixes": {
+        "itw10-15": 140,
+        "itw10-16": 19
+      }
+    },
+    {
       "task_name": "使用大号纱布擦除泡棉训练垫上的模拟药膏",
       "task_title_en": "Use a large gauze pad to wipe simulated ointment off the foam training pad",
       "catalog_record_id": null,
@@ -1947,29 +2274,6 @@
       "max_duration_s": 30.73,
       "prefixes": {
         "itw09-12": 159
-      }
-    },
-    {
-      "task_name": "在活页夹三张指定页面边缘贴出阶梯式便利贴索引",
-      "task_title_en": "Stick a stepped sticky-note index on the edges of three specified binder pages",
-      "catalog_record_id": null,
-      "l1_scene": "Office",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "办公室"
-      ],
-      "recordings": 133,
-      "recordings_with_duration": 133,
-      "total_duration_s": 4041.92,
-      "median_duration_s": 30.67,
-      "p90_duration_s": 33.642,
-      "min_duration_s": 22.1,
-      "max_duration_s": 44.13,
-      "prefixes": {
-        "itw10-12": 3,
-        "itw10-13": 115,
-        "itw10-14": 15
       }
     },
     {
@@ -2035,6 +2339,27 @@
       "prefixes": {
         "itw09-04": 10,
         "itw09-07": 148
+      }
+    },
+    {
+      "task_name": "用大号封口夹密封装有干豆的保鲜袋并检查全宽闭合",
+      "task_title_en": "Seal a dry-bean storage bag with a large bag clip and check the full-width closure",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Open / Close / Seal",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 159,
+      "recordings_with_duration": 159,
+      "total_duration_s": 4021.53,
+      "median_duration_s": 25.07,
+      "p90_duration_s": 29.706,
+      "min_duration_s": 18.47,
+      "max_duration_s": 34.23,
+      "prefixes": {
+        "itw10-16": 159
       }
     },
     {
@@ -2186,6 +2511,27 @@
       "prefixes": {
         "itw10-10": 100,
         "itw10-12": 60
+      }
+    },
+    {
+      "task_name": "使用干毛巾包住硅胶刮刀头并擦干两面",
+      "task_title_en": "Wrap a dry towel around a silicone spatula head and dry both sides",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Rinse / Wipe / Drain",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 159,
+      "recordings_with_duration": 159,
+      "total_duration_s": 3935.27,
+      "median_duration_s": 24.47,
+      "p90_duration_s": 28.314,
+      "min_duration_s": 17.77,
+      "max_duration_s": 30.9,
+      "prefixes": {
+        "itw10-14": 159
       }
     },
     {
@@ -2386,6 +2732,49 @@
       }
     },
     {
+      "task_name": "将宽口塑料样品杯中的液体倒入50 mL离心管",
+      "task_title_en": "Pour liquid from a wide-mouth plastic sample cup into a 50 mL centrifuge tube",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Pour / Container Transfer",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 163,
+      "recordings_with_duration": 163,
+      "total_duration_s": 3893.53,
+      "median_duration_s": 23.8,
+      "p90_duration_s": 26.624,
+      "min_duration_s": 17.17,
+      "max_duration_s": 29.87,
+      "prefixes": {
+        "itw10-14": 43,
+        "itw10-15": 120
+      }
+    },
+    {
+      "task_name": "使用十字螺丝刀将已起牙螺钉拧至头部接近木板表面",
+      "task_title_en": "Use a Phillips screwdriver to drive a started screw until its head nears the board surface",
+      "catalog_record_id": null,
+      "l1_scene": "Workbench",
+      "l2_skill": "Tool Use / Assembly / Fixing",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "工具台"
+      ],
+      "recordings": 150,
+      "recordings_with_duration": 150,
+      "total_duration_s": 3880.21,
+      "median_duration_s": 25.865,
+      "p90_duration_s": 28.776,
+      "min_duration_s": 19.93,
+      "max_duration_s": 30.9,
+      "prefixes": {
+        "itw10-15": 150
+      }
+    },
+    {
       "task_name": "用短包装胶带固定气泡膜圆卷",
       "task_title_en": "Secure a bubble-wrap roll with a short strip of packing tape",
       "catalog_record_id": null,
@@ -2446,28 +2835,6 @@
       "max_duration_s": 31.57,
       "prefixes": {
         "itw09-09": 161
-      }
-    },
-    {
-      "task_name": "用三角纱布覆盖泡棉圆柱端部并用绷带固定一圈",
-      "task_title_en": "Cover the end of a foam cylinder with a triangular gauze and secure it with one bandage wrap",
-      "catalog_record_id": null,
-      "l1_scene": "Medical / First Aid",
-      "l2_skill": "Tool Use / Assembly / Fixing",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "医疗/急救"
-      ],
-      "recordings": 142,
-      "recordings_with_duration": 142,
-      "total_duration_s": 3869.76,
-      "median_duration_s": 27.115,
-      "p90_duration_s": 30.814,
-      "min_duration_s": 21.63,
-      "max_duration_s": 32.33,
-      "prefixes": {
-        "itw10-13": 86,
-        "itw10-14": 56
       }
     },
     {
@@ -2602,6 +2969,28 @@
       }
     },
     {
+      "task_name": "将新包装胶带卷套入胶带器轴芯并拉出胶带末端",
+      "task_title_en": "Load a new packing-tape roll onto the dispenser spindle and pull out the tape end",
+      "catalog_record_id": null,
+      "l1_scene": "Packing / Shipping",
+      "l2_skill": "Flexible Materials / Wrap / Fold",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "快递/打包"
+      ],
+      "recordings": 149,
+      "recordings_with_duration": 149,
+      "total_duration_s": 3825.69,
+      "median_duration_s": 25.67,
+      "p90_duration_s": 28.946,
+      "min_duration_s": 19.93,
+      "max_duration_s": 33.53,
+      "prefixes": {
+        "itw10-14": 112,
+        "itw10-15": 37
+      }
+    },
+    {
       "task_name": "使用大号汤勺将干豆从塑料碗舀入食品储存罐",
       "task_title_en": "Use a large spoon to scoop dry beans from a plastic bowl into the food jar",
       "catalog_record_id": null,
@@ -2620,6 +3009,28 @@
       "max_duration_s": 29.73,
       "prefixes": {
         "itw09-24": 155
+      }
+    },
+    {
+      "task_name": "将塑料锥形瓶中的模拟液体倒入50 mL离心管",
+      "task_title_en": "Pour mock liquid from a plastic conical flask into a 50 mL centrifuge tube",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Pour / Container Transfer",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 171,
+      "recordings_with_duration": 171,
+      "total_duration_s": 3815.95,
+      "median_duration_s": 22.23,
+      "p90_duration_s": 26.57,
+      "min_duration_s": 15.27,
+      "max_duration_s": 31.53,
+      "prefixes": {
+        "itw10-13": 113,
+        "itw10-14": 58
       }
     },
     {
@@ -2664,6 +3075,49 @@
       "prefixes": {
         "itw09-17": 87,
         "itw09-18": 79
+      }
+    },
+    {
+      "task_name": "使用硅胶刮刀将塑料碗内壁残留泡沫集中到碗底",
+      "task_title_en": "Use a silicone spatula to gather residual foam on a plastic bowl's inner wall to the bottom",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 157,
+      "recordings_with_duration": 157,
+      "total_duration_s": 3799.66,
+      "median_duration_s": 24.27,
+      "p90_duration_s": 26.87,
+      "min_duration_s": 18.77,
+      "max_duration_s": 30.83,
+      "prefixes": {
+        "itw10-16": 157
+      }
+    },
+    {
+      "task_name": "将一张大号便利贴折成可站立桌牌并使文字朝外",
+      "task_title_en": "Fold a large sticky note into a standing table tent with the text facing out",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 170,
+      "recordings_with_duration": 170,
+      "total_duration_s": 3794.13,
+      "median_duration_s": 21.8,
+      "p90_duration_s": 27.53,
+      "min_duration_s": 13.57,
+      "max_duration_s": 35.27,
+      "prefixes": {
+        "itw10-14": 130,
+        "itw10-15": 40
       }
     },
     {
@@ -2949,28 +3403,6 @@
       }
     },
     {
-      "task_name": "将活动扳手螺丝刀和橡胶锤按工具长度从短到长排列",
-      "task_title_en": "Arrange an adjustable wrench, screwdriver, and rubber mallet from shortest to longest",
-      "catalog_record_id": null,
-      "l1_scene": "Workbench",
-      "l2_skill": "Tool Use / Assembly / Fixing",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "工具台"
-      ],
-      "recordings": 140,
-      "recordings_with_duration": 140,
-      "total_duration_s": 3719.59,
-      "median_duration_s": 26.765,
-      "p90_duration_s": 29.2,
-      "min_duration_s": 19.57,
-      "max_duration_s": 31.17,
-      "prefixes": {
-        "itw10-13": 36,
-        "itw10-14": 104
-      }
-    },
-    {
       "task_name": "使用实验室吸水纸擦干50 mL离心管外壁",
       "task_title_en": "Use lab blotting paper to dry the outer wall of a 50 mL centrifuge tube",
       "catalog_record_id": null,
@@ -3013,6 +3445,28 @@
         "itw09-14": 90,
         "itw09-15": 128,
         "itw09-16": 15
+      }
+    },
+    {
+      "task_name": "向海绵按压两泵模拟洗涤液并擦洗塑料碗内壁三圈",
+      "task_title_en": "Pump two doses of mock detergent onto a sponge and scrub a plastic bowl's inner wall three times",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Rinse / Wipe / Drain",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 157,
+      "recordings_with_duration": 157,
+      "total_duration_s": 3706.75,
+      "median_duration_s": 23.57,
+      "p90_duration_s": 25.882,
+      "min_duration_s": 18.37,
+      "max_duration_s": 33.93,
+      "prefixes": {
+        "itw10-15": 117,
+        "itw10-16": 40
       }
     },
     {
@@ -3363,6 +3817,27 @@
       }
     },
     {
+      "task_name": "将50 mL离心管中的模拟废液倒入废液烧杯",
+      "task_title_en": "Pour mock waste liquid from a 50 mL centrifuge tube into the waste beaker",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Rinse / Wipe / Drain",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 158,
+      "recordings_with_duration": 158,
+      "total_duration_s": 3647.48,
+      "median_duration_s": 23.12,
+      "p90_duration_s": 26.242,
+      "min_duration_s": 17.63,
+      "max_duration_s": 29.73,
+      "prefixes": {
+        "itw10-14": 158
+      }
+    },
+    {
       "task_name": "使用胶带器封住纸箱顶部中央接缝",
       "task_title_en": "Seal the center seam on top of a box with a tape dispenser",
       "catalog_record_id": "batch6:122",
@@ -3403,6 +3878,27 @@
       "max_duration_s": 31.67,
       "prefixes": {
         "itw09-29": 156
+      }
+    },
+    {
+      "task_name": "将三支带不同颜色标签的50 mL离心管分到两个标记托盘区",
+      "task_title_en": "Sort three color-labeled 50 mL centrifuge tubes into two marked tray areas",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Measure / Label / Document",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 145,
+      "recordings_with_duration": 145,
+      "total_duration_s": 3630.64,
+      "median_duration_s": 24.9,
+      "p90_duration_s": 28.442,
+      "min_duration_s": 19.33,
+      "max_duration_s": 31.1,
+      "prefixes": {
+        "itw10-16": 145
       }
     },
     {
@@ -3712,6 +4208,49 @@
       }
     },
     {
+      "task_name": "使用塑料量杯向硅胶冰格相邻三个孔倒水至半格",
+      "task_title_en": "Use a plastic measuring cup to fill three adjacent silicone-ice-tray cells half full",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pour / Container Transfer",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 3547.77,
+      "median_duration_s": 22.17,
+      "p90_duration_s": 25.49,
+      "min_duration_s": 15.23,
+      "max_duration_s": 29.7,
+      "prefixes": {
+        "itw10-14": 100,
+        "itw10-15": 60
+      }
+    },
+    {
+      "task_name": "使用卷尺测量卷好USB线圈的外径",
+      "task_title_en": "Use a tape measure to measure the outer diameter of a coiled USB cable",
+      "catalog_record_id": null,
+      "l1_scene": "Workbench",
+      "l2_skill": "Insert / Remove / Align",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "工具台"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 3545.03,
+      "median_duration_s": 21.615,
+      "p90_duration_s": 25.08,
+      "min_duration_s": 17.13,
+      "max_duration_s": 29.47,
+      "prefixes": {
+        "itw10-16": 160
+      }
+    },
+    {
       "task_name": "从大号便利贴本撕下一张并贴到文件夹封面",
       "task_title_en": "Tear a sheet from a large sticky-note pad and stick it on a folder cover",
       "catalog_record_id": null,
@@ -3819,6 +4358,27 @@
       "prefixes": {
         "itw09-18": 82,
         "itw09-20": 80
+      }
+    },
+    {
+      "task_name": "折弯硅胶冰格形成导流槽并排空三个孔中的清水",
+      "task_title_en": "Bend a silicone ice tray into a channel and drain the water from three cells",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 3531.66,
+      "median_duration_s": 22.05,
+      "p90_duration_s": 24.973,
+      "min_duration_s": 16.47,
+      "max_duration_s": 27.77,
+      "prefixes": {
+        "itw10-15": 160
       }
     },
     {
@@ -4143,6 +4703,27 @@
       }
     },
     {
+      "task_name": "从胶带器轴芯取下空胶带纸芯并放到回收托盘",
+      "task_title_en": "Remove the empty tape core from the dispenser spindle and place it on the recycling tray",
+      "catalog_record_id": null,
+      "l1_scene": "Packing / Shipping",
+      "l2_skill": "Flexible Materials / Wrap / Fold",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "快递/打包"
+      ],
+      "recordings": 159,
+      "recordings_with_duration": 159,
+      "total_duration_s": 3485.3,
+      "median_duration_s": 21.8,
+      "p90_duration_s": 26.796,
+      "min_duration_s": 11.0,
+      "max_duration_s": 30.37,
+      "prefixes": {
+        "itw10-15": 159
+      }
+    },
+    {
       "task_name": "将折叠T恤和折叠毛巾上下叠放到收纳篮中",
       "task_title_en": "Stack a folded T-shirt and a folded towel into the storage basket",
       "catalog_record_id": null,
@@ -4337,28 +4918,6 @@
       "prefixes": {
         "itw09-24": 33,
         "itw09-26": 120
-      }
-    },
-    {
-      "task_name": "将塑料锥形瓶中的模拟液体倒入50 mL离心管",
-      "task_title_en": "Pour mock liquid from a plastic conical flask into a 50 mL centrifuge tube",
-      "catalog_record_id": null,
-      "l1_scene": "Laboratory",
-      "l2_skill": "Pour / Container Transfer",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "实验室"
-      ],
-      "recordings": 154,
-      "recordings_with_duration": 154,
-      "total_duration_s": 3409.77,
-      "median_duration_s": 21.985,
-      "p90_duration_s": 26.4,
-      "min_duration_s": 15.27,
-      "max_duration_s": 31.53,
-      "prefixes": {
-        "itw10-13": 113,
-        "itw10-14": 41
       }
     },
     {
@@ -4706,6 +5265,27 @@
       "max_duration_s": 27.27,
       "prefixes": {
         "itw08-31": 159
+      }
+    },
+    {
+      "task_name": "将大号便利贴折出无胶拉片并夹入硬壳笔记本目标页",
+      "task_title_en": "Fold an adhesive-free tab on a large sticky note and insert it at the target page of a hardcover notebook",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 154,
+      "recordings_with_duration": 154,
+      "total_duration_s": 3334.34,
+      "median_duration_s": 21.43,
+      "p90_duration_s": 25.289,
+      "min_duration_s": 14.5,
+      "max_duration_s": 31.0,
+      "prefixes": {
+        "itw10-15": 154
       }
     },
     {
@@ -5099,28 +5679,6 @@
       }
     },
     {
-      "task_name": "揭下束住压扁纸箱的包装胶带并将两只纸箱分开",
-      "task_title_en": "Peel the packing tape bundling two flattened boxes and separate them",
-      "catalog_record_id": null,
-      "l1_scene": "Packing / Shipping",
-      "l2_skill": "Flexible Materials / Wrap / Fold",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "快递/打包"
-      ],
-      "recordings": 120,
-      "recordings_with_duration": 120,
-      "total_duration_s": 3221.41,
-      "median_duration_s": 26.7,
-      "p90_duration_s": 30.947,
-      "min_duration_s": 18.73,
-      "max_duration_s": 33.97,
-      "prefixes": {
-        "itw10-13": 40,
-        "itw10-14": 80
-      }
-    },
-    {
       "task_name": "抽拉空注射器芯杆",
       "task_title_en": "Pull out the plunger of an empty syringe",
       "catalog_record_id": "batch3:007",
@@ -5184,6 +5742,28 @@
       "max_duration_s": 24.33,
       "prefixes": {
         "itw10-12": 160
+      }
+    },
+    {
+      "task_name": "通过按压比较两条折叠毛巾厚度并放入薄厚标记区",
+      "task_title_en": "Compare the thickness of two folded towels by pressing and sort them into the thin and thick areas",
+      "catalog_record_id": null,
+      "l1_scene": "Bedroom",
+      "l2_skill": "Measure / Label / Document",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "卧室/洗衣"
+      ],
+      "recordings": 161,
+      "recordings_with_duration": 161,
+      "total_duration_s": 3188.18,
+      "median_duration_s": 19.87,
+      "p90_duration_s": 21.7,
+      "min_duration_s": 15.0,
+      "max_duration_s": 24.27,
+      "prefixes": {
+        "itw10-13": 28,
+        "itw10-14": 133
       }
     },
     {
@@ -5253,6 +5833,27 @@
       }
     },
     {
+      "task_name": "将外翻的枕套套口恢复为平直开口",
+      "task_title_en": "Return a folded-out pillowcase cuff to a flat straight opening",
+      "catalog_record_id": null,
+      "l1_scene": "Bedroom",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "卧室/洗衣"
+      ],
+      "recordings": 154,
+      "recordings_with_duration": 154,
+      "total_duration_s": 3165.54,
+      "median_duration_s": 20.485,
+      "p90_duration_s": 23.2,
+      "min_duration_s": 13.63,
+      "max_duration_s": 26.4,
+      "prefixes": {
+        "itw10-15": 154
+      }
+    },
+    {
       "task_name": "用厨房夹将西红柿从碗中夹回软垫托盘",
       "task_title_en": "Use kitchen tongs to move a tomato from a bowl back to the padded tray",
       "catalog_record_id": null,
@@ -5292,6 +5893,27 @@
       "max_duration_s": 28.23,
       "prefixes": {
         "itw09-16": 142
+      }
+    },
+    {
+      "task_name": "依次按压保鲜盒四角判断未完全锁定的卡扣位置",
+      "task_title_en": "Press the four corners of a food container in turn to find the unlatched clip",
+      "catalog_record_id": null,
+      "l1_scene": "General / Active Tactile",
+      "l2_skill": "Active Tactile / Press / Classify",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "通用交互/主动触觉"
+      ],
+      "recordings": 120,
+      "recordings_with_duration": 120,
+      "total_duration_s": 3144.47,
+      "median_duration_s": 26.3,
+      "p90_duration_s": 28.207,
+      "min_duration_s": 22.33,
+      "max_duration_s": 30.43,
+      "prefixes": {
+        "itw10-16": 120
       }
     },
     {
@@ -5383,6 +6005,28 @@
       }
     },
     {
+      "task_name": "使用硅胶刮刀将量杯内壁水膜刮向杯底",
+      "task_title_en": "Use a silicone spatula to scrape the water film on a measuring cup's inner wall down to the bottom",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 3108.06,
+      "median_duration_s": 19.185,
+      "p90_duration_s": 22.203,
+      "min_duration_s": 14.07,
+      "max_duration_s": 24.37,
+      "prefixes": {
+        "itw10-13": 117,
+        "itw10-14": 43
+      }
+    },
+    {
       "task_name": "对准并旋紧软管药膏盖",
       "task_title_en": "Align and tighten a simulated ointment-tube cap",
       "catalog_record_id": "batch6:004",
@@ -5403,6 +6047,28 @@
         "itw08-21": 57,
         "itw08-22": 16,
         "itw08-25": 78
+      }
+    },
+    {
+      "task_name": "将空枕套开口边缘向外翻折形成十厘米套口",
+      "task_title_en": "Fold the open edge of an empty pillowcase outward to form a 10 cm cuff",
+      "catalog_record_id": null,
+      "l1_scene": "Bedroom",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "卧室/洗衣"
+      ],
+      "recordings": 145,
+      "recordings_with_duration": 145,
+      "total_duration_s": 3095.26,
+      "median_duration_s": 21.6,
+      "p90_duration_s": 24.89,
+      "min_duration_s": 15.7,
+      "max_duration_s": 27.5,
+      "prefixes": {
+        "itw10-14": 88,
+        "itw10-15": 57
       }
     },
     {
@@ -5922,6 +6588,28 @@
       }
     },
     {
+      "task_name": "用橡胶锤交替轻敲两根木榫使外露高度基本一致",
+      "task_title_en": "Tap two dowels alternately with a rubber mallet to even out their exposed heights",
+      "catalog_record_id": null,
+      "l1_scene": "Workbench",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "工具台"
+      ],
+      "recordings": 166,
+      "recordings_with_duration": 166,
+      "total_duration_s": 2955.96,
+      "median_duration_s": 17.83,
+      "p90_duration_s": 19.7,
+      "min_duration_s": 14.0,
+      "max_duration_s": 21.6,
+      "prefixes": {
+        "itw10-14": 87,
+        "itw10-16": 79
+      }
+    },
+    {
       "task_name": "将塑料杯中的清水倒入塑料碗",
       "task_title_en": "Pour water from a plastic cup into a plastic bowl",
       "catalog_record_id": null,
@@ -5962,6 +6650,27 @@
       "prefixes": {
         "itw09-17": 23,
         "itw09-18": 136
+      }
+    },
+    {
+      "task_name": "将厚纱布敷垫放到泡棉目标区并持续按压三秒",
+      "task_title_en": "Place a thick gauze dressing on the foam target area and press for three seconds",
+      "catalog_record_id": null,
+      "l1_scene": "Medical / First Aid",
+      "l2_skill": "Active Tactile / Press / Classify",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "医疗/急救"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 2945.98,
+      "median_duration_s": 18.615,
+      "p90_duration_s": 20.103,
+      "min_duration_s": 14.0,
+      "max_duration_s": 21.83,
+      "prefixes": {
+        "itw10-14": 160
       }
     },
     {
@@ -6161,28 +6870,6 @@
       }
     },
     {
-      "task_name": "使用硅胶刮刀将量杯内壁水膜刮向杯底",
-      "task_title_en": "Use a silicone spatula to scrape the water film on a measuring cup's inner wall down to the bottom",
-      "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "厨房"
-      ],
-      "recordings": 148,
-      "recordings_with_duration": 148,
-      "total_duration_s": 2865.9,
-      "median_duration_s": 19.135,
-      "p90_duration_s": 22.151,
-      "min_duration_s": 14.07,
-      "max_duration_s": 24.37,
-      "prefixes": {
-        "itw10-13": 117,
-        "itw10-14": 31
-      }
-    },
-    {
       "task_name": "将马克杯从杯垫移回桌面标记区",
       "task_title_en": "Move a mug from the coaster back to the desk marker area",
       "catalog_record_id": null,
@@ -6270,6 +6957,27 @@
       }
     },
     {
+      "task_name": "将两件T恤卷按颜色标签竖直并排放入收纳篮",
+      "task_title_en": "Place two T-shirt rolls upright side by side in the basket by color label",
+      "catalog_record_id": null,
+      "l1_scene": "Bedroom",
+      "l2_skill": "Measure / Label / Document",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "卧室/洗衣"
+      ],
+      "recordings": 160,
+      "recordings_with_duration": 160,
+      "total_duration_s": 2835.96,
+      "median_duration_s": 17.765,
+      "p90_duration_s": 19.57,
+      "min_duration_s": 12.83,
+      "max_duration_s": 23.63,
+      "prefixes": {
+        "itw10-16": 160
+      }
+    },
+    {
       "task_name": "将样品杯中的粗砂倒入大号称量船",
       "task_title_en": "Pour coarse sand from a sample cup into a large weighing boat",
       "catalog_record_id": null,
@@ -6288,27 +6996,6 @@
       "max_duration_s": 21.27,
       "prefixes": {
         "itw10-13": 160
-      }
-    },
-    {
-      "task_name": "将中间页便利贴索引移到另一指定页面",
-      "task_title_en": "Move the middle-page sticky-note index to another specified page",
-      "catalog_record_id": null,
-      "l1_scene": "Office",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "办公室"
-      ],
-      "recordings": 103,
-      "recordings_with_duration": 103,
-      "total_duration_s": 2825.44,
-      "median_duration_s": 27.83,
-      "p90_duration_s": 31.236,
-      "min_duration_s": 21.5,
-      "max_duration_s": 34.47,
-      "prefixes": {
-        "itw10-14": 103
       }
     },
     {
@@ -6357,25 +7044,24 @@
       }
     },
     {
-      "task_name": "将头戴式耳机左右伸缩臂调整到相同刻度",
-      "task_title_en": "Adjust the left and right headband arms of the headphones to the same notch",
+      "task_name": "取下封口夹并将气泡信封封口盖恢复到袋口上方",
+      "task_title_en": "Remove the clip and return the bubble-mailer flap to over the opening",
       "catalog_record_id": null,
-      "l1_scene": "Office",
-      "l2_skill": "Pick / Move / Place",
+      "l1_scene": "Packing / Shipping",
+      "l2_skill": "Open / Close / Seal",
       "mapping_method": "S3 scene + title rule",
       "source_scenes": [
-        "办公室"
+        "快递/打包"
       ],
-      "recordings": 158,
-      "recordings_with_duration": 158,
-      "total_duration_s": 2819.63,
-      "median_duration_s": 16.2,
-      "p90_duration_s": 27.041,
-      "min_duration_s": 8.4,
-      "max_duration_s": 31.23,
+      "recordings": 124,
+      "recordings_with_duration": 124,
+      "total_duration_s": 2816.71,
+      "median_duration_s": 22.935,
+      "p90_duration_s": 27.331,
+      "min_duration_s": 14.07,
+      "max_duration_s": 31.2,
       "prefixes": {
-        "itw10-10": 44,
-        "itw10-12": 114
+        "itw10-16": 124
       }
     },
     {
@@ -7112,24 +7798,25 @@
       }
     },
     {
-      "task_name": "使用干毛巾包住硅胶刮刀头并擦干两面",
-      "task_title_en": "Wrap a dry towel around a silicone spatula head and dry both sides",
+      "task_name": "使用1 mL移液枪从两个样品杯各吸500 μL合并到一支15 mL离心管",
+      "task_title_en": "Use a 1 mL pipette to draw 500 µL from each of two sample cups into one 15 mL centrifuge tube",
       "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Rinse / Wipe / Drain",
+      "l1_scene": "Laboratory",
+      "l2_skill": "Pipette / Dispense / Inject",
       "mapping_method": "S3 scene + title rule",
       "source_scenes": [
-        "厨房"
+        "实验室"
       ],
-      "recordings": 105,
-      "recordings_with_duration": 105,
-      "total_duration_s": 2572.56,
-      "median_duration_s": 24.17,
-      "p90_duration_s": 27.93,
-      "min_duration_s": 17.77,
-      "max_duration_s": 30.6,
+      "recordings": 91,
+      "recordings_with_duration": 91,
+      "total_duration_s": 2570.43,
+      "median_duration_s": 28.43,
+      "p90_duration_s": 31.83,
+      "min_duration_s": 21.4,
+      "max_duration_s": 38.33,
       "prefixes": {
-        "itw10-14": 105
+        "itw10-13": 13,
+        "itw10-14": 78
       }
     },
     {
@@ -7238,27 +7925,6 @@
       "prefixes": {
         "itw09-05": 32,
         "itw09-07": 138
-      }
-    },
-    {
-      "task_name": "将50 mL离心管中的模拟废液倒入废液烧杯",
-      "task_title_en": "Pour mock waste liquid from a 50 mL centrifuge tube into the waste beaker",
-      "catalog_record_id": null,
-      "l1_scene": "Laboratory",
-      "l2_skill": "Rinse / Wipe / Drain",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "实验室"
-      ],
-      "recordings": 108,
-      "recordings_with_duration": 108,
-      "total_duration_s": 2526.98,
-      "median_duration_s": 23.435,
-      "p90_duration_s": 27.042,
-      "min_duration_s": 17.63,
-      "max_duration_s": 29.73,
-      "prefixes": {
-        "itw10-14": 108
       }
     },
     {
@@ -7867,6 +8533,27 @@
       }
     },
     {
+      "task_name": "双手翻转带豆冰格使颗粒落入上盖接料盘",
+      "task_title_en": "Flip a bean-filled ice tray with both hands so the beans fall into the lid catch-tray",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Solids / Weighing / Filtration",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 152,
+      "recordings_with_duration": 152,
+      "total_duration_s": 2310.14,
+      "median_duration_s": 15.2,
+      "p90_duration_s": 16.966,
+      "min_duration_s": 9.83,
+      "max_duration_s": 20.3,
+      "prefixes": {
+        "itw10-14": 152
+      }
+    },
+    {
       "task_name": "将装有文件的透明文件袋竖直放入文件架",
       "task_title_en": "Insert a clear file sleeve holding documents vertically into the file rack",
       "catalog_record_id": null,
@@ -7976,28 +8663,6 @@
         "itw08-10": 11,
         "itw08-22": 80,
         "itw08-24": 13
-      }
-    },
-    {
-      "task_name": "通过按压比较两条折叠毛巾厚度并放入薄厚标记区",
-      "task_title_en": "Compare the thickness of two folded towels by pressing and sort them into the thin and thick areas",
-      "catalog_record_id": null,
-      "l1_scene": "Bedroom",
-      "l2_skill": "Measure / Label / Document",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "卧室/洗衣"
-      ],
-      "recordings": 115,
-      "recordings_with_duration": 115,
-      "total_duration_s": 2240.06,
-      "median_duration_s": 19.7,
-      "p90_duration_s": 21.472,
-      "min_duration_s": 15.0,
-      "max_duration_s": 24.27,
-      "prefixes": {
-        "itw10-13": 28,
-        "itw10-14": 87
       }
     },
     {
@@ -8174,28 +8839,6 @@
       }
     },
     {
-      "task_name": "使用1 mL移液枪从两个样品杯各吸500 μL合并到一支15 mL离心管",
-      "task_title_en": "Use a 1 mL pipette to draw 500 µL from each of two sample cups into one 15 mL centrifuge tube",
-      "catalog_record_id": null,
-      "l1_scene": "Laboratory",
-      "l2_skill": "Pipette / Dispense / Inject",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "实验室"
-      ],
-      "recordings": 78,
-      "recordings_with_duration": 78,
-      "total_duration_s": 2196.48,
-      "median_duration_s": 28.32,
-      "p90_duration_s": 32.011,
-      "min_duration_s": 21.4,
-      "max_duration_s": 38.33,
-      "prefixes": {
-        "itw10-13": 13,
-        "itw10-14": 65
-      }
-    },
-    {
       "task_name": "将带盖50 mL离心管从离心管架取出并直立放到托盘目标区",
       "task_title_en": "Take a capped 50 mL centrifuge tube from the rack and stand it in the tray target area",
       "catalog_record_id": null,
@@ -8259,27 +8902,6 @@
       "prefixes": {
         "itw08-20": 26,
         "itw08-21": 69
-      }
-    },
-    {
-      "task_name": "将厚纱布敷垫放到泡棉目标区并持续按压三秒",
-      "task_title_en": "Place a thick gauze dressing on the foam target area and press for three seconds",
-      "catalog_record_id": null,
-      "l1_scene": "Medical / First Aid",
-      "l2_skill": "Active Tactile / Press / Classify",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "医疗/急救"
-      ],
-      "recordings": 117,
-      "recordings_with_duration": 117,
-      "total_duration_s": 2169.64,
-      "median_duration_s": 18.77,
-      "p90_duration_s": 20.298,
-      "min_duration_s": 14.0,
-      "max_duration_s": 21.83,
-      "prefixes": {
-        "itw10-14": 117
       }
     },
     {
@@ -8433,24 +9055,46 @@
       }
     },
     {
-      "task_name": "将新包装胶带卷套入胶带器轴芯并拉出胶带末端",
-      "task_title_en": "Load a new packing-tape roll onto the dispenser spindle and pull out the tape end",
+      "task_name": "将装有离心管的离心管架原地旋转180度使标签面朝向操作者",
+      "task_title_en": "Rotate a tube-filled centrifuge rack 180 degrees in place so the labels face the operator",
       "catalog_record_id": null,
-      "l1_scene": "Packing / Shipping",
-      "l2_skill": "Flexible Materials / Wrap / Fold",
+      "l1_scene": "Laboratory",
+      "l2_skill": "Measure / Label / Document",
       "mapping_method": "S3 scene + title rule",
       "source_scenes": [
-        "快递/打包"
+        "实验室"
       ],
-      "recordings": 81,
-      "recordings_with_duration": 81,
-      "total_duration_s": 2056.01,
-      "median_duration_s": 25.1,
-      "p90_duration_s": 28.47,
-      "min_duration_s": 20.4,
-      "max_duration_s": 33.53,
+      "recordings": 91,
+      "recordings_with_duration": 91,
+      "total_duration_s": 2066.49,
+      "median_duration_s": 22.8,
+      "p90_duration_s": 26.5,
+      "min_duration_s": 15.97,
+      "max_duration_s": 29.0,
       "prefixes": {
-        "itw10-14": 81
+        "itw10-16": 91
+      }
+    },
+    {
+      "task_name": "将硅胶冰格上盖翻面并对齐放在冰格下方作为接料盘",
+      "task_title_en": "Flip the silicone ice-tray lid and align it under the tray as a catch-tray",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 167,
+      "recordings_with_duration": 167,
+      "total_duration_s": 2063.09,
+      "median_duration_s": 12.33,
+      "p90_duration_s": 14.382,
+      "min_duration_s": 7.93,
+      "max_duration_s": 17.23,
+      "prefixes": {
+        "itw10-13": 84,
+        "itw10-14": 83
       }
     },
     {
@@ -8645,27 +9289,6 @@
       "max_duration_s": 18.2,
       "prefixes": {
         "itw09-14": 150
-      }
-    },
-    {
-      "task_name": "将一张大号便利贴折成可站立桌牌并使文字朝外",
-      "task_title_en": "Fold a large sticky note into a standing table tent with the text facing out",
-      "catalog_record_id": null,
-      "l1_scene": "Office",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "办公室"
-      ],
-      "recordings": 89,
-      "recordings_with_duration": 89,
-      "total_duration_s": 1997.41,
-      "median_duration_s": 21.97,
-      "p90_duration_s": 26.41,
-      "min_duration_s": 14.73,
-      "max_duration_s": 33.27,
-      "prefixes": {
-        "itw10-14": 89
       }
     },
     {
@@ -8879,6 +9502,27 @@
       "prefixes": {
         "itw09-05": 35,
         "itw09-07": 78
+      }
+    },
+    {
+      "task_name": "使用1 mL移液枪向6孔培养板指定孔加入1 mL模拟液",
+      "task_title_en": "Use a 1 mL pipette to add 1 mL of mock liquid to a specified well of a 6-well plate",
+      "catalog_record_id": null,
+      "l1_scene": "Laboratory",
+      "l2_skill": "Pipette / Dispense / Inject",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "实验室"
+      ],
+      "recordings": 76,
+      "recordings_with_duration": 76,
+      "total_duration_s": 1922.37,
+      "median_duration_s": 24.92,
+      "p90_duration_s": 27.65,
+      "min_duration_s": 21.97,
+      "max_duration_s": 29.6,
+      "prefixes": {
+        "itw10-16": 76
       }
     },
     {
@@ -9097,28 +9741,6 @@
       }
     },
     {
-      "task_name": "将硅胶冰格上盖翻面并对齐放在冰格下方作为接料盘",
-      "task_title_en": "Flip the silicone ice-tray lid and align it under the tray as a catch-tray",
-      "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "厨房"
-      ],
-      "recordings": 147,
-      "recordings_with_duration": 147,
-      "total_duration_s": 1813.11,
-      "median_duration_s": 12.27,
-      "p90_duration_s": 14.452,
-      "min_duration_s": 7.93,
-      "max_duration_s": 17.23,
-      "prefixes": {
-        "itw10-13": 84,
-        "itw10-14": 63
-      }
-    },
-    {
       "task_name": "将折叠滤纸展开并放入玻璃漏斗",
       "task_title_en": "Open folded filter paper into a cone and place it in a glass funnel",
       "catalog_record_id": "batch4:032",
@@ -9180,27 +9802,6 @@
       "max_duration_s": 16.5,
       "prefixes": {
         "itw08-29": 157
-      }
-    },
-    {
-      "task_name": "用上下两条平行医用胶带形成厚敷垫桥式固定",
-      "task_title_en": "Bridge-secure a thick dressing with two parallel medical-tape strips, top and bottom",
-      "catalog_record_id": null,
-      "l1_scene": "Medical / First Aid",
-      "l2_skill": "Flexible Materials / Wrap / Fold",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "医疗/急救"
-      ],
-      "recordings": 68,
-      "recordings_with_duration": 68,
-      "total_duration_s": 1775.24,
-      "median_duration_s": 26.415,
-      "p90_duration_s": 28.07,
-      "min_duration_s": 22.47,
-      "max_duration_s": 29.37,
-      "prefixes": {
-        "itw10-14": 68
       }
     },
     {
@@ -9333,24 +9934,46 @@
       }
     },
     {
-      "task_name": "双手翻转带豆冰格使颗粒落入上盖接料盘",
-      "task_title_en": "Flip a bean-filled ice tray with both hands so the beans fall into the lid catch-tray",
+      "task_name": "将小毯子卷成圆卷并用两条宽魔术贴固定",
+      "task_title_en": "Roll a small blanket into a cylinder and secure it with two wide hook-and-loop straps",
       "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Solids / Weighing / Filtration",
+      "l1_scene": "Bedroom",
+      "l2_skill": "Tool Use / Assembly / Fixing",
       "mapping_method": "S3 scene + title rule",
       "source_scenes": [
-        "厨房"
+        "卧室/洗衣"
       ],
-      "recordings": 111,
-      "recordings_with_duration": 111,
-      "total_duration_s": 1702.28,
-      "median_duration_s": 15.27,
-      "p90_duration_s": 16.97,
-      "min_duration_s": 12.27,
-      "max_duration_s": 20.3,
+      "recordings": 66,
+      "recordings_with_duration": 66,
+      "total_duration_s": 1724.22,
+      "median_duration_s": 26.22,
+      "p90_duration_s": 28.865,
+      "min_duration_s": 20.27,
+      "max_duration_s": 31.3,
       "prefixes": {
-        "itw10-14": 111
+        "itw10-16": 66
+      }
+    },
+    {
+      "task_name": "使用微纤维布分别擦拭头戴式耳机左右耳罩外侧",
+      "task_title_en": "Wipe the outer sides of both headphone earcups with a microfiber cloth",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Rinse / Wipe / Drain",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 66,
+      "recordings_with_duration": 66,
+      "total_duration_s": 1683.44,
+      "median_duration_s": 25.635,
+      "p90_duration_s": 28.7,
+      "min_duration_s": 19.43,
+      "max_duration_s": 34.43,
+      "prefixes": {
+        "itw10-15": 32,
+        "itw10-16": 34
       }
     },
     {
@@ -9416,27 +10039,6 @@
       "max_duration_s": 22.4,
       "prefixes": {
         "itw08-28": 101
-      }
-    },
-    {
-      "task_name": "使用塑料量杯向硅胶冰格相邻三个孔倒水至半格",
-      "task_title_en": "Use a plastic measuring cup to fill three adjacent silicone-ice-tray cells half full",
-      "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Pour / Container Transfer",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "厨房"
-      ],
-      "recordings": 76,
-      "recordings_with_duration": 76,
-      "total_duration_s": 1652.87,
-      "median_duration_s": 21.985,
-      "p90_duration_s": 25.12,
-      "min_duration_s": 15.23,
-      "max_duration_s": 29.7,
-      "prefixes": {
-        "itw10-14": 76
       }
     },
     {
@@ -9696,6 +10298,27 @@
       }
     },
     {
+      "task_name": "拉开大号按扣文件袋翻盖并将按扣两侧完全分离",
+      "task_title_en": "Pull open a large snap document pouch flap and fully separate the two snap sides",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Open / Close / Seal",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 91,
+      "recordings_with_duration": 91,
+      "total_duration_s": 1494.15,
+      "median_duration_s": 16.43,
+      "p90_duration_s": 19.67,
+      "min_duration_s": 11.47,
+      "max_duration_s": 25.17,
+      "prefixes": {
+        "itw10-15": 91
+      }
+    },
+    {
       "task_name": "给粗头记号笔盖好笔帽再拔下",
       "task_title_en": "Cap the thick-tipped marker and then remove it",
       "catalog_record_id": null,
@@ -9929,27 +10552,6 @@
       "max_duration_s": 16.77,
       "prefixes": {
         "itw08-27": 137
-      }
-    },
-    {
-      "task_name": "使用厨房夹夹住湿海绵并沿保鲜盒密封槽拖拭一周",
-      "task_title_en": "Use kitchen tongs to drag a wet sponge once around the seal groove of a food container",
-      "catalog_record_id": null,
-      "l1_scene": "Kitchen",
-      "l2_skill": "Open / Close / Seal",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "厨房"
-      ],
-      "recordings": 54,
-      "recordings_with_duration": 54,
-      "total_duration_s": 1397.69,
-      "median_duration_s": 26.535,
-      "p90_duration_s": 29.119,
-      "min_duration_s": 20.0,
-      "max_duration_s": 30.47,
-      "prefixes": {
-        "itw10-14": 54
       }
     },
     {
@@ -10298,27 +10900,6 @@
       }
     },
     {
-      "task_name": "将空枕套开口边缘向外翻折形成十厘米套口",
-      "task_title_en": "Fold the open edge of an empty pillowcase outward to form a 10 cm cuff",
-      "catalog_record_id": null,
-      "l1_scene": "Bedroom",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "卧室/洗衣"
-      ],
-      "recordings": 61,
-      "recordings_with_duration": 61,
-      "total_duration_s": 1267.62,
-      "median_duration_s": 20.73,
-      "p90_duration_s": 23.57,
-      "min_duration_s": 16.07,
-      "max_duration_s": 26.23,
-      "prefixes": {
-        "itw10-14": 61
-      }
-    },
-    {
       "task_name": "将鸡蛋从软垫碗放回蛋盒",
       "task_title_en": "Return an egg from a padded bowl to the egg carton",
       "catalog_record_id": "batch6:082",
@@ -10337,6 +10918,28 @@
       "max_duration_s": 11.6,
       "prefixes": {
         "itw09-04": 139
+      }
+    },
+    {
+      "task_name": "使用大号汤勺将干豆等量分装到冰格四个孔",
+      "task_title_en": "Use a large spoon to portion dry beans equally into four ice-tray cells",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Pick / Move / Place",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 44,
+      "recordings_with_duration": 44,
+      "total_duration_s": 1256.62,
+      "median_duration_s": 28.42,
+      "p90_duration_s": 31.371,
+      "min_duration_s": 24.53,
+      "max_duration_s": 34.3,
+      "prefixes": {
+        "itw10-15": 18,
+        "itw10-16": 26
       }
     },
     {
@@ -10679,6 +11282,27 @@
       }
     },
     {
+      "task_name": "将USB-C线绕成八字形并用大号长尾夹夹住交叉点",
+      "task_title_en": "Coil a USB-C cable in a figure-eight and clamp the crossing with a large binder clip",
+      "catalog_record_id": null,
+      "l1_scene": "Office",
+      "l2_skill": "Insert / Remove / Align",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "办公室"
+      ],
+      "recordings": 72,
+      "recordings_with_duration": 72,
+      "total_duration_s": 1171.51,
+      "median_duration_s": 15.35,
+      "p90_duration_s": 19.56,
+      "min_duration_s": 11.43,
+      "max_duration_s": 32.0,
+      "prefixes": {
+        "itw10-16": 72
+      }
+    },
+    {
       "task_name": "将大号拉链向下拉动约20厘米",
       "task_title_en": "Pull a large zipper downward by about 20 cm",
       "catalog_record_id": "batch6:097",
@@ -10782,27 +11406,6 @@
       "max_duration_s": 19.13,
       "prefixes": {
         "itw08-18": 86
-      }
-    },
-    {
-      "task_name": "用橡胶锤交替轻敲两根木榫使外露高度基本一致",
-      "task_title_en": "Tap two dowels alternately with a rubber mallet to even out their exposed heights",
-      "catalog_record_id": null,
-      "l1_scene": "Workbench",
-      "l2_skill": "Pick / Move / Place",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "工具台"
-      ],
-      "recordings": 65,
-      "recordings_with_duration": 65,
-      "total_duration_s": 1083.6,
-      "median_duration_s": 16.6,
-      "p90_duration_s": 18.206,
-      "min_duration_s": 14.0,
-      "max_duration_s": 19.13,
-      "prefixes": {
-        "itw10-14": 65
       }
     },
     {
@@ -11807,27 +12410,6 @@
       }
     },
     {
-      "task_name": "使用1 mL移液枪分两次500 μL向同一50 mL离心管加入总计1 mL液体",
-      "task_title_en": "Use a 1 mL pipette to add 1 mL total to one 50 mL centrifuge tube in two 500 µL steps",
-      "catalog_record_id": null,
-      "l1_scene": "Laboratory",
-      "l2_skill": "Pipette / Dispense / Inject",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "实验室"
-      ],
-      "recordings": 31,
-      "recordings_with_duration": 31,
-      "total_duration_s": 840.92,
-      "median_duration_s": 27.8,
-      "p90_duration_s": 29.9,
-      "min_duration_s": 19.93,
-      "max_duration_s": 31.1,
-      "prefixes": {
-        "itw10-14": 31
-      }
-    },
-    {
       "task_name": "把中号高回弹海绵块压入标准塑料杯再取出",
       "task_title_en": "Press the medium-sized high-rebound sponge block into a standard plastic cup and take it out",
       "catalog_record_id": null,
@@ -12375,6 +12957,27 @@
       "max_duration_s": 21.73,
       "prefixes": {
         "itw08-19": 40
+      }
+    },
+    {
+      "task_name": "将塑料碗中的泡沫清水沿硅胶刮刀边缘引流到废液杯",
+      "task_title_en": "Drain foamy water from a plastic bowl along a silicone spatula edge into the waste cup",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Rinse / Wipe / Drain",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 30,
+      "recordings_with_duration": 30,
+      "total_duration_s": 732.98,
+      "median_duration_s": 24.935,
+      "p90_duration_s": 28.11,
+      "min_duration_s": 18.5,
+      "max_duration_s": 29.4,
+      "prefixes": {
+        "itw10-16": 30
       }
     },
     {
@@ -14084,27 +14687,6 @@
       "max_duration_s": 32.13,
       "prefixes": {
         "itw07-25": 19
-      }
-    },
-    {
-      "task_name": "将宽口塑料样品杯中的液体倒入50 mL离心管",
-      "task_title_en": "Pour liquid from a wide-mouth plastic sample cup into a 50 mL centrifuge tube",
-      "catalog_record_id": null,
-      "l1_scene": "Laboratory",
-      "l2_skill": "Pour / Container Transfer",
-      "mapping_method": "S3 scene + title rule",
-      "source_scenes": [
-        "实验室"
-      ],
-      "recordings": 23,
-      "recordings_with_duration": 23,
-      "total_duration_s": 559.66,
-      "median_duration_s": 24.47,
-      "p90_duration_s": 26.644,
-      "min_duration_s": 19.83,
-      "max_duration_s": 29.13,
-      "prefixes": {
-        "itw10-14": 23
       }
     },
     {
@@ -20845,6 +21427,27 @@
       "max_duration_s": 39.93,
       "prefixes": {
         "itw07-23": 3
+      }
+    },
+    {
+      "task_name": "将封口夹下移到袋口折边处重新夹紧以减少袋内空气",
+      "task_title_en": "Move the bag clip down to the folded edge and re-clamp to reduce air in the bag",
+      "catalog_record_id": null,
+      "l1_scene": "Kitchen",
+      "l2_skill": "Open / Close / Seal",
+      "mapping_method": "S3 scene + title rule",
+      "source_scenes": [
+        "厨房"
+      ],
+      "recordings": 3,
+      "recordings_with_duration": 3,
+      "total_duration_s": 98.7,
+      "median_duration_s": 32.83,
+      "p90_duration_s": 34.006,
+      "min_duration_s": 31.57,
+      "max_duration_s": 34.3,
+      "prefixes": {
+        "itw10-16": 3
       }
     },
     {
