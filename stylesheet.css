@@ -19,8 +19,7 @@
   --line: #26262a;
   --underline: #4a4a52;
 }
-[data-theme="dark"] .thumb,
-[data-theme="dark"] .avatar img { opacity: .92; }
+[data-theme="dark"] .thumb { opacity: .92; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -98,6 +97,36 @@ h1 {
   border: 1px solid var(--line);
 }
 .avatar img { display: block; width: 100%; height: auto; }
+.portrait { display: grid; justify-items: center; gap: 8px; }
+.stage { position: relative; overflow: hidden; }
+/* Photo frames are injected by the script in index.html and stacked over the drawing */
+.stage .frame {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform-origin: 50% 42%;
+  transition: opacity .28s ease, transform .7s cubic-bezier(.2, .7, .2, 1);
+}
+.stage .frame.is-on { opacity: 1; }
+.stage.is-close .frame { transform: scale(1.06); }
+.irl {
+  display: none; /* needs the script */
+  padding: 8px 4px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: 500 13px/1 var(--sans);
+  text-decoration: underline;
+  text-decoration-color: var(--underline);
+  text-underline-offset: 3px;
+  cursor: pointer;
+  transition: color .2s ease, text-decoration-color .2s ease;
+}
+[data-theme] .irl { display: inline-block; }
+.irl:hover { color: var(--fg); text-decoration-color: currentColor; }
+.irl:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
 .links {
   display: flex;
   flex-wrap: wrap;
@@ -203,7 +232,8 @@ footer {
   .page { padding: 48px 20px 40px; }
   .theme-toggle { top: 8px; right: 9px; }
   .intro { grid-template-columns: 1fr; gap: 28px; }
-  .avatar { order: -1; width: 132px; }
+  .portrait { order: -1; justify-items: start; }
+  .avatar { width: 132px; }
   section { margin-top: 48px; padding-top: 24px; }
   .rows li { grid-template-columns: 1fr; gap: 2px; }
   .paper { grid-template-columns: 1fr; gap: 16px; }
@@ -211,5 +241,5 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  a, .theme-toggle { transition: none; }
+  a, .theme-toggle, .irl, .stage .frame { transition: none; }
 }

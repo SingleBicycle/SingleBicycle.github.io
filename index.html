@@ -100,9 +100,56 @@
             <a href="https://github.com/SingleBicycle">GitHub</a>
           </nav>
         </div>
-        <figure class="avatar">
-          <img src="images/zihao_zhu.jpg" alt="Illustration of an orange tabby cat" width="800" height="800">
-        </figure>
+        <div class="portrait">
+          <figure class="avatar">
+            <div class="stage">
+              <img src="images/zihao_zhu.jpg" alt="Illustration of an orange tabby cat" width="800" height="800">
+            </div>
+          </figure>
+          <button class="irl" type="button" aria-pressed="false">See me in real life</button>
+        </div>
+        <script>
+          (function () {
+            var btn = document.querySelector('.irl'), stage = document.querySelector('.avatar .stage');
+            var frames = [], on = false, timer, calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+            // Frame 0 looks away, 1 looks at you, 2 leans in. Lower frames stay opaque so a cross-fade never shows the drawing.
+            function show(i) {
+              frames.forEach(function (f, k) { f.classList.toggle('is-on', on && k <= i); });
+              stage.classList.toggle('is-close', on && i === 2);
+            }
+            function play() {
+              clearTimeout(timer);
+              if (calm) return show(1);
+              show(0);
+              timer = setTimeout(function () { show(1); timer = setTimeout(function () { show(2); }, 600); }, 900);
+            }
+            function load() {
+              if (frames.length) return;
+              for (var n = 1; n <= 3; n++) {
+                var img = new Image();
+                img.src = 'images/cat_' + n + '.jpg'; img.alt = n === 1 ? 'Photo of the same cat' : ''; img.className = 'frame';
+                stage.appendChild(img); frames.push(img);
+              }
+            }
+            btn.addEventListener('pointerenter', load);
+            btn.addEventListener('focus', load);
+            btn.onclick = function () {
+              load(); on = !on;
+              btn.setAttribute('aria-pressed', on);
+              btn.textContent = on ? 'Back to the drawing' : 'See me in real life';
+              if (!on) { clearTimeout(timer); return show(-1); }
+              Promise.all(frames.map(function (f) { return f.decode(); })).then(play, play);
+            };
+            stage.onclick = function () { if (on) play(); }; // tap to replay
+            // With a mouse the cat reacts to distance: ignores you from afar, looks when you come near, leans in on hover.
+            document.addEventListener('pointermove', function (e) {
+              if (!on || calm || e.pointerType !== 'mouse') return;
+              clearTimeout(timer);
+              var r = stage.getBoundingClientRect(), d = Math.hypot(e.clientX - r.left - r.width / 2, e.clientY - r.top - r.height / 2);
+              show(d < r.width * .55 ? 2 : d < r.width * 1.7 ? 1 : 0);
+            });
+          })();
+        </script>
       </header>
 
       <section aria-labelledby="news">
