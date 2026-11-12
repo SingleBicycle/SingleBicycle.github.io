@@ -111,25 +111,27 @@
         <script>
           (function () {
             var btn = document.querySelector('.irl'), stage = document.querySelector('.avatar .stage');
-            var frames = [], on = false, timer, calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
-            // Frame 0 looks away, 1 looks at you, 2 leans in. Lower frames stay opaque so a cross-fade never shows the drawing.
-            function show(i) {
-              frames.forEach(function (f, k) { f.classList.toggle('is-on', on && k <= i); });
-              stage.classList.toggle('is-close', on && i === 2);
+            // c is the real photo looking at the camera; the others are edits of it looking in eight directions, plus a two-step hiss.
+            var NAMES = ['c', 'l', 'r', 'u', 'd', 'ul', 'ur', 'dl', 'dr', 'hiss0', 'hiss'];
+            // Pointer angle in 45-degree steps (atan2, clockwise from "right") -> frame that looks that way.
+            var LOOK = {'0': 'r', '1': 'dr', '2': 'd', '3': 'dl', '4': 'l', '-4': 'l', '-3': 'ul', '-2': 'u', '-1': 'ur'};
+            var frames = {}, on = false, cur = '', hissTimer, restTimer, calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+            function show(name) {
+              if (name === cur) return;
+              if (frames[cur]) frames[cur].classList.remove('is-on');
+              cur = name;
+              if (frames[cur]) frames[cur].classList.add('is-on');
+              stage.classList.toggle('is-hiss', name === 'hiss');
             }
-            function play() {
-              clearTimeout(timer);
-              if (calm) return show(1);
-              show(0);
-              timer = setTimeout(function () { show(1); timer = setTimeout(function () { show(2); }, 600); }, 900);
-            }
+            function settle() { clearTimeout(hissTimer); show('c'); }
             function load() {
-              if (frames.length) return;
-              for (var n = 1; n <= 3; n++) {
+              if (frames.c) return;
+              NAMES.forEach(function (n) {
                 var img = new Image();
-                img.src = 'images/cat_' + n + '.jpg'; img.alt = n === 1 ? 'Photo of the same cat' : ''; img.className = 'frame';
-                stage.appendChild(img); frames.push(img);
-              }
+                img.src = 'images/cat/' + n + '.webp'; img.alt = n === 'c' ? 'Photo of the same cat' : ''; img.className = 'frame';
+                stage.appendChild(img); frames[n] = img;
+              });
+              frames.c.classList.add('is-base');
             }
             btn.addEventListener('pointerenter', load);
             btn.addEventListener('focus', load);
@@ -137,17 +139,27 @@
               load(); on = !on;
               btn.setAttribute('aria-pressed', on);
               btn.textContent = on ? 'Back to the drawing' : 'See me in real life';
-              if (!on) { clearTimeout(timer); return show(-1); }
-              Promise.all(frames.map(function (f) { return f.decode(); })).then(play, play);
+              settle();
+              if (!on) return stage.classList.remove('is-live');
+              frames.c.decode().then(go, go);
+              function go() { stage.classList.toggle('is-live', on); }
             };
-            stage.onclick = function () { if (on) play(); }; // tap to replay
-            // With a mouse the cat reacts to distance: ignores you from afar, looks when you come near, leans in on hover.
-            document.addEventListener('pointermove', function (e) {
-              if (!on || calm || e.pointerType !== 'mouse') return;
-              clearTimeout(timer);
-              var r = stage.getBoundingClientRect(), d = Math.hypot(e.clientX - r.left - r.width / 2, e.clientY - r.top - r.height / 2);
-              show(d < r.width * .55 ? 2 : d < r.width * 1.7 ? 1 : 0);
-            });
+            // The cat watches the pointer and hisses when it is touched.
+            function track(e) {
+              if (!on) return;
+              var r = stage.getBoundingClientRect(), dx = e.clientX - r.left - r.width / 2, dy = e.clientY - r.top - r.height / 2;
+              if (Math.abs(dx) < r.width / 2 && Math.abs(dy) < r.height / 2) {
+                if (cur !== 'hiss0' && cur !== 'hiss') { show('hiss0'); clearTimeout(hissTimer); hissTimer = setTimeout(function () { show('hiss'); }, 90); }
+              } else {
+                clearTimeout(hissTimer);
+                show(calm ? 'c' : LOOK[Math.round(Math.atan2(dy, dx) / (Math.PI / 4))]);
+              }
+              clearTimeout(restTimer);
+              if (e.pointerType !== 'mouse') restTimer = setTimeout(settle, 1400); // touch has no hover: relax after a moment
+            }
+            document.addEventListener('pointermove', track);
+            document.addEventListener('pointerdown', track);
+            document.documentElement.addEventListener('pointerleave', function () { if (on) settle(); });
           })();
         </script>
       </header>

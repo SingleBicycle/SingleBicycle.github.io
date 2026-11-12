@@ -99,18 +99,23 @@ h1 {
 .avatar img { display: block; width: 100%; height: auto; }
 .portrait { display: grid; justify-items: center; gap: 8px; }
 .stage { position: relative; overflow: hidden; }
-/* Photo frames are injected by the script in index.html and stacked over the drawing */
+/* Photo frames are injected by the script in index.html and stacked over the drawing.
+   A frame that stops being current stays opaque under the incoming one, then vanishes (the delayed 0s fade). */
 .stage .frame {
   position: absolute;
   inset: 0;
+  z-index: 1;
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transform-origin: 50% 42%;
-  transition: opacity .28s ease, transform .7s cubic-bezier(.2, .7, .2, 1);
+  transform-origin: 50% 46%;
+  transition: opacity var(--fade, 0s linear .18s), transform var(--move, .4s ease);
 }
-.stage .frame.is-on { opacity: 1; }
-.stage.is-close .frame { transform: scale(1.06); }
+.stage .frame.is-base { z-index: 0; --fade: .3s ease; }
+.stage.is-live .frame.is-base,
+.stage.is-live .frame.is-on { opacity: 1; }
+.stage.is-live .frame.is-on { z-index: 2; --fade: .18s ease; }
+.stage.is-hiss .frame { transform: scale(1.09); --move: .14s cubic-bezier(.3, 1.5, .5, 1); } /* lunge */
 .irl {
   display: none; /* needs the script */
   padding: 8px 4px;
@@ -242,4 +247,5 @@ footer {
 
 @media (prefers-reduced-motion: reduce) {
   a, .theme-toggle, .irl, .stage .frame { transition: none; }
+  .stage.is-hiss .frame { transform: none; }
 }
