@@ -1,5 +1,4 @@
 :root {
-  color-scheme: light dark;
   --bg: #ffffff;
   --fg: #111113;
   --muted: #55555e;
@@ -11,17 +10,17 @@
   --key: 108px; /* shared left column: news dates, venues, service */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0b0b0c;
-    --fg: #ededef;
-    --muted: #a8a8b1;
-    --subtle: #8e8e98;
-    --line: #26262a;
-    --underline: #4a4a52;
-  }
-  .thumb, .avatar img { opacity: .92; }
+/* data-theme is set by the inline script in <head>; without JS the page stays light */
+:root[data-theme="dark"] {
+  --bg: #0b0b0c;
+  --fg: #ededef;
+  --muted: #a8a8b1;
+  --subtle: #8e8e98;
+  --line: #26262a;
+  --underline: #4a4a52;
 }
+[data-theme="dark"] .thumb,
+[data-theme="dark"] .avatar img { opacity: .92; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -37,6 +36,7 @@ body {
 }
 
 .page {
+  position: relative;
   max-width: 808px;
   margin: 0 auto;
   padding: 96px 24px 56px;
@@ -57,6 +57,27 @@ p { margin: 0 0 14px; }
 strong { font-weight: 600; }
 sup { font-size: .7em; line-height: 0; }
 img { max-width: 100%; }
+
+.theme-toggle {
+  position: absolute;
+  top: 28px;
+  right: 13px;
+  display: none; /* shown only once the script has set a theme */
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--subtle);
+  cursor: pointer;
+  transition: color .2s ease;
+}
+[data-theme] .theme-toggle { display: inline-flex; }
+.theme-toggle:hover { color: var(--fg); }
+.theme-toggle:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
 
 /* Intro */
 .intro {
@@ -180,6 +201,7 @@ footer {
 
 @media (max-width: 640px) {
   .page { padding: 48px 20px 40px; }
+  .theme-toggle { top: 8px; right: 9px; }
   .intro { grid-template-columns: 1fr; gap: 28px; }
   .avatar { order: -1; width: 132px; }
   section { margin-top: 48px; padding-top: 24px; }
@@ -189,5 +211,5 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  a { transition: none; }
+  a, .theme-toggle { transition: none; }
 }

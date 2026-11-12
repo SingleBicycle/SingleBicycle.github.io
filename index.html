@@ -9,7 +9,13 @@
     <meta name="author" content="Zihao Zhu">
     <meta name="description" content="Zihao (Zack) Zhu — Ph.D. student in Electrical and Computer Engineering at Texas A&M University. 3D reconstruction, image restoration and generation, multi-agent systems, trustworthy machine learning, robotics and embodied AI.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark">
+    <script>
+      // Saved choice wins, otherwise follow the system setting. Inline so it runs before first paint.
+      // shortcut: the system setting is read once at load; add a matchMedia change listener if live switching matters.
+      function setTheme(t) { var el = document.documentElement; el.dataset.theme = t; el.style.colorScheme = t; }
+      var savedTheme = null; try { savedTheme = localStorage.getItem('theme'); } catch (e) {}
+      setTheme(savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif&amp;family=Inter:wght@400;500;600&amp;display=swap">
@@ -52,6 +58,22 @@
 
   <body>
     <main class="page">
+
+      <button class="theme-toggle" type="button" aria-label="Dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+      </button>
+      <script>
+        (function () {
+          var btn = document.querySelector('.theme-toggle'), root = document.documentElement;
+          function sync() { btn.setAttribute('aria-pressed', root.dataset.theme === 'dark'); }
+          btn.onclick = function () {
+            var t = root.dataset.theme === 'dark' ? 'light' : 'dark';
+            setTheme(t); sync();
+            try { localStorage.setItem('theme', t); } catch (e) {}
+          };
+          sync();
+        })();
+      </script>
 
       <header class="intro">
         <div>
