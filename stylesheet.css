@@ -99,23 +99,19 @@ h1 {
 .avatar img { display: block; width: 100%; height: auto; }
 .portrait { display: grid; justify-items: center; gap: 8px; }
 .stage { position: relative; overflow: hidden; }
-/* Photo frames are injected by the script in index.html and stacked over the drawing.
-   A frame that stops being current stays opaque under the incoming one, then vanishes (the delayed 0s fade). */
-.stage .frame {
+/* The photo frames are injected by the script in index.html into .reel, stacked over the drawing.
+   The script fades frames in one on top of another; the reel leans in as the cat gets annoyed. */
+.stage .reel {
   position: absolute;
   inset: 0;
-  z-index: 1;
-  height: 100%;
-  object-fit: cover;
   opacity: 0;
   transform-origin: 50% 46%;
-  transition: opacity var(--fade, 0s linear .18s), transform var(--move, .4s ease);
+  transition: opacity .3s ease, transform .5s cubic-bezier(.2, .8, .3, 1);
 }
-.stage .frame.is-base { z-index: 0; --fade: .3s ease; }
-.stage.is-live .frame.is-base,
-.stage.is-live .frame.is-on { opacity: 1; }
-.stage.is-live .frame.is-on { z-index: 2; --fade: .18s ease; }
-.stage.is-hiss .frame { transform: scale(1.09); --move: .14s cubic-bezier(.3, 1.5, .5, 1); } /* lunge */
+.stage.is-live .reel { opacity: 1; }
+.stage .reel img { position: absolute; inset: 0; height: 100%; object-fit: cover; opacity: 0; }
+.stage.is-near .reel { transform: scale(1.035); }
+.stage.is-hiss .reel { transform: scale(1.1); transition: opacity .3s ease, transform .32s cubic-bezier(.3, 1.4, .5, 1); } /* lunge */
 .irl {
   display: none; /* needs the script */
   padding: 8px 4px;
@@ -246,6 +242,6 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  a, .theme-toggle, .irl, .stage .frame { transition: none; }
-  .stage.is-hiss .frame { transform: none; }
+  a, .theme-toggle, .irl, .stage .reel { transition: none; }
+  .stage.is-near .reel, .stage.is-hiss .reel { transform: none; }
 }

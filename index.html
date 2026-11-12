@@ -111,27 +111,34 @@
         <script>
           (function () {
             var btn = document.querySelector('.irl'), stage = document.querySelector('.avatar .stage');
-            // c is the real photo looking at the camera; the others are edits of it looking in eight directions, plus a two-step hiss.
+            // c is the real photo looking at the camera; the others are edits of it: eight gaze directions, a frown (hiss0) and a hiss.
             var NAMES = ['c', 'l', 'r', 'u', 'd', 'ul', 'ur', 'dl', 'dr', 'hiss0', 'hiss'];
             // Pointer angle in 45-degree steps (atan2, clockwise from "right") -> frame that looks that way.
             var LOOK = {'0': 'r', '1': 'dr', '2': 'd', '3': 'dl', '4': 'l', '-4': 'l', '-3': 'ul', '-2': 'u', '-1': 'ur'};
-            var frames = {}, on = false, cur = '', hissTimer, restTimer, calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
-            function show(name) {
+            var frames = {}, reel, on = false, cur = 'c', sector = 0, z = 1, hissTimer = 0, restTimer;
+            var calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+            // Put a frame on top and fade it in. Frames underneath stay opaque, so only the previous frame can ever show through.
+            function show(name, ms) {
               if (name === cur) return;
-              if (frames[cur]) frames[cur].classList.remove('is-on');
               cur = name;
-              if (frames[cur]) frames[cur].classList.add('is-on');
+              var img = frames[name];
+              img.style.zIndex = ++z; img.style.opacity = 1;
+              if (!calm) img.animate([{opacity: 0}, {opacity: 1}], {duration: ms, easing: 'ease-out'});
+              stage.classList.toggle('is-near', name === 'hiss0');
               stage.classList.toggle('is-hiss', name === 'hiss');
             }
-            function settle() { clearTimeout(hissTimer); show('c'); }
+            function calmDown() { clearTimeout(hissTimer); hissTimer = 0; }
+            function settle() { calmDown(); show('c', 350); }
             function load() {
-              if (frames.c) return;
+              if (reel) return;
+              reel = document.createElement('div'); reel.className = 'reel'; stage.appendChild(reel);
               NAMES.forEach(function (n) {
                 var img = new Image();
-                img.src = 'images/cat/' + n + '.webp'; img.alt = n === 'c' ? 'Photo of the same cat' : ''; img.className = 'frame';
-                stage.appendChild(img); frames[n] = img;
+                img.src = 'images/cat/' + n + '.webp'; img.alt = n === 'c' ? 'Photo of the same cat' : '';
+                reel.appendChild(img); frames[n] = img;
+                img.decode().catch(function () {}); // decode ahead so the first swap to a frame is not late
               });
-              frames.c.classList.add('is-base');
+              frames.c.style.opacity = 1;
             }
             btn.addEventListener('pointerenter', load);
             btn.addEventListener('focus', load);
@@ -144,18 +151,29 @@
               frames.c.decode().then(go, go);
               function go() { stage.classList.toggle('is-live', on); }
             };
-            // The cat watches the pointer and hisses when it is touched.
+            // Far away the cat watches the pointer; near the edge of the photo it frowns; on the photo it hisses.
             function track(e) {
               if (!on) return;
               var r = stage.getBoundingClientRect(), dx = e.clientX - r.left - r.width / 2, dy = e.clientY - r.top - r.height / 2;
-              if (Math.abs(dx) < r.width / 2 && Math.abs(dy) < r.height / 2) {
-                if (cur !== 'hiss0' && cur !== 'hiss') { show('hiss0'); clearTimeout(hissTimer); hissTimer = setTimeout(function () { show('hiss'); }, 90); }
+              var reach = Math.max(Math.abs(dx), Math.abs(dy)) / (r.width / 2); // 1 = the edge of the photo
+              var angry = cur === 'hiss0' || cur === 'hiss';
+              if (reach < 1) {
+                if (cur !== 'hiss' && !hissTimer) { // frown first unless it is already frowning
+                  hissTimer = setTimeout(function () { hissTimer = 0; show('hiss', 300); }, angry ? 0 : 380);
+                  show('hiss0', 350);
+                }
+              } else if (reach < 1.75) {
+                calmDown(); show('hiss0', 400);
               } else {
-                clearTimeout(hissTimer);
-                show(calm ? 'c' : LOOK[Math.round(Math.atan2(dy, dx) / (Math.PI / 4))]);
+                calmDown();
+                var a = Math.atan2(dy, dx) / (Math.PI / 4), d = a - sector;
+                d -= 8 * Math.round(d / 8);
+                // .5 is the border between two directions; ask for .65 before switching so it cannot flicker there
+                if (cur !== LOOK[sector] || Math.abs(d) > .65) sector = Math.round(a);
+                show(calm ? 'c' : LOOK[sector], angry ? 400 : 200);
               }
               clearTimeout(restTimer);
-              if (e.pointerType !== 'mouse') restTimer = setTimeout(settle, 1400); // touch has no hover: relax after a moment
+              if (e.pointerType !== 'mouse') restTimer = setTimeout(settle, 1800); // touch has no hover: relax after a moment
             }
             document.addEventListener('pointermove', track);
             document.addEventListener('pointerdown', track);
